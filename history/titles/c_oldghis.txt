@@ -1,0 +1,13 @@
+# c_oldghis
+3020.1.1 = {
+	holder = 199360025 #Grazdan the Great
+}
+3068.1.1 = {
+	holder = 0
+}
+3300.1.1 = {
+	holder = 31406190 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

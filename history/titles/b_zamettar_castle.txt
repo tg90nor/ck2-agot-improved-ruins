@@ -1,0 +1,4 @@
+# b_zamettar_castle
+3300.1.1 = {
+	holder = 31407411 # ruin
+}

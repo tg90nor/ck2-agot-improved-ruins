@@ -1,0 +1,7 @@
+# b_shalorath
+6479.1.1 = {
+	holder = 31404451 # ruin
+}
+6564.1.1 = {
+	holder = 0
+}

@@ -1,0 +1,5 @@
+# b_makhrosh
+7900.1.1 = {
+	holder = 31406411 # ruin
+}
+

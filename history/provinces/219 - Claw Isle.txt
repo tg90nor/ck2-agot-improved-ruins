@@ -1,0 +1,41 @@
+# 219 - Claw Isle
+
+# County Title
+title = c_claw_isle
+
+# Settlements
+max_settlements = 4
+b_claw_isle = castle
+b_celtina = city
+b_claw_isle_sept = temple
+
+#b_aprochon = castle
+#b_leporon = city
+
+#Misc
+culture = western_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_claw_isle= ca_asoiaf_crown_basevalue_1
+
+	b_celtina = ct_asoiaf_crown_basevalue_1
+}
+5000.1.1 = { religion = the_seven }
+
+7800.1.1 = {
+	culture = western_valyrian
+	religion = valyrian_rel
+
+	b_claw_isle = ca_asoiaf_crown_basevalue_2
+	b_claw_isle = ca_cellar_1
+	b_claw_isle = ca_asoiaf_smallshipyard
+
+	b_celtina = ct_asoiaf_crown_basevalue_2
+	b_celtina = ct_asoiaf_crown_basevalue_3
+
+}
+8000.1.1 = {
+	religion = the_seven
+}

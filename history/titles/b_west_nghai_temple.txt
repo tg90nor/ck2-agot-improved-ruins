@@ -1,0 +1,4 @@
+# b_west_nghai_temple
+2000.1.1 = {
+	holder = 31408312 # ruin
+}

@@ -1,0 +1,4 @@
+# b_northpoint_temple
+2000.1.1 = {
+	holder = 31408332 # ruin
+}

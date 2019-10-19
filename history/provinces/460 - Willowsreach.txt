@@ -1,0 +1,31 @@
+# 460 - Willowsreach
+
+# County Title
+title = c_willowsreach
+
+# Settlements
+max_settlements = 3
+
+b_willowsreach1 = castle
+b_willowsreach2 = city
+b_willowsreach3 = temple
+
+# Misc
+culture = old_andal
+religion = the_seven
+
+# History
+1.1.1 = {
+	b_willowsreach1 = ca_asoiaf_essos_basevalue_1
+	b_willowsreach1 = ca_asoiaf_essos_basevalue_2
+
+	b_willowsreach2 = ct_asoiaf_essos_basevalue_1
+	b_willowsreach2 = ct_asoiaf_essos_basevalue_2
+}
+6564.1.1 = {
+	culture = lorathi
+	religion = boash
+}
+7350.1.1 = {
+	religion = gods_lorath
+}

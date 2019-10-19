@@ -1,0 +1,7 @@
+# c_zamettar
+3300.1.1 = {
+	holder = 31407410 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

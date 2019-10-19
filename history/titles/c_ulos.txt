@@ -1,0 +1,7 @@
+# c_ulos
+2000.1.1 = {
+	holder = 31408000 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

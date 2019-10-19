@@ -1,0 +1,33 @@
+# b_tyrosh
+1.1.1 = {
+	holder = 31403671 # ruin
+}
+4000.1.1 = {
+	holder = 0
+}
+7987.1.1 = { holder=150300024 } # Myrmello (nc)
+8028.1.1 = { holder=100300533 } # Groleo (nc)
+8041.1.1 = { holder=100300543 } # Mallaquo (nc)
+8058.1.1 = { holder=101300544 } # Jaqen (nc)
+8079.1.1 = { holder=103300543 } # Roggo (nc)
+8098.1.1 = { holder=105300542 } # Syrio (nc)
+8108.1.1 = { holder=108300533 } ##### Racallio Ryndoon
+8134.1.1 = { holder=109300024 } # Ordello (nc)
+8146.1.1 = { holder=113300542 } # Beqqo (nc)
+8165.1.1 = { holder=122300024 } # Oro (nc)
+8203.1.1 = { holder=121300544 } # Ordello (nc)
+8234.1.1 = { holder=128300024 } # Tycho (nc)
+# 8259.1.1={ #cannot hold this title as it makes him a republic. Title added in his history entry
+	# holder=600000059 # Alequo Adarys
+# }
+# 8265.6.1 = { 
+	# holder=128300024 # Tycho (nc)
+# } 
+8259.1.1 = { 
+	liege="d_tyrosh"
+} 
+8259.12.31 = { 
+	liege="c_tyrosh"
+} 
+8270.1.1 = { holder=130300024 } # Gyloro (nc)
+8278.1.1 = { holder=131300024 } # Syrio (nc)

@@ -1,0 +1,66 @@
+# 470 - Braavos
+
+# County Title
+title = c_braavos
+
+# Settlements
+max_settlements = 7
+
+b_sealordpalace = castle
+b_braavos = city
+
+# Misc
+culture = old_andal
+religion = the_seven
+
+# History
+1.1.1 = {
+	b_braavos = ct_asoiaf_essos_basevalue_1
+	b_braavos = ct_asoiaf_essos_basevalue_2
+	b_braavos = ct_asoiaf_essos_basevalue_3
+
+	b_sealordpalace = ca_asoiaf_essos_basevalue_1
+	b_sealordpalace = ca_asoiaf_essos_basevalue_2
+}
+7579.1.1 = {
+	culture = braavosi
+	religion = moonsingers
+	capital = b_braavos
+
+	b_titan = castle
+	b_arsenal = castle
+	b_purpleharbor = city
+	b_ragmansharbor = city
+	b_templemoonsingers = temple
+
+	b_braavos = ct_asoiaf_essos_basevalue_4
+	b_braavos = ct_asoiaf_essos_basevalue_5
+	b_braavos = ct_asoiaf_essos_basevalue_6
+	b_braavos = ct_asoiaf_essosshipyard
+	b_braavos = ct_titan_castle
+
+	trade_post = b_volentin
+
+	b_sealordpalace = ca_asoiaf_essos_basevalue_3
+	b_sealordpalace = ca_asoiaf_essos_basevalue_4
+	b_sealordpalace = ca_asoiaf_essos_basevalue_5
+	b_sealordpalace = ca_asoiaf_essos_basevalue_6
+
+	b_titan = ca_asoiaf_essos_basevalue_1
+	b_titan = ca_asoiaf_essos_basevalue_2
+	b_titan = ca_asoiaf_essos_basevalue_3
+
+	b_arsenal = ca_asoiaf_essos_basevalue_1
+	b_arsenal = ca_asoiaf_essos_basevalue_2
+	b_arsenal = ca_asoiaf_essos_basevalue_3
+
+	b_purpleharbor = ct_asoiaf_essos_basevalue_1
+	b_purpleharbor = ct_asoiaf_essos_basevalue_2
+	b_purpleharbor = ct_asoiaf_essos_basevalue_3
+	b_purpleharbor = ct_asoiaf_essosshipyard
+
+	b_ragmansharbor = ct_asoiaf_essos_basevalue_1
+	b_ragmansharbor = ct_asoiaf_essos_basevalue_2
+	b_ragmansharbor = ct_asoiaf_essos_basevalue_3
+	b_ragmansharbor = ct_asoiaf_essosshipyard
+}

@@ -1,0 +1,4 @@
+# b_east_nghai_city
+2000.1.1 = {
+	holder = 31408291 # ruin
+}

@@ -1,0 +1,4 @@
+# b_ar_noytemple
+7300.1.1 = {
+	holder = 31404292 # ruin
+}

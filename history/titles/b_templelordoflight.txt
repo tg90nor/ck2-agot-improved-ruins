@@ -1,0 +1,8 @@
+# b_templelordoflight
+1.1.1 = {
+	holder = 31404181 # ruin
+}
+4000.1.1 = { holder = 0 }
+8282.1.1={
+	holder=600000056 # Benerro
+}

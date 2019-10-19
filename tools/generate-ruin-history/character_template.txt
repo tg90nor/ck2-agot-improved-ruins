@@ -1,0 +1,24 @@
+# $TITLENAME
+$CHARID = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	$STARTDATE = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+$END
+}

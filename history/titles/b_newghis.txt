@@ -1,0 +1,19 @@
+# b_newghis
+3300.1.1 = {
+	holder = 31406251 # ruin
+}
+7886.1.1 = {
+	holder = 0
+	law = succ_appointment
+	effect = {
+		set_title_flag = military_command
+		holder_scope = {
+			if = {
+				limit = { primary_title = { title = PREVPREV } }
+				set_government_type = military_command_government_city
+				PREV = { succession = appointment }
+				recalc_succession = yes
+			}
+		}
+	}
+}

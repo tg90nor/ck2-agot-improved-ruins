@@ -1,0 +1,23 @@
+# b_shivering_port
+6479.1.1 = {
+	holder = 31404712 # ruin
+}
+6564.1.1 = {
+	holder = 0
+}
+7970.1.1 = { holder=100300537 } # Brusco (nc)
+8011.1.1 = { holder=102300537 } # Myrmello (nc)
+8027.1.1 = { holder=104300537 } # Allaquo (nc)
+8052.1.1 = { holder=105300537 } # Ferrego (nc)
+8082.1.1 = { holder=109300537 } # Collio (nc)
+8094.1.1 = { holder=116300537 } # Gyloro (nc)
+8108.1.1 = { holder=114300537 } # Ternesio (nc)
+8110.1.1 = { holder=120300537 } # Lotho (nc)
+8134.1.1 = { holder=124300537 } # Tycho (nc)
+8175.1.1 = { holder=125300537 } # Pynto (nc)
+8183.1.1 = { holder=130300537 } # Yorko (nc)
+8220.1.1 = { holder=131300537 } # Tormo (nc)
+8238.1.1 = { holder=135300537 } # Izembaro (nc)
+8266.1.1 = { holder=138300537 } # Allaquo (nc)
+8272.1.1 = { holder=140300537 } # Meralyn (nc)
+8296.1.1 = { holder=141300537 } # Collio (nc)

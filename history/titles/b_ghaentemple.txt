@@ -1,0 +1,5 @@
+# b_ghaentemple
+3300.1.1 = {
+	holder = 31406242 # ruin
+}
+7886.1.1 = { holder = 0 }

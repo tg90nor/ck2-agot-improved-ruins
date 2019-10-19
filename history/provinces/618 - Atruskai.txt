@@ -1,0 +1,26 @@
+# 618 - Ghiscari Hills / Atruskai
+
+# County Title
+title = c_ghiscarihills
+
+# Settlements
+max_settlements = 3
+
+b_ghiscarihillscastle = castle
+b_ghiscarihills = city
+b_ghiscarihillstemple = temple
+
+# Misc
+culture = ghiscari
+religion = harpy
+
+1.1.1 = {
+
+	b_ghiscarihills = ct_asoiaf_ghiscari_basevalue_1
+	b_ghiscarihills = ct_asoiaf_ghiscari_basevalue_2
+	
+	b_ghiscarihillscastle = ca_asoiaf_ghiscari_basevalue_1
+	b_ghiscarihillscastle = ca_asoiaf_ghiscari_basevalue_2
+
+
+}

@@ -1,0 +1,4 @@
+# b_ulos_temple
+2000.1.1 = {
+	holder = 31408002 # ruin
+}

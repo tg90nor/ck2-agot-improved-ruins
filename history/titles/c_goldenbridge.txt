@@ -1,0 +1,7 @@
+# c_goldenbridge
+7300.1.1 = {
+	holder = 31404120 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

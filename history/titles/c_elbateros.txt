@@ -1,0 +1,29 @@
+# c_elbateros
+1.1.1 = {
+	liege = "k_lorath"
+}
+6479.1.1 = {
+	holder = 31404470 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+6564.1.1 = {
+	holder = 0
+}
+7977.1.1 = { holder=100300548 } # Groleo (nc)
+8023.1.1 = { holder=102300548 } # Brusco (nc)
+8045.1.1 = { holder=104300548 } # Izembaro (nc)
+8047.1.1 = { holder=106300548 } # Lotho (nc)
+8083.1.1 = { holder=108300548 } # Ternesio (nc)
+8090.1.1 = { holder=110300548 } # Roro (nc)
+8114.1.1 = { holder=112300548 } # Tagganaro (nc)
+8135.1.1 = { holder=114300548 } # Groleo (nc)
+8140.1.1 = { holder=120300548 } # Yorko (nc)
+8176.1.1 = { holder=123300548 } # Meralyn (nc)
+8193.1.1 = { holder=125300548 } # Brusco (nc)
+8195.1.1 = { holder=128300548 } # Pynto (nc)
+8203.1.1 = { holder=133300548 } # Qarro (nc)
+8238.1.1 = { holder=136300548 } # Orbelo (nc)
+8251.1.1 = { holder=140300548 } # Pynto (nc)
+8294.1.1 = { holder=142300548 } # Denyo (nc)

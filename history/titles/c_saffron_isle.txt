@@ -1,0 +1,7 @@
+# c_saffron_isle
+2000.1.1 = {
+	holder = 31407990 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

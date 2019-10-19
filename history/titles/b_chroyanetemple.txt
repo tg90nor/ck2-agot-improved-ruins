@@ -1,0 +1,4 @@
+# b_chroyanetemple
+7300.1.1 = {
+	holder = 31404132 # ruin
+}

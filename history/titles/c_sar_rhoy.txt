@@ -1,0 +1,8 @@
+# c_sar_rhoy
+7300.1.1 = {
+	holder = 31404300 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+

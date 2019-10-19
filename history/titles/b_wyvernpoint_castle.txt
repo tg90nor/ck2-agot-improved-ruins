@@ -1,0 +1,4 @@
+# b_wyvernpoint_castle
+2000.1.1 = {
+	holder = 31407351 # ruin
+}

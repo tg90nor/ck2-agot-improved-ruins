@@ -1,0 +1,13 @@
+# c_chroyane
+1.1.1 = {
+	liege = d_lower_rhoyne
+}
+7282.10.1 = {
+  holder=6000001 # Garin (c)
+}
+7297.9.4 = {
+	holder = 31404130 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

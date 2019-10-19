@@ -1,0 +1,5 @@
+# b_redtemplelys
+1.1.1 = {
+	holder = 31403682 # ruin
+}
+4000.1.1 = { holder = 0 }

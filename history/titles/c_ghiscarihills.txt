@@ -1,0 +1,24 @@
+# c_ghiscarihills
+3300.1.1 = {
+	holder = 31406180 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+7886.1.1 = {
+	holder = 0
+	liege = "k_new_ghis"
+}
+
+7995.1.1 = { holder=100069152 } # Azzak (nc)
+8036.1.1 = { holder=100269152 } # Faezdhar (nc)
+8058.1.1 = { holder=100669152 } # Gorzhak (nc)
+8073.1.1 = { holder=100869152 } # Reznak (nc)
+8100.1.1 = { holder=101069152 } # Zaraq (nc)
+8135.1.1 = { holder=101269152 } # Morghaz (nc)
+8166.1.1 = { holder=101669152 } # Harghaz (nc)
+8179.1.1 = { holder=102169152 } # Grazdhan (nc)
+8233.1.1 = { holder=102369152 } # Yurkhaz (nc)
+8255.1.1 = { holder=102469152 } # Morghaz (nc)
+8268.1.1 = { holder=102869152 } # Mazdhan (nc)
+8298.1.1 = { holder=103169152 } # Barghaz (nc)

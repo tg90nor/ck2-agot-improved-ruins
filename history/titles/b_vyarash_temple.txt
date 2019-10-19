@@ -1,0 +1,4 @@
+# b_vyarash_temple
+2000.1.1 = {
+	holder = 31407392 # ruin
+}

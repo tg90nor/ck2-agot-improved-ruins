@@ -1,0 +1,25 @@
+# c_volontherys
+1.1.1 = {
+	holder = 31404200 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+4000.1.1 = {
+	holder = 0
+	liege = "d_volontherys"
+}
+7970.1.1 = { holder=100305605 } # Ordello (nc)
+8011.1.1 = { holder=101305605 } # Bolquello (nc)
+8025.1.1 = { holder=107305605 } # Bolquello (nc)
+8062.1.1 = { holder=110305605 } # Colloquo (nc)
+8109.1.1 = { holder=112305605 } # Gorys (nc)
+8120.1.1 = { holder=114305605 } # Horonno (nc)
+8144.1.1 = { holder=115305605 } # Allaquo (nc)
+8159.1.1 = { holder=116305605 } # Lotho (nc)
+8172.1.1 = { holder=117305605 } # Qarro (nc)
+8175.1.1 = { holder=119305605 } # Bolquello (nc)
+8210.1.1 = { holder=122305605 } # Alios (nc)
+8232.1.1 = { holder=124305605 } # Gorys (nc)
+8266.1.1 = { holder=127305605 } # Gorys (nc)
+8282.1.1 = { holder=129305605 } # Horonno (nc)

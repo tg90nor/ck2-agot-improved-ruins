@@ -1,0 +1,4 @@
+# b_anogariatemple
+7886.1.1 = {
+	holder = 31402 # ruin
+}

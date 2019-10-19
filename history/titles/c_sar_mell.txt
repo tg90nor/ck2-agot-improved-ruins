@@ -1,0 +1,8 @@
+# c_sar_mell
+7000.1.1 = { liege = 0 }
+7101.1.1 = {
+	holder = 31404210 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

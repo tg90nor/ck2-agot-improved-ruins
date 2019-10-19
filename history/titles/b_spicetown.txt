@@ -1,0 +1,5 @@
+# b_spicetown
+1.1.1 = {
+	holder = 31402201 # ruin
+}
+7800.1.1 = { holder = 0 }

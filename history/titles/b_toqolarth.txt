@@ -1,0 +1,10 @@
+# b_toqolarth
+7900.1.1 = {
+	holder = 31406531 # ruin
+}
+8298.10.10 = {
+	holder = 77041 # Daenerys
+}
+8300.1.1 = {
+	holder = 31406531 # ruin
+}

@@ -1,0 +1,4 @@
+# b_basiliskpoint_castle
+3300.1.1 = {
+	holder = 31407461 # ruin
+}

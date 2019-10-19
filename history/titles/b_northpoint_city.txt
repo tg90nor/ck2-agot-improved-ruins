@@ -1,0 +1,4 @@
+# b_northpoint_city
+2000.1.1 = {
+	holder = 31408331 # ruin
+}

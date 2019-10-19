@@ -1,0 +1,7 @@
+# b_elbateros
+6479.1.1 = {
+	holder = 31404471 # ruin
+}
+6564.1.1 = {
+	holder = 0
+}

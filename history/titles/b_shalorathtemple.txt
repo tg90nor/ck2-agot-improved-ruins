@@ -1,0 +1,7 @@
+# b_shalorathtemple
+6479.1.1 = {
+	holder = 31404452 # ruin
+}
+6564.1.1 = {
+	holder = 0
+}

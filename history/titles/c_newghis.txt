@@ -1,0 +1,23 @@
+# c_newghis
+3300.1.1 = {
+	holder = 31406250 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+7886.1.1 = {
+	holder = 0
+	liege = "d_new_ghis"
+}
+7980.1.1 = { holder=150360025 } # Grazdan (nc)
+8023.1.1 = { holder=100360025 } # Grazdan (nc)
+8041.1.1 = { holder=101360025 } # Skahaz (nc)
+8097.1.1 = { holder=104360025 } # Barkhaz (nc)
+8112.1.1 = { holder=108360025 } # Marghaz (nc)
+8120.1.1 = { holder=112360025 } # Grazdan (nc)
+8141.1.1 = { holder=114360025 } # Yezzan (nc)
+8164.1.1 = { holder=117360025 } # Gazdhor (nc)
+8179.1.1 = { holder=122360025 } # Marghaz (nc)
+8231.1.1 = { holder=124360025 } # Grazdan (nc)
+8251.1.1 = { holder=126360025 } # Maezon (nc)
+8277.1.1 = { holder=130360025 } # Grazdan (nc)

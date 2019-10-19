@@ -1,0 +1,5 @@
+# b_claw_isle_sept
+1.1.1 = {
+	holder = 31402192 # ruin
+}
+7800.1.1 = { holder = 0 }

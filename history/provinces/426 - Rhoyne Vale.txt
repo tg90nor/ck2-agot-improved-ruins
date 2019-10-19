@@ -1,0 +1,23 @@
+# 426 - Rhoyne Vale
+
+# County Title
+title = c_rhoyne_vale
+
+# Settlements
+max_settlements = 3
+
+b_rhoyne_valecastle = castle
+b_rhoyne_vale = city
+b_rhoyne_valetemple = temple
+
+# Misc
+culture = rhoynar
+religion = rhoynar_pagan
+
+# History
+1.1.1 = {
+	b_rhoyne_vale  = ct_asoiaf_dorne_basevalue_1
+	b_rhoyne_vale  = ct_asoiaf_dorne_basevalue_2
+
+	b_rhoyne_valecastle = ca_asoiaf_dorne_basevalue_1
+}

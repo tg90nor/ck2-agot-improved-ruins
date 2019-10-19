@@ -1,0 +1,30 @@
+# c_whitecliffs
+1.1.1={
+	liege="k_lorath"
+}
+6479.1.1 = {
+	holder = 31404480 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+6564.1.1 = {
+	holder = 0
+}
+7955.1.1 = { holder=100300560 } # Tormo (nc)
+8003.1.1 = { holder=101300560 } # Ternesio (nc)
+8021.1.1 = { holder=107300560 } # Byan (nc)
+8037.1.1 = { holder=108300560 } # Mellario (nc)
+8042.1.1 = { holder=113300560 } # Meralyn (nc)
+8085.1.1 = { holder=117300560 } # Joss (nc)
+8112.1.1 = { holder=120300560 } # Beqqo (nc)
+8134.1.1 = { holder=123300560 } # Tormo (nc)
+8142.1.1 = { holder=126300560 } # Beqqo (nc)
+8167.1.1 = { holder=124300560 } # Illyrio (nc)
+8183.1.1 = { holder=128300560 } # Allaquo (nc)
+8199.1.1 = { holder=133300560 } # Byan (nc)
+8212.1.1 = { holder=134300560 } # Qarro (nc)
+8233.1.1 = { holder=135300560 } # Moreo (nc)
+8267.1.1 = { holder=136300560 } # Noho (nc)
+8270.1.1 = { holder=140300560 } # Joss (nc)
+8279.1.1 = { holder=144300560 } # Denyo (nc)

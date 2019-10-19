@@ -1,0 +1,27 @@
+# c_shalorath
+1.1.1 = {
+	liege = "k_lorath"
+}
+6479.1.1 = {
+	holder = 31404450 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+6564.1.1 = {
+	holder = 0
+}
+7975.1.1 = { holder=100300528 } # Denyo (nc)
+8024.1.1 = { holder=102300528 } # Jaqen (nc)
+8040.1.1 = { holder=104300528 } # Mero (nc)
+8064.1.1 = { holder=105300528 } # Collio (nc)
+8073.1.1 = { holder=111300528 } # Gyleno (nc)
+8096.1.1 = { holder=112300528 } # Tagganaro (nc)
+8111.1.1 = { holder=115300528 } # Ezzelyno (nc)
+8140.1.1 = { holder=119300528 } # Ordello (nc)
+8144.1.1 = { holder=120300528 } # Illyrio (nc)
+8189.1.1 = { holder=123300528 } # Ezzelyno (nc)
+8196.1.1 = { holder=124300528 } # Lotho (nc)
+8222.1.1 = { holder=127300528 } # Pynto (nc)
+8233.1.1 = { holder=130300528 } # Mellario (nc)
+8242.1.1 = { holder=131300528 } # Gyleno (nc)

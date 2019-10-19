@@ -1,0 +1,4 @@
+# b_ulos_city
+2000.1.1 = {
+	holder = 31408001 # ruin
+}

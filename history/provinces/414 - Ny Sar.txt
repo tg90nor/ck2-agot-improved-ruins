@@ -1,0 +1,30 @@
+# 414 Ny Sar
+
+# County Title
+title = c_ny_sar
+
+# Settlements
+max_settlements = 6
+
+b_nymeria_palace = castle
+b_ny_sar = city
+b_ny_sartemple = temple
+
+# Misc
+culture = rhoynar
+religion = rhoynar_pagan
+
+# History
+1.1.1 = {
+	b_ny_sar = ct_asoiaf_dorne_basevalue_1
+	b_ny_sar = ct_asoiaf_dorne_basevalue_2
+	b_ny_sar = ct_asoiaf_dorne_basevalue_3
+	b_ny_sar = ct_asoiaf_dorne_basevalue_4
+	b_ny_sar = ct_asoiaf_dorne_basevalue_5
+
+	b_nymeria_palace = ca_asoiaf_dorne_basevalue_1
+	b_nymeria_palace = ca_asoiaf_dorne_basevalue_2
+	b_nymeria_palace = ca_asoiaf_dorne_basevalue_3
+	b_nymeria_palace = ca_asoiaf_dorne_basevalue_4
+	b_nymeria_palace = ca_asoiaf_dorne_basevalue_5
+}

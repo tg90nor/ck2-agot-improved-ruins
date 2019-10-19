@@ -1,0 +1,7 @@
+# b_derlyn
+1.1.1 = {
+	holder = 31402211 # ruin
+}
+7674.1.1 = { # Dragonstone is built as a Valyrian outpost in ~326BC
+	holder = 0
+}

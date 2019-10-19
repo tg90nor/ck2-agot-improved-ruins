@@ -1,0 +1,29 @@
+# 429 - Ar Noy
+
+# County Title
+title = c_ar_noy
+
+# Settlements
+max_settlements = 5
+
+b_ar_noy_castle = castle
+b_ar_noy = city
+b_ar_noytemple = temple
+
+# Misc
+culture = rhoynar
+religion = rhoynar_pagan
+
+# History
+1.1.1 = {
+	b_ar_noy = ct_asoiaf_dorne_basevalue_1
+	b_ar_noy = ct_asoiaf_dorne_basevalue_2
+	b_ar_noy = ct_asoiaf_dorne_basevalue_3
+	b_ar_noy = ct_asoiaf_dorne_basevalue_4
+	b_ar_noy = ct_asoiaf_dorne_basevalue_5
+
+	b_ar_noy_castle = ca_asoiaf_dorne_basevalue_1
+	b_ar_noy_castle = ca_asoiaf_dorne_basevalue_2
+	b_ar_noy_castle = ca_asoiaf_dorne_basevalue_3
+	b_ar_noy_castle = ca_asoiaf_dorne_basevalue_4
+}

@@ -1,0 +1,22 @@
+# c_willowsreach
+6479.1.1 = {
+	holder = 31404600 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+6564.1.1 = {
+	holder = 0
+	liege = k_lorath
+}
+7995.1.1 = { holder=100069139 } # Noho (nc)
+8028.1.1 = { holder=100469139 } # Narbo (nc)
+8050.1.1 = { holder=100569139 } # Beqqo (nc)
+8078.1.1 = { holder=100769139 } # Roggo (nc)
+8130.1.1 = { holder=101069139 } # Moredo (nc)
+8153.1.1 = { holder=101269139 } # Tormo (nc)
+8169.1.1 = { holder=101469139 } # Moredo (nc)
+8196.1.1 = { holder=101869139 } # Ollo (nc)
+8221.1.1 = { holder=102069139 } # Roggo (nc)
+8242.1.1 = { holder=102169139 } # Denyo (nc)
+8278.1.1 = { holder=102569139 } # Moredo (nc)

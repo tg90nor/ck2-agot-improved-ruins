@@ -1,0 +1,11 @@
+# c_tyvis
+600.1.1={
+	liege="k_volantis"
+}
+7000.1.1 = { liege = 0 }
+7295.1.1 = {
+	holder = 314047620 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

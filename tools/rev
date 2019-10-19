@@ -1,0 +1,14 @@
+#!/bin/sh
+
+### Replacement for rev command in which is missing in Git Bash on Windows
+
+awk '
+/../ {	# no need to process lines with less than 2 characters
+len = length($0)
+line = ""
+for ( i=1; i<=len; ++i )
+line = substr($0, i, 1) line
+print line; next
+}
+{print}
+' "$@"

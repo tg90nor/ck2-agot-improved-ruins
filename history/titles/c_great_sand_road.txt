@@ -1,0 +1,7 @@
+# c_great_sand_road
+2000.1.1 = {
+	holder = 31408440 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

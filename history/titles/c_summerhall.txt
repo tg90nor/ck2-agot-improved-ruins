@@ -1,0 +1,57 @@
+# c_summerhall
+7000.1.1 = {
+	liege="d_summerhall"
+	#name = C_BLACKHEART
+	effect = {
+		location = { set_name = C_BLACKHEART }
+	}
+}
+7967.1.1 = { holder=10000307 } # Symeon (nc)
+7988.1.1 = { holder=20000307 } # Clarence (nc)
+8017.1.1 = { holder=40000307 } # Martyn (nc)
+8065.1.1 = { holder=50000307 } # Robert (nc)
+8080.1.1 = { holder=60000307 } # Tristan (nc)
+8136.1.1 = { holder=80000307 } # Gyles (nc)
+8170.1.1 = { holder=130000307 } # Beric (nc)
+8174.1.1 = { holder=100000307 } # Myles (nc)
+8178.6.1={
+	liege="e_iron_throne"
+}
+8178.6.1={
+	holder = 77020		#Aegon IV the Unworthy
+}
+8184.1.1={
+	holder = 77023		#Daeron II the Good
+}
+8196.6.1={
+	holder = 77031		#Maekar I
+}
+8198.1.1={
+	reset_name = yes
+	effect = {
+		location = { set_name = c_summerhall }
+		d_kings_landing = {
+			c_summerhall = { de_jure_liege = PREV }
+		}
+		set_global_flag = summerhall_established
+	}
+}
+8217.1.1={
+	holder = 77032		# Daeron the Drunkard
+}
+8229.1.1={
+	holder = 77031		#Maekar I
+}
+8233.6.1={
+	holder = 77034		#Aegon V the Unlikley
+}
+8259.6.1 = {
+	holder = 31403060 # ruin
+	liege = 0
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+		d_summerhall = {
+			c_summerhall = { de_jure_liege = PREV }
+		}
+	}
+}

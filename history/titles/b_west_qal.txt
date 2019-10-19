@@ -1,0 +1,5 @@
+# b_west_qal
+7886.1.1 = {
+	holder = 31406671 # ruin
+}
+7955.1.1 = { holder = 0 }

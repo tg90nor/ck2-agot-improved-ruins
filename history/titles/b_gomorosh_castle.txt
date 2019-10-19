@@ -1,0 +1,4 @@
+# b_gomorosh_castle
+2000.1.1 = {
+	holder = 31407381 # ruin
+}

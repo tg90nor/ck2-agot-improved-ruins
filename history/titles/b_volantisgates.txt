@@ -1,0 +1,8 @@
+# b_volantisgates
+1.1.1 = {
+	holder = 31404171 # ruin
+}
+4000.1.1 = {
+	holder = 0
+	liege = "d_rhllor"
+}

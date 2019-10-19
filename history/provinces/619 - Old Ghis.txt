@@ -1,0 +1,61 @@
+# 619 - Old Ghis
+
+# County Title
+title = c_oldghis
+
+# Settlements
+max_settlements = 7
+
+b_pyramidoldghis = castle
+b_oldghis = city
+b_oldghistemple = temple
+
+b_oldghis4 = castle
+b_oldghis5 = city
+b_oldghis6 = castle
+b_oldghis7 = city
+
+# Misc
+culture = ghiscari
+religion = harpy
+
+# History
+1.1.1 = {
+	b_pyramidoldghis = ca_asoiaf_ghiscari_basevalue_1
+	b_pyramidoldghis = ca_asoiaf_ghiscari_basevalue_2
+	b_pyramidoldghis = ca_asoiaf_ghiscari_basevalue_3
+	b_pyramidoldghis = ca_asoiaf_ghiscari_basevalue_4
+	b_pyramidoldghis = ca_asoiaf_ghiscari_basevalue_5
+	b_pyramidoldghis = ca_asoiaf_ghiscari_basevalue_6
+
+	b_oldghis = ct_asoiaf_ghiscari_basevalue_1
+	b_oldghis = ct_asoiaf_ghiscari_basevalue_2
+	b_oldghis = ct_asoiaf_ghiscari_basevalue_3
+	b_oldghis = ct_asoiaf_ghiscari_basevalue_4
+	b_oldghis = ct_asoiaf_ghiscari_basevalue_5
+	b_oldghis = ct_asoiaf_ghiscari_basevalue_6
+	
+	b_oldghis4 = ca_asoiaf_ghiscari_basevalue_1
+	b_oldghis4 = ca_asoiaf_ghiscari_basevalue_2
+	b_oldghis4 = ca_asoiaf_ghiscari_basevalue_3
+	b_oldghis4 = ca_asoiaf_ghiscari_basevalue_4
+	
+	b_oldghis5 = ct_asoiaf_ghiscari_basevalue_1
+	b_oldghis5 = ct_asoiaf_ghiscari_basevalue_2
+	b_oldghis5 = ct_asoiaf_ghiscari_basevalue_3
+	b_oldghis5 = ct_asoiaf_ghiscari_basevalue_4
+	
+	b_oldghis6 = ca_asoiaf_ghiscari_basevalue_1
+	b_oldghis6 = ca_asoiaf_ghiscari_basevalue_2
+	b_oldghis6 = ca_asoiaf_ghiscari_basevalue_3
+	
+	b_oldghis7 = ct_asoiaf_ghiscari_basevalue_1
+	b_oldghis7 = ct_asoiaf_ghiscari_basevalue_2
+	b_oldghis7 = ct_asoiaf_ghiscari_basevalue_3
+}
+3300.1.1 = {
+	remove_settlement = b_oldghis4
+	remove_settlement = b_oldghis5
+	remove_settlement = b_oldghis6
+	remove_settlement = b_oldghis7
+}

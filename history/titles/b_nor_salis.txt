@@ -1,0 +1,4 @@
+# b_nor_salis
+7300.1.1 = {
+	holder = 31404271 # ruin
+}

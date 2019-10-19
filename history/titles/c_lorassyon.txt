@@ -1,0 +1,33 @@
+# c_lorassyon
+6459.1.1={
+	holder=901174999 #Qarlton the great
+}
+6479.1.1 = {
+	holder = 314011330 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+6564.1.1 = {
+	holder = 0
+}
+7975.1.1 = { holder=100300560 } # Tormo (nc)
+8003.1.1 = { holder=101300560 } # Ternesio (nc)
+8021.1.1 = { holder=107300560 } # Byan (nc)
+8037.1.1 = { holder=102300548 } # Brusco (nc)
+8045.1.1 = { holder=104300548 } # Izembaro (nc)
+8047.1.1 = { holder=106300548 } # Lotho (nc)
+8083.1.1 = { holder=113300560 } # Meralyn (nc)
+8085.1.1 = { holder=117300560 } # Joss (nc)
+8112.1.1 = { holder=110300548 } # Roro (nc)
+8114.1.1 = { holder=112300548 } # Tagganaro (nc)
+8135.1.1 = { holder=115300528 } # Ezzelyno (nc)
+8140.1.1 = { holder=118300549 } # Mero (nc)
+8166.1.1 = { holder=121300549 } # Oro (nc)
+8169.1.1 = { holder=124300537 } # Tycho (nc)
+8175.1.1 = { holder=125300537 } # Pynto (nc)
+8183.1.1 = { holder=130300537 } # Yorko (nc)
+8220.1.1 = { holder=134300560 } # Qarro (nc)
+8233.1.1 = { holder=135300560 } # Moreo (nc)
+8267.1.1 = { holder=136300560 } # Noho (nc)
+8270.1.1 = { holder=131300528 } # Gyleno (nc)

@@ -1,0 +1,7 @@
+# c_northfields
+7300.1.1 = {
+	holder = 31404110 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

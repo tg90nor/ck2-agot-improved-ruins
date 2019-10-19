@@ -1,0 +1,5 @@
+# b_bakedshore
+3300.1.1 = {
+	holder = 31406171 # ruin
+}
+7886.1.1 = { holder = 0 }

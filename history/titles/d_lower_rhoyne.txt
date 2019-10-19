@@ -1,0 +1,12 @@
+# d_lower_rhoyne
+1.1.1 = {
+  liege = k_chroyane
+	law = succ_primogeniture
+	law = true_cognatic_succession
+}
+7282.10.1 = {
+  holder=6000001 # Garin (c)
+}
+7297.9.4 = {
+	holder = 0
+}

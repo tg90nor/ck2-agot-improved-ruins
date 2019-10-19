@@ -1,0 +1,67 @@
+# 220 - Driftmark
+
+# County Title
+title = c_driftmark
+
+# Settlements
+max_settlements = 7
+b_driftmark = castle
+b_spicetown = city
+b_driftmark_sept = temple
+
+#b_minomark = city
+#b_boatmark = castle
+
+#Misc
+culture = crackclawmen
+religion = old_gods
+
+# History
+1.1.1 = {
+	b_driftmark = ca_asoiaf_crown_basevalue_1
+
+	b_spicetown = ct_asoiaf_crown_basevalue_1
+}
+5000.1.1 = { religion = the_seven }
+
+7800.1.1 = {
+	culture = western_valyrian
+	religion = valyrian_rel
+
+	b_driftmark = ca_asoiaf_crown_basevalue_2
+	b_driftmark = ca_asoiaf_crown_basevalue_3
+	b_driftmark = ca_asoiaf_driftmarkshipyard
+
+	b_nimmark = castle
+	b_nimmark = ca_asoiaf_crown_basevalue_1
+
+	b_spicetown = ct_asoiaf_crown_basevalue_2
+	b_spicetown = ct_asoiaf_crown_basevalue_3
+	b_spicetown = ct_asoiaf_driftmarkshipyard
+
+	b_hull = city
+	b_hull = ct_asoiaf_crown_basevalue_1
+}
+8000.1.1 = {
+	religion = the_seven
+}
+8085.1.1 = { #Corlys Velaryon Develpments
+	b_high_tide = castle
+	capital = b_high_tide
+	b_high_tide = ca_asoiaf_crown_basevalue_1
+	b_high_tide = ca_asoiaf_crown_basevalue_2
+	b_high_tide = ca_asoiaf_crown_basevalue_3
+	b_high_tide = ca_asoiaf_crown_basevalue_4
+	b_high_tide = ca_asoiaf_driftmarkshipyard
+
+	b_hull = ct_asoiaf_crown_basevalue_2
+	b_hull = ct_asoiaf_crown_basevalue_3
+	b_hull = ct_asoiaf_driftmarkshipyard
+
+	b_spicetown = ct_asoiaf_crown_basevalue_4
+}
+8129.11.7={ remove_settlement = b_spicetown }# Battle of the Gullet, sacked and destroyed
+8299.1.1 = {
+	religion = rhllor
+}
+

@@ -1,0 +1,14 @@
+# c_templelordoflight
+1.1.1 = {
+	holder = 31404180 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+4000.1.1 = {
+	liege = "d_rhllor"
+	holder = 0
+}
+8282.1.1={
+	holder=600000056 # Benerro
+}

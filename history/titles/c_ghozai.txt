@@ -1,0 +1,7 @@
+# c_ghozai
+7886.1.1 = {
+	holder = 31406210 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

@@ -1,0 +1,4 @@
+# b_qolahn_temple
+7950.1.1 = {
+	holder = 31406562 # ruin
+}

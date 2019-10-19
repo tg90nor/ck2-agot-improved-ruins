@@ -1,0 +1,5 @@
+# b_bonecoast
+3300.1.1 = {
+	holder = 31406351 # ruin
+}
+7886.1.1 = { holder = 0 }

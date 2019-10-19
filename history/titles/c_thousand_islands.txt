@@ -1,0 +1,7 @@
+# c_thousand_islands
+2000.1.1 = {
+	holder = 31408340 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

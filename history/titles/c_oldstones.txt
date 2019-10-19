@@ -1,0 +1,40 @@
+# c_oldstones
+900.1.1={
+	liege="d_oldstones"
+}
+###House Mudd
+5917.1.1 = { holder=600174399 } # Tristan (nc) # House Mudd
+5981.1.1 = { holder=601174399 } # Addam (nc)
+6000.1.1 = { holder=604174399 } # Tristifer (C)
+6034.1.1 = { holder=605174399 } # Tristan (nc)
+6072.1.1 = { holder=610174399 } # Tristifer (C)
+6122.1.1 = { holder=611174399 } # Roslin (nc)
+6141.1.1 = { holder=613174399 } # Tristan (nc)
+6150.1.1 = { holder=614174399 } # Jon (nc)
+6165.1.1 = { holder=617174399 } # Hosteen (nc)
+6226.1.1 = { holder=618174399 } # Addan (nc)
+6261.1.1 = { holder=619174399 } # Tristan (nc)
+6266.1.1 = { holder=621174399 } # Addan (nc)
+6291.1.1 = { holder=622174399 } # Marq (nc)
+6318.1.1 = { holder=624174399 } # Tristifer (C)
+6344.1.1 = { holder=625174399 } # Tyston (nc)
+6349.1.1 = { holder=628174399 } # Brynden (nc)
+6390.1.1 = { holder=629174399 } # Tristan (nc)
+6402.1.1 = { holder=630174399 } # Roslin (nc)
+6453.1.1 = { holder=631174399 } # Brynden (nc)
+6475.1.1 = { holder=633174399 } # Addan (nc)
+6497.1.1 = { holder=634174399 } # Tristan (nc)
+6535.1.1 = { holder=635174399 } # Arson (nc)
+6558.1.1 = { holder=637174399 } # Brynden (nc)
+6572.1.1 = { holder=640174399 } # Tristan (nc)
+6620.1.1 = { holder=642174399 } # Elmar (nc)
+6642.1.1 = { holder=643174399 } # Tristifer (C)
+6651.1.1 = { holder=644174399 } # Tristifer (C)
+
+6670.1.1 = {
+	liege = 0
+	holder = 3140810 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

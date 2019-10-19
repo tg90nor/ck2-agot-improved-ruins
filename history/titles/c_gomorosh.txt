@@ -1,0 +1,10 @@
+# c_gomorosh
+2000.1.1 = {
+	holder = 31407380 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+7590.1.1 = {
+	effect = { location = { set_province_flag = special_dragon_egg } }
+}

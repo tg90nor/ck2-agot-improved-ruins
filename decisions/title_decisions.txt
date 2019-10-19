@@ -1,0 +1,1573 @@
+# Title decisions are possible vs _all_ titles and are shown in the Title Diplomacy View, not the Intrigue View. The taker is in the FROM scope.
+#
+# filter = [capital/primary_title/owned/vassal_owned/sub_realm_owned/realm_owned/dynasty_owned/all]
+# ai_target_filter = [capital/primary_title/owned/vassal_owned/sub_realm_owned/realm_owned/dynasty_owned/all] (which titles for which the AI evaluates the decision.)
+#	owned: all titles owned by the AI
+#	vassal_owned: all titles owned by direct vassal rulers of the AI's employer
+#	sub_realm_owned: all titles below the AI's employer
+#	realm_owned: all titles in the same top realm as the AI
+#	dynasty_owned: all titles owned by members of the same dynasty
+#	all: all titles (Avoid if possible. VERY CPU-HEAVY!)
+#	
+
+title_decisions = {
+	abandon_province = {
+		filter = sub_realm_owned
+		ai_target_filter = primary_title
+		ai = no
+		
+		from_potential = {
+			ai = no
+			is_nomadic = yes
+			has_dlc = "Horse Lords"
+		}
+		
+		potential = {
+			tier = COUNT
+			location = {
+				owner = {
+					same_realm = FROM
+				}
+				any_neighbor_province = {
+					owner = {
+						NOT = { same_realm = FROM }
+					}
+				}
+			}
+		}
+
+		allow = {
+			location = {
+				NOT = { num_of_settlements = 1 }
+			}
+			has_siege = no
+			FROM = {
+				war = no
+			}
+			location = {
+				NOT = { has_province_modifier = nomads_exploited_land }
+			}
+		}
+		effect = {
+			holder_scope = {
+				capital_holding = {
+					add_holding_modifier = {
+						modifier = nomad_population_boom
+						years = 8
+						stacking = yes
+					}
+				}
+				hidden_tooltip = {
+					top_liege = {
+						if = { 
+							limit = { NOT = { character = PREV } } 
+							capital_holding = {
+								add_holding_modifier = {
+									modifier = nomad_population_boom_spillover
+									years = 8
+									stacking = yes
+								}
+							}
+						}
+						any_vassal = {
+							limit = {
+								NOT = { character = PREVPREV }
+								clan = yes
+							}
+							capital_holding = {
+								add_holding_modifier = {
+									modifier = nomad_population_boom_spillover
+									years = 8
+									stacking = yes
+								}
+							}
+						}
+					}
+				}
+			}
+			location = {
+				random_neighbor_province = {
+					limit = {
+						owner = {
+							NOT = {
+								same_realm = FROM
+							}
+						}
+					}
+					owner = {
+						ROOT = {
+							grant_title = PREV
+						}
+					}
+				}
+			}
+			location = {
+				add_province_modifier = {
+					modifier = nomads_exploited_land
+					years = 8
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	reclaim_nomad_province = {
+		only_playable = yes
+		filter = sub_realm_owned
+		ai_target_filter = sub_realm_owned
+		is_high_prio = yes
+		ai_check_interval = 36
+		
+		from_potential = {
+			is_nomadic = yes
+			has_dlc = "Horse Lords"
+			OR = {
+				war = no
+				ai = no
+			}
+			any_realm_province = {
+				has_province_modifier = nomad_agitation
+			}
+		}
+		
+		potential = {
+			tier = COUNT
+			location = {
+				owner = {
+					same_realm = FROM
+					is_nomadic = no
+					ai = yes
+				}
+				has_province_modifier = nomad_agitation
+			}
+		}
+
+		allow = {
+			FROM = {
+				war = no
+			}
+			location = {
+				has_province_modifier = nomad_agitation
+			}
+		}
+		effect = {
+			location = {
+				ROOT = {
+					grant_title = FROM
+				}
+				remove_province_modifier = nomad_agitation
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	set_crown_focus = { # High Prio version
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		is_high_prio = yes
+		ai_check_interval = 12
+		
+		from_potential = {
+			is_playable = yes
+			has_dlc = "Reapers"
+			is_nomadic = no
+			higher_tier_than = COUNT
+			NOT = {
+				any_demesne_province = {
+					has_province_flag = crown_focus_province
+				}
+			}
+		}
+		
+		potential = {
+			owner = { character = FROM }
+			tier = count
+		}
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					FROM = {
+						ai = no
+					}
+					FROM = {
+						NOT = {
+							any_demesne_province = {
+								has_province_flag = crown_focus_province
+							}
+						}
+					}
+				}
+			}
+
+			location = {
+				capital_holding = {
+					NOR = {
+						has_siege = yes
+						is_occupied = yes 
+					}
+				}
+			}
+			
+			FROM = {	
+				OR = {
+					AND = {
+						independent = yes
+						higher_tier_than = COUNT
+					}
+					AND = {
+						independent = no
+						tier = DUKE
+						realm_size = 35
+					}
+					AND = {
+						independent = no
+						tier = KING
+						realm_size = 55
+					}
+					AND = {
+						independent = no
+						OR = {
+							is_merchant_republic = yes
+							is_republic = yes
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			FROM = {
+				any_demesne_province = {
+					limit = {
+						has_province_flag = crown_focus_province
+					}
+					clr_province_flag = crown_focus_province
+				}
+			}
+			location = { set_province_flag = crown_focus_province }
+		}
+
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	move_crown_focus = {
+		only_playable = yes
+		filter = owned
+		ai_target_filter = owned
+		ai_check_interval = 120
+		
+		from_potential = {
+			is_playable = yes
+			has_dlc = "Reapers"
+			is_nomadic = no
+			higher_tier_than = COUNT
+			any_demesne_province = {
+				has_province_flag = crown_focus_province
+			}
+		}
+		
+		potential = {
+			owner = { character = FROM }
+			tier = count
+			NOT = { location = { has_province_flag = crown_focus_province } }
+		}
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					FROM = {
+						ai = no
+					}
+					FROM = {
+						NOT = {
+							any_demesne_province = {
+								has_province_flag = crown_focus_province
+							}
+						}
+					}
+				}
+			}
+
+			location = {
+				capital_holding = {
+					NOR = {
+						has_siege = yes
+						is_occupied = yes 
+					}
+				}
+			}
+			
+			FROM = {
+				OR = {
+					AND = {
+						independent = yes
+						higher_tier_than = COUNT
+					}
+					AND = {
+						independent = no
+						tier = DUKE
+						realm_size = 35
+					}
+					AND = {
+						independent = no
+						tier = KING
+						realm_size = 55
+					}
+					AND = {
+						independent = no
+						OR = {
+							is_merchant_republic = yes
+							is_republic = yes
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			FROM = {
+				any_demesne_province = {
+					limit = {
+						has_province_flag = crown_focus_province
+					}
+					clr_province_flag = crown_focus_province
+				}
+			}
+			location = { set_province_flag = crown_focus_province }
+		}
+
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	colonise_province = {
+		is_high_prio = yes
+		filter = all
+		ai_target_filter = primary_title
+		ai = no
+		
+		from_potential = {
+			ai = no #AI uses pulse event for optimisation
+		}
+		
+		potential = {
+			tier = COUNT
+			holder_scope = { culture_group = unoccupied_group }
+			location = {
+				OR = {
+					has_province_flag = ruined_province
+					traditional_nomad_territory_trigger = yes
+				}
+				NOT = { has_province_flag = colony_province }
+			}
+		}
+
+		allow = {
+			custom_tooltip = { #Must neighbour ruin, or be within two sea zones
+				text = TOOLTIPcolonisationB
+				hidden_tooltip = {
+					location = {
+						any_neighbor_province = { #Must neighbour ruin, or be within two sea zones
+							OR = {
+								AND = {
+									has_owner = yes
+									OR = {
+										owner = {
+											OR = {
+												character = FROM
+												is_liege_or_above = FROM										
+											}
+										}
+										any_province_lord = { character = FROM }
+									}	
+								}
+								AND = {
+									is_land = no
+									any_neighbor_province = {
+										OR = {
+											AND = {
+												has_owner = yes
+												OR = {
+													owner = {
+														OR = {
+															character = FROM
+															is_liege_or_above = FROM										
+														}
+													}
+													any_province_lord = { character = FROM }
+												}	
+											}
+											AND = {
+												is_land = no
+												any_neighbor_province = {
+													OR = {
+														owner = {
+															OR = {
+																character = FROM
+																is_liege_or_above = FROM										
+															}
+														}
+														any_province_lord = { character = FROM }
+													}	
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			FROM = { 
+				conditional_tooltip = {
+					trigger = { has_game_rule = { name = colinisation_cost value = expensive } }
+					wealth = 1600
+				}
+				conditional_tooltip = {
+					trigger = { has_game_rule = { name = colinisation_cost value = normal } }
+					wealth = 1000
+				}
+				conditional_tooltip = {
+					trigger = { has_game_rule = { name = colinisation_cost value = cheap } }
+					wealth = 400
+				}
+				is_nomadic = no
+				NOT = { trait = nightswatch } 
+				NOT = { trait = kingsguard }
+			}
+			location = {
+				show_scope_change = no
+				NOT = { has_province_modifier = braavos_home }
+			}	
+		}
+		effect = {
+			hidden_tooltip = {
+				FROM = {
+					liege = { save_event_target_as = colonise_liege }	#record liege just in case
+					if = { #record patrician status
+						limit = { 
+							is_patrician = yes 
+							is_merchant_republic = no
+						}
+						set_character_flag = is_patrician
+					}
+				}
+				holder_scope = { 
+					if = {
+						limit = { culture_group = unoccupied_group }
+						set_defacto_liege = event_target:colonise_liege 
+					}
+				} 
+			}	
+			location = {
+				#build castle if needed
+				if = {
+					limit = {
+						NOT = {
+							any_province_holding = {
+								NOT = { holding_type = nomad }
+								NOT = { holding_type = temple }
+								NOT = { holding_type = tribal }
+							}
+						}	
+					}
+					build_holding = {
+						type = castle
+						holder = FROM
+					}
+					random_province_holding = {
+						limit = {
+							holding_type = castle
+							holder_scope = { character = FROM }
+						}
+						save_event_target_as = new_city_holding
+						location = { province_event = { id = unoccupied.399 } } #increase base value, seperate event to avoid 'break'
+						if = {
+							limit = { FROM = { is_feudal = yes } }
+							make_capital_holding = yes
+						}
+					}
+				}
+				county = {
+					gain_title = FROM
+					hidden_tooltip = {
+						any_de_jure_vassal_title = {
+							limit = { has_holder = yes }
+							remove_building = ca_sub_barony_ruin
+							remove_building = ct_sub_barony_ruin
+							clr_title_flag = sub_barony_ruin 
+						}
+					}
+				}
+				hidden_tooltip = {  #just in case coloniser erroneously becomes independent	
+					FROM = { 
+						if = {
+							limit = { 
+								NOT = { vassal_of = event_target:colonise_liege } 
+								NOT = { character = event_target:colonise_liege }
+							} 
+							set_defacto_liege = event_target:colonise_liege 
+						}	
+					}
+				}
+				if = {
+					limit = {
+						NOT = { has_province_flag = ca_colony_titleflags }
+					}
+					if = {
+						limit = {
+							OR = {
+								has_province_flag = ca_colony_1
+								NOR = {
+									has_province_flag = ca_colony_1
+									has_province_flag = ca_colony_2
+									has_province_flag = ca_colony_3
+									has_province_flag = ca_colony_4
+									has_province_flag = ca_colony_5
+									has_province_flag = ca_colony_6
+								}
+							}
+						}
+						set_province_flag = ca_colony_1
+						capital_holding = {
+							if = {
+								limit = { holding_type = castle }
+								add_building = ca_colony_1
+							}
+							if = {
+								limit = { holding_type = city }
+								add_building = ct_colony_1
+							}
+						}
+					}
+					if = {
+						limit = { has_province_flag = ca_colony_2 }
+						capital_holding = {
+							if = {
+								limit = { holding_type = castle }
+								add_building = ca_colony_2
+							}
+							if = {
+								limit = { holding_type = city }
+								add_building = ct_colony_2
+							}
+						}
+					}
+					if = {
+						limit = { has_province_flag = ca_colony_3 }
+						capital_holding = {
+							if = {
+								limit = { holding_type = castle }
+								add_building = ca_colony_3
+							}
+							if = {
+								limit = { holding_type = city }
+								add_building = ct_colony_3
+							}
+						}
+					}
+					if = {
+						limit = { has_province_flag = ca_colony_4 }
+						capital_holding = {
+							if = {
+								limit = { holding_type = castle }
+								add_building = ca_colony_4
+							}
+							if = {
+								limit = { holding_type = city }
+								add_building = ct_colony_4
+							}
+						}
+					}
+					if = {
+						limit = { has_province_flag = ca_colony_5 }
+						capital_holding = {
+							if = {
+								limit = { holding_type = castle }
+								add_building = ca_colony_5
+							}
+							if = {
+								limit = { holding_type = city }
+								add_building = ct_colony_5
+							}
+						}
+					}
+					if = {
+						limit = { has_province_flag = ca_colony_6 }
+						capital_holding = {
+							if = {
+								limit = { holding_type = castle }
+								add_building = ca_colony_6
+							}
+							if = {
+								limit = { holding_type = city }
+								add_building = ct_colony_6
+							}
+						}
+					}
+				}
+				set_province_flag = colony_province
+				any_province_holding = {
+					if = {
+						limit = { has_title_flag = ca_colony_1 }
+						add_building = ca_colony_1
+					}
+					if = {
+						limit = { has_title_flag = ca_colony_2 }
+						add_building = ca_colony_2
+					}
+					if = {
+						limit = { has_title_flag = ca_colony_3 }
+						add_building = ca_colony_3
+					}
+					if = {
+						limit = { has_title_flag = ca_colony_4 }
+						add_building = ca_colony_4
+					}
+					if = {
+						limit = { has_title_flag = ca_colony_5 }
+						add_building = ca_colony_5
+					}
+					if = {
+						limit = { has_title_flag = ca_colony_6 }
+						add_building = ca_colony_6
+					}
+					if = {
+						limit = { has_title_flag = ct_colony_1 }
+						add_building = ct_colony_1
+					}
+					if = {
+						limit = { has_title_flag = ct_colony_2 }
+						add_building = ct_colony_2
+					}
+					if = {
+						limit = { has_title_flag = ct_colony_3 }
+						add_building = ct_colony_3
+					}
+					if = {
+						limit = { has_title_flag = ct_colony_4 }
+						add_building = ct_colony_4
+					}
+					if = {
+						limit = { has_title_flag = ct_colony_5 }
+						add_building = ct_colony_5
+					}
+					if = {
+						limit = { has_title_flag = ct_colony_6 }
+						add_building = ct_colony_6
+					}
+				}
+				if = {
+					limit = { has_province_flag = ruined_province }
+					ROOT_FROM = { 
+						if = {
+							limit = { has_game_rule = { name = colinisation_cost value = expensive } }
+							wealth = -1600
+						}	
+						else_if = {
+							limit = { has_game_rule = { name = colinisation_cost value = normal } }
+							wealth = -1000 
+						}	
+						else_if = {
+							limit = { has_game_rule = { name = colinisation_cost value = cheap } }
+							wealth = -400
+						}	
+					}
+				}
+				else_if = {
+					limit = { 
+						traditional_nomad_territory_trigger = yes
+					}
+					ROOT_FROM = { 
+						if = {
+							limit = { has_game_rule = { name = colinisation_cost value = expensive } }
+							wealth = -800
+						}	
+						else_if = {
+							limit = { has_game_rule = { name = colinisation_cost value = normal } }
+							wealth = -500 
+						}	
+						else_if = {
+							limit = { has_game_rule = { name = colinisation_cost value = cheap } }
+							wealth = -200
+						}
+					}
+				}	
+				
+				hidden_tooltip = {
+					if = {
+						limit = { has_province_modifier = ruined_province }
+						remove_province_modifier = ruined_province
+					}	
+					if = {
+						limit = { has_province_modifier = dothraki_domain }
+						remove_province_modifier = dothraki_domain
+					}
+					if = {
+						limit = { has_province_modifier = jogos_nhai_domain }
+						remove_province_modifier = jogos_nhai_domain
+					}
+					add_province_modifier = {
+						name = colony
+						duration = -1
+					}
+				}	
+			}
+			custom_tooltip = { text = TOOLTIPunoccupied.3 }
+			hidden_tooltip = {
+				any_de_jure_vassal_title = {
+					limit = { holder_scope = { culture_group = unoccupied_group } }
+					set_defacto_liege = ROOT_FROM
+				}
+				FROM = {
+					any_realm_lord = {
+						limit = { culture_group = unoccupied_group }
+						clear_wealth = THIS
+						any_demesne_title = { gain_title = ROOT_FROM }
+						death = yes
+					}
+					any_realm_character = {
+						limit = { culture_group = unoccupied_group }
+						clear_wealth = THIS
+						death = yes
+					}
+					if = { #maintain patrician status
+						limit = { 
+							has_character_flag = is_patrician
+							is_patrician = no
+						}
+						set_government_type = merchant_republic_government
+					}
+					clr_character_flag = is_patrician
+					if = {
+						limit = { ai = no }
+						chronicle = {
+							entry = CHRONICLE_STARTED_COLONY
+							picture = "GFX_evt_castle_construction"
+						}	
+					}
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	convert_kingdom_tier = { #converts westerosi kingdoms from king to emperor tier
+		filter = owned
+		ai_target_filter = owned
+		ai = no
+		
+		from_potential = {
+			ai = no
+			tier = EMPEROR
+			NOT = { has_landed_title = e_iron_throne }
+		}
+		
+		potential = {
+			higher_tier_than = DUKE
+			OR = {
+				AND = {
+					title = e_north
+					k_north = { has_holder = no }
+				}	
+				AND = {
+					title = e_riverlands
+					k_riverlands = { has_holder = no }
+				}	
+				AND = {
+					title = e_vale
+					k_vale = { has_holder = no }
+				}	
+				AND = {
+					title = e_westerlands
+					k_westerlands = { has_holder = no }
+				}	
+				AND = {
+					title = e_stormlands
+					k_stormlands = { has_holder = no }
+				}	
+				AND = {
+					title = e_reach
+					k_reach = { has_holder = no }
+				}	
+				AND = {
+					title = e_dorne
+					k_dorne = { has_holder = no }
+				}	
+				AND = {
+					title = e_iron_isles
+					k_iron_isles = { has_holder = no }
+				}	
+				AND = {
+					title = k_north
+					e_north = { has_holder = no }
+				}	
+				AND = {
+					title = k_riverlands
+					e_riverlands = { has_holder = no }
+				}	
+				AND = {
+					title = k_vale
+					e_vale = { has_holder = no }
+				}	
+				AND = {
+					title = k_westerlands
+					e_westerlands = { has_holder = no }
+				}	
+				AND = {
+					title = k_stormlands
+					e_stormlands = { has_holder = no }
+				}	
+				AND = {
+					title = k_reach
+					e_reach = { has_holder = no }
+				}	
+				AND = {
+					title = k_dorne
+					e_dorne = { has_holder = no }
+				}	
+				AND = {
+					title = k_iron_isles
+					e_iron_isles = { has_holder = no }
+				}
+			}
+		}
+
+		allow = {
+			FROM = { war = no }
+			NOT = { is_primary_holder_title = yes }
+			NOT = { any_war = { always = yes } }
+			custom_tooltip = {
+				text = TOOLTIPconvert_kingdom_tierInterregnum
+				hidden_tooltip = {
+					NOT =  { #Interregnum
+						is_variable_equal = { which = "lord_paramount_status" value = 2 }	
+					}
+				}
+			}	
+			custom_tooltip = {
+				text = TOOLTIPconvert_kingdom_tierCOOLDOWN
+				hidden_tooltip = {
+					OR = {
+						NOT = { has_title_flag = convert_kingdom_tier }
+						had_title_flag = { flag = convert_kingdom_tier days = 1095 }
+					}
+				}
+			}
+		}
+		effect = {
+			set_title_flag = convert_kingdom_tier
+			
+			FROM = { set_character_flag = changing_westerosi_kingdom_tier } #to stop other maintenance triggering
+			hidden_tooltip = {
+				any_claimant = {
+					character_event = { id = dynasty.100 days = 1 }
+				}
+			}	
+			if = {
+				limit = { tier = EMPEROR }
+				custom_tooltip = {
+					text = TOOLTIPconvert_kingdom_tierEMP
+					hidden_tooltip = {
+						if = {
+							limit = { title = e_north }
+							FROM = { k_north = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = e_riverlands }
+							FROM = { k_riverlands = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = e_vale }
+							FROM = { k_vale = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = e_westerlands }
+							FROM = { k_westerlands = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = e_stormlands }
+							FROM = { k_stormlands = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = e_dorne }
+							FROM = { k_dorne = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = e_reach }
+							FROM = { k_reach = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = e_iron_isles }
+							FROM = { k_iron_isles = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+					}
+				}
+			}	
+			if = {
+				limit = { tier = KING }
+				custom_tooltip = {
+					text = TOOLTIPconvert_kingdom_tierKING
+					hidden_tooltip = {
+						if = {
+							limit = { title = k_north }
+							FROM = { e_north = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = k_riverlands }
+							FROM = { e_riverlands = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = k_vale }
+							FROM = { e_vale = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = k_westerlands }
+							FROM = { e_westerlands = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = k_stormlands }
+							FROM = { e_stormlands = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = k_dorne }
+							FROM = { e_dorne = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = k_reach }
+							FROM = { e_reach = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+						if = {
+							limit = { title = k_iron_isles }
+							FROM = { e_iron_isles = { gain_title = PREV copy_title_laws = ROOT } }
+							destroy_landed_title = yes
+							break = yes
+						}
+					}
+				}
+			}	
+			FROM = { 
+				clr_character_flag = changing_westerosi_kingdom_tier
+				any_demesne_title = { clr_title_flag = indep_war }			
+			}		
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	set_manual_tour_destination = {
+		filter = all
+		ai_target_filter = primary_title
+		ai = no
+		
+		from_potential = {
+			ai = no
+			has_character_flag = manual_tour
+			NOT = { has_character_flag = all_destinations_picked }
+		}
+		potential = {
+			tier = COUNT
+			NOT = { owner = { character = FROM } } 
+			holder_scope = { NOT = { culture_group = unoccupied_group } }
+			# OR = {
+				# AND = {
+					# FROM = { capital_scope = { region = world_westeros } }
+					# location = { NOT = { region = world_westeros } }
+				# }
+				# AND = {
+					# FROM = { capital_scope = { region = world_free_cities } }
+					# location = { NOT = { region = world_free_cities } }
+				# }
+				# AND = {
+					# FROM = { capital_scope = { region = world_ghiscar } }
+					# location = { NOT = { region = world_ghiscar } }
+				# }
+				# AND = {
+					# FROM = { capital_scope = { region = world_jade_sea } }
+					# location = { NOT = { region = world_jade_sea } }
+				# }
+				# AND = {
+					# FROM = { capital_scope = { region = world_summer_sea } }
+					# location = { NOT = { region = world_summer_sea } }
+				# }
+			# }
+		}
+		allow = {
+			location = {
+				NOT = { has_province_flag = manual_tour_destination }
+			}
+		}
+		effect = {
+			location = {
+				set_province_flag = manual_tour_destination
+				if = {
+					limit = { event_target:manual_destination_1 = { always = no } }
+					save_global_event_target_as = manual_destination_1
+					break = yes
+				}
+				if = {
+					limit = { event_target:manual_destination_1 = { always = yes } }
+					save_global_event_target_as = manual_destination_2
+					break = yes
+				}
+				if = {
+					limit = { event_target:manual_destination_2 = { always = yes } }
+					save_global_event_target_as = manual_destination_3
+					if = {
+						limit = { FROM = { has_character_flag = short_tour } }
+						FROM = { set_character_flag = all_destinations_picked }
+					}
+					break = yes
+				}
+				if = {
+					limit = { event_target:manual_destination_3 = { always = yes } }
+					save_global_event_target_as = manual_destination_4
+					break = yes
+				}
+				if = {
+					limit = { event_target:manual_destination_4 = { always = yes } }
+					save_global_event_target_as = manual_destination_5
+					break = yes
+				}
+				if = {
+					limit = { event_target:manual_destination_5 = { always = yes } }
+					save_global_event_target_as = manual_destination_6
+					if = {
+						limit = { FROM = { has_character_flag = medium_tour } }
+						FROM = { set_character_flag = all_destinations_picked }
+					}
+					break = yes
+				}
+				if = {
+					limit = { event_target:manual_destination_6 = { always = yes } }
+					save_global_event_target_as = manual_destination_7
+					break = yes
+				}
+				if = {
+					limit = { event_target:manual_destination_7 = { always = yes } }
+					save_global_event_target_as = manual_destination_8
+					break = yes
+				}
+				if = {
+					limit = { event_target:manual_destination_8 = { always = yes } }
+					save_global_event_target_as = manual_destination_9
+					if = {
+						limit = { FROM = { has_character_flag = long_tour } }
+						FROM = { set_character_flag = all_destinations_picked }
+					}
+					break = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	set_heir_title = {
+		filter = owned
+		ai_target_filter = owned
+		is_high_prio = yes
+		ai_check_interval = 12
+		only_playable = yes
+		
+		from_potential = {
+			is_playable = yes
+			higher_tier_than = DUKE
+			is_feudal_monarch_trigger = yes
+			NOT = { government = wildling_feudal_government }		
+			demesne_size = 1
+			NOT = { culture_group = winter_group }	
+			NOT = { culture_group = unoccupied_group }			
+		}
+		
+		potential = {
+			owner = { character = FROM }
+			tier = COUNT
+			NOT = {
+				ROOT_FROM = { 
+					primary_title = { 
+						persistent_event_target:heir_title = { title = PREVPREVPREV }
+					} 
+				}	
+			}
+		}
+
+		allow = {
+			FROM = {
+				war = no
+				prisoner = no
+				is_adult = yes
+				is_incapable = no
+				primary_title = {
+					OR = {
+						has_law = succ_primogeniture
+						has_law = dornish_succession
+						has_law = succ_gavelkind
+						has_law = succ_seniority
+					}
+				}
+				current_heir = {
+					dynasty = ROOT_FROM
+					is_liege_or_above = ROOT_FROM
+					NOT = { is_inaccessible_trigger = yes }					
+					conditional_tooltip = {
+						trigger = { ROOT_FROM = { primary_title = { NOT = { has_law = succ_seniority } } } }
+						is_descendant_of = ROOT_FROM
+					}
+					conditional_tooltip = {
+						trigger = { 
+							ROOT_FROM = { 
+								primary_title = { 
+									OR = {
+										has_law = agnatic_succession
+										has_law = cognatic_succession
+									}
+								} 
+							} 
+						}
+						is_female = no
+					}
+					conditional_tooltip = {
+						trigger = { 
+							ROOT_FROM = { 
+								primary_title = { 
+									OR = {
+										has_law = enatic_succession
+										has_law = enatic_cognatic_succession
+									}
+								} 
+							} 
+						}
+						is_female = yes
+					}
+					custom_tooltip = { #Does not already hold heir title
+						text = TOOLTIPset_heir_titleA
+						NAND = {
+							is_ruler = yes
+							any_demesne_title = {
+								tier = COUNT
+								ROOT_FROM = { 
+									primary_title = { 
+										persistent_event_target:heir_title = { title = PREVPREVPREV }
+									} 
+								}
+							}	
+						}
+					}
+				}
+			}
+			custom_tooltip = { #Not in capital duchy
+				text = TOOLTIPset_heir_titleB
+				NOT = {
+					dejure_liege_title = {
+						tier = DUKE
+						FROM = { capital_scope = { duchy = { title = PREVPREVPREV } } }
+					}	
+				}
+			}
+			custom_tooltip = { #Not in capital
+				text = TOOLTIPset_heir_titleC
+				NOT = {
+					location = { is_capital = yes }	
+				}
+			}
+			custom_tooltip = { #No military comands
+				text = TOOLTIPset_heir_titleD
+				NOT = { has_title_flag = military_command }		
+			}
+			custom_tooltip = { #No colonies
+				text = TOOLTIPset_heir_titleE
+				NOT = { location = { has_province_flag = colony_province } }
+			}
+			custom_tooltip = { #Not in non-capital kingdom if third party holder
+				text = TOOLTIPset_heir_titleF
+				location = {
+					kingdom = {
+						OR = {
+							has_holder = no
+							holder_scope = { character = FROM }
+						}
+					}
+				}	
+			}
+			can_be_given_away = yes
+			controls_religion = no
+		}
+
+		effect = {
+			FROM = { 
+				show_scope_change = no
+				current_heir = {
+					show_scope_change = no
+					grant_title = PREVPREV
+				}
+			}
+			dejure_liege_title = {
+				show_scope_change = no
+				if = {
+					limit = {
+						tier = DUKE
+						holder_scope = { character = FROM }
+					}
+					FROM = { 
+						show_scope_change = no
+						current_heir = {
+							show_scope_change = no
+							grant_title = PREVPREV
+						}
+					}
+				}
+			}
+			#if old title was better, heir is unhappy
+			if = {
+				limit = {
+					FROM = {
+						primary_title = {
+							persistent_event_target:heir_title = { 
+								NAND = {
+									holder_scope = { character = ROOT_FROM }
+									location = { is_capital = yes }
+								}
+							}
+						}
+					}
+					OR = {
+						AND = {
+							location = { capital_holding = { is_richer_holding = no } }
+							FROM = {
+								primary_title = {
+									persistent_event_target:heir_title = { location = { capital_holding = { is_richer_holding = yes } } }
+								}
+							}
+						}
+						AND = {
+							location = { capital_holding = { is_rich_holding = no } }
+							FROM = {
+								primary_title = {
+									persistent_event_target:heir_title = { location = { capital_holding = { is_rich_holding = yes } } }
+								}
+							}
+						}
+						AND = {
+							location = { capital_holding = { base_value_6_trigger = no } }
+							FROM = {
+								primary_title = {
+									persistent_event_target:heir_title = { location = { capital_holding = { base_value_6_trigger = yes } } }
+								}
+							}
+						}
+					}
+				}
+				FROM = { 
+					show_scope_change = no
+					current_heir = {
+						show_scope_change = no
+						opinion = { who = PREV modifier = opinion_unhappy_with_heir_title months = 120 }
+						remove_opinion = { who = PREV modifier = opinion_granted_county }
+						remove_opinion = { who = PREV modifier = opinion_granted_duchy }
+					}
+				}
+			}
+			if = { #cancel old title
+				limit = {
+					FROM = {
+						primary_title = {
+							persistent_event_target:heir_title = { always = yes }
+						}
+					}
+				}
+				custom_tooltip = {
+					text = TOOLTIPset_heir_titleZ
+				}
+			}
+			custom_tooltip = {
+				text = TOOLTIPset_heir_titleY
+				FROM = {
+					primary_title = {
+						save_persistent_event_target = { name = heir_title scope = PREVPREV }
+					}
+					any_realm_lord = {
+						limit = {
+							ai = no
+							NOT = { character = PREV }
+						}
+						character_event = { id = 37349 }
+					}
+				}
+			}	
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.2
+			}
+			modifier = {
+				factor = 0
+				FROM = { current_heir = { NOT = { reverse_opinion = { who = PREV value = -30 } } } }
+			}
+			modifier = {
+				factor = 4
+				FROM = { 
+					any_owned_bloodline = {
+						has_bloodline_flag = dynastic_bloodline
+						has_bloodline_flag = dynastic_claim_@PREVPREV
+					}
+				}
+			}
+			modifier = {
+				factor = 0.33
+				NOT = {
+					dejure_liege_title = {
+						tier = DUKE
+						holder_scope = { character = FROM }
+					}
+				}	
+			}
+			modifier = {
+				factor = 1.5
+				location = { capital_holding = { base_value_6_trigger = yes } }
+			}
+			modifier = {
+				factor = 1.5
+				location = { capital_holding = { is_richer_holding = yes } }
+			}
+			modifier = {
+				factor = 1.5
+				location = { capital_holding = { is_rich_holding = yes } }
+			}
+			
+			modifier = { #Do not change for poorer province
+				factor = 0
+				location = { capital_holding = { is_richer_holding = no } }
+				FROM = {
+					primary_title = {
+						persistent_event_target:heir_title = { location = { capital_holding = { is_richer_holding = yes } } }
+					}
+				}
+			}	
+			modifier = {
+				factor = 0
+				location = { capital_holding = { is_rich_holding = no } }
+				FROM = {
+					primary_title = {
+						persistent_event_target:heir_title = { location = { capital_holding = { is_rich_holding = yes } } }
+					}
+				}
+			}		
+			modifier = {
+				factor = 0
+				location = { capital_holding = { base_value_6_trigger = no } }
+				FROM = {
+					primary_title = {
+						persistent_event_target:heir_title = { location = { capital_holding = { base_value_6_trigger = yes } } }
+					}
+				}
+			}			
+		}
+	}
+	
+	# make_valyrian_colony = { #Now an event
+		# filter = owned
+		# ai_target_filter = owned
+		# is_high_prio = yes
+		# ai_check_interval = 12
+		# only_independent = yes
+		
+		# from_potential = {
+			# independent = yes
+			# is_valyrian_freehold_trigger = yes		
+		# }
+		
+		# potential = {
+			# owner = { character = FROM }
+			# NOT = { tier = EMPEROR }
+			# NOT = { tier = BARON }
+			# NOT = { has_law = valyria_colony }
+		# }
+
+		# allow = {
+			# FROM = {
+				# war = no
+			# }
+			# custom_tooltip = { #Not in capital region
+				# text = TOOLTIPmake_valyrian_colonyA
+				# NOR = {
+					# location = { is_capital = yes }
+					# FROM = {
+						# capital_scope = {
+							# kingdom = {
+								# OR = {
+									# title = ROOT
+									# any_de_jure_vassal_title = { title = ROOT }
+								# }
+							# }
+						# }
+					# }
+				# }
+			# }
+			# custom_tooltip = { #Does not own higher dejure title
+				# text = TOOLTIPmake_valyrian_colonyB
+				# NOR = {
+					# dejure_liege_title = {
+						# NOT = { tier = EMPEROR }
+						# holder = FROM
+					# }
+					# dejure_liege_title = {
+						# dejure_liege_title = {
+							# NOT = { tier = EMPEROR }
+							# holder = FROM
+						# }
+					# }	
+				# }
+			# }
+			# custom_tooltip = { #No military comands
+				# text = TOOLTIPset_heir_titleD
+				# NOT = { has_title_flag = military_command }		
+			# }
+			# custom_tooltip = { #No colonies
+				# text = TOOLTIPset_heir_titleE
+				# NOT = { location = { has_province_flag = colony_province } }
+			# }
+			# is_landless_type_title = no
+			# controls_religion = no
+		# }
+
+		# effect = {
+			# set_title_flag = valyria_colony	
+			# add_law = valyria_colony
+		# }
+
+		# ai_will_do = {
+			# factor = 1
+			
+			# modifier = {
+				# factor = 0.25
+			# }			
+		# }
+	# }
+	
+	build_valyrian_road = { 
+		filter = sub_realm_owned
+		ai_target_filter = sub_realm_owned
+		is_high_prio = yes
+		ai_check_interval = 36
+		only_playable = yes
+		
+		from_potential = {
+			culture = high_valyrian
+			NOT = { has_global_flag = valyrian_roads_complete }
+			higher_tier_than = COUNT
+		}
+		
+		potential = {
+			tier = COUNT
+			location = {
+				NOT = { has_province_modifier = valyrianroad }
+				is_valyrian_road_location_trigger = yes
+			}
+		}
+
+		allow = {
+			FROM = {
+				trait = dragon_rider
+				learning = 10
+				stewardship = 10
+				wealth = 150
+			}
+			location = {
+				NOT = { has_province_modifier = valyrianroad }
+				NOT = { has_province_flag = building_valyrian_road }
+			}	
+		}
+
+		effect = {
+			location = { set_province_flag = building_valyrian_road }
+			FROM = { 
+				show_scope_change = no
+				wealth = -150 
+			}
+			location = {
+				show_scope_change = no
+				province_event = { id = valyria.230 days = 1095 tooltip = TOOLTIPbuild_valyrian_road }
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.25
+			}	
+			modifier = {
+				factor = 0
+				FROM = { war = yes }
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					has_character_modifier = loan_timer	
+					OR = {
+						stewardship = 9
+						trait = temperate
+						NOT = { 
+							OR = {
+								trait = gluttonous 
+								trait = hedonist
+							}	
+						}	
+					}	
+				}	
+			}			
+		}
+	}
+}

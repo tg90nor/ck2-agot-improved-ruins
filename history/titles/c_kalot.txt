@@ -1,0 +1,24 @@
+# c_kalot
+3300.1.1 = {
+	holder = 31406320 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+7886.1.1 = {
+	holder = 0
+	liege = "k_new_ghis"
+}
+
+7995.1.1 = { holder=100069150 } # Morghaz (nc)
+8032.1.1 = { holder=100169150 } # Yarkhaz (nc)
+8043.1.1 = { holder=100469150 } # Maezon (nc)
+8051.1.1 = { holder=100769150 } # Reznak (nc)
+8106.1.1 = { holder=101069150 } # Prendahl (nc)
+8124.1.1 = { holder=101269150 } # Hizdhar (nc)
+8136.1.1 = { holder=101369150 } # Zaraq (nc)
+8175.1.1 = { holder=102069150 } # Prendahl (nc)
+8219.1.1 = { holder=102169150 } # Faezdhar (nc)
+8222.1.1 = { holder=102469150 } # Reznak (nc)
+8274.1.1 = { holder=102769150 } # Paezhar (nc)
+8284.1.1 = { holder=102969150 } # Fendahl (nc)

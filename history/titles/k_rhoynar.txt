@@ -1,0 +1,6 @@
+# k_rhoynar
+7240.2.1 = {
+	law = succ_feudal_elective
+	law = true_cognatic_succession
+	law = slavery_0
+}

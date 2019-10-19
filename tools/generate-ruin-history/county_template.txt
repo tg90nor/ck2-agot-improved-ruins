@@ -1,0 +1,8 @@
+# $TITLENAME
+$STARTDATE = {
+	holder = $CHARID # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+$END

@@ -1,0 +1,24 @@
+# c_valysar
+1.1.1 = {
+	holder = 31404220 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+4000.1.1 = {
+	holder = 0
+	liege = "d_valysar"
+}
+7975.1.1 = { holder=100305613 } # Colloquo (nc)
+8007.1.1 = { holder=101305613 } # Moqorro (nc)
+8043.1.1 = { holder=104305613 } # Qarro (nc)
+8065.1.1 = { holder=106305613 } # Vogarro (nc)
+8081.1.1 = { holder=111305613 } # Alios (nc)
+8099.1.1 = { holder=112305613 } # Belicho (nc)
+8110.1.1 = { holder=113305613 } # Meralyn (nc)
+8145.1.1 = { holder=117305613 } # Belicho (nc)
+8147.1.1 = { holder=119305613 } # Bolquello (nc)
+8179.1.1 = { holder=121305613 } # Rolloquo (nc)
+8215.1.1 = { holder=124305613 } # Meralyn (nc)
+8239.1.1 = { holder=127305613 } # Methyso (nc)
+8266.1.1 = { holder=132305613 } # Orbelo (nc)

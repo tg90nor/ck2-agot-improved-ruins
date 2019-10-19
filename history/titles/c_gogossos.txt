@@ -1,0 +1,7 @@
+# c_gogossos
+7950.1.1 = {
+	holder = 31407470 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

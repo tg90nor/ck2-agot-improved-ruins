@@ -1,0 +1,61 @@
+# b_braavos
+1.1.1 = {
+	holder = 31404701 # ruin
+}
+7579.1.1 = {
+	holder = 0
+	effect = {
+		set_title_flag = titan_location
+	}
+}
+7679.1.1 = {
+	holder = 150300004 #Uthero Zalyne
+}
+7708.1.1 = {
+	holder = 0
+}
+7995.1.1={
+	holder=1100541
+}
+8006.1.1={
+	holder=1100547
+}
+8026.1.1={
+	holder=1000547
+}
+8045.1.1={
+	holder=800515
+}
+8063.1.1={
+	holder=700515
+}
+8103.1.1={
+	holder=700511
+}
+8114.1.1={
+	holder=600512
+}
+8132.1.1={
+	holder=500515
+}
+8156.1.1={
+	holder=1300511 # Ferro Antaryon
+}
+8161.1.1={
+	holder=400515 # Donalo Prestayn
+}
+8194.1.1={
+	holder=300515
+}
+8210.1.1={
+	holder=200512
+}
+8239.1.1={
+	holder=200511
+}
+8255.1.1={
+	holder=100511
+}
+8281.1.1={
+	holder=600000041 # Ferrego
+}

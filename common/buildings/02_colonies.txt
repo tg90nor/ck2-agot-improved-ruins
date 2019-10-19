@@ -1,0 +1,188 @@
+castle = {
+	ca_sub_barony_ruin = { #used for individual barony
+		potential = {
+			FROM = { culture = ruin }
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -100	
+		levy_size = -1
+		garrison_size = -0.45
+		fort_level = 9000
+	}
+	
+	ca_colony_1 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_1
+				FROMFROM = { has_title_flag = ca_colony_1 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		tax_income = -6
+		ai_creation_factor = 0
+	}
+	ca_colony_2 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_2
+				FROMFROM = { has_title_flag = ca_colony_2 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -12
+	}
+	ca_colony_3 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_3
+				FROMFROM = { has_title_flag = ca_colony_3 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -24
+	}
+	ca_colony_4 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_4
+				FROMFROM = { has_title_flag = ca_colony_4 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -48
+	}
+	ca_colony_5 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_5
+				FROMFROM = { has_title_flag = ca_colony_5 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -70
+	}
+	ca_colony_6 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_6
+				FROMFROM = { has_title_flag = ca_colony_6 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -100
+	}
+}
+city = {
+	ct_sub_barony_ruin = { #used for individual barony
+		potential = {
+			FROM = { culture = ruin }
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -100
+		levy_size = -1
+		garrison_size = -0.45
+		fort_level = 9000
+	}
+
+	ct_colony_1 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_1
+				FROMFROM = { has_title_flag = ct_colony_1 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		tax_income = -6
+		ai_creation_factor = 0
+	}
+	ct_colony_2 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_2
+				FROMFROM = { has_title_flag = ct_colony_2 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -12
+	}
+	ct_colony_3 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_3
+				FROMFROM = { has_title_flag = ct_colony_3 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -24
+	}
+	ct_colony_4 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_4
+				FROMFROM = { has_title_flag = ct_colony_4 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -48
+	}
+	ct_colony_5 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_5
+				FROMFROM = { has_title_flag = ct_colony_5 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -70
+	}
+	ct_colony_6 = {
+		potential = {
+			OR = {
+				has_province_flag = ca_colony_6
+				FROMFROM = { has_title_flag = ct_colony_6 }
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 0
+		build_time = 730
+		ai_creation_factor = 0
+		tax_income = -100
+	}
+}

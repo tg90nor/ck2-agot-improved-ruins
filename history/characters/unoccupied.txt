@@ -1,0 +1,5236 @@
+# c_toqolarth
+31406530 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_toqolarth
+31406531 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_toqolarth_temple
+31406532 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ny_sar
+31404140 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ny_sar
+31404141 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ny_sartemple
+31404142 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_summerhall
+31403060 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_summerhall
+31403061 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_summerhall
+31403062 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_oldstones
+3140810 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_pitford
+3140811 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_oldghis
+31406190 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_oldghis
+31406191 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_oldghistemple
+31406192 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_vyarash
+31407390 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_vyarash_castle
+31407391 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_vyarash_temple
+31407392 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_yeen
+31407400 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_yeen_castle
+31407401 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_yeen_temple
+31407402 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_gomorosh
+31407380 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_gomorosh_castle
+31407381 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_gomorosh_temple
+31407382 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_wyvernpoint
+31407350 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_wyvernpoint_castle
+31407351 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_wyvernpoint_temple
+31407352 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_stygai
+31407960 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_stygai_city
+31407961 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_stygai
+31407962 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_northpoint
+31408330 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_northpoint_city
+31408331 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_northpoint_temple
+31408332 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_east_nghai
+31408290 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_east_nghai_city
+31408291 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_east_nghai_temple
+31408292 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_west_nghai
+31408310 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_west_nghai_city
+31408311 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_west_nghai_temple
+31408312 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_great_sand_road
+31408440 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ulos
+31408000 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ulos_city
+31408001 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ulos_temple
+31408002 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_saffron_isle
+31407990 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_saffron_isle_city
+31407991 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_saffron_isle_temple
+31407992 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_manticore_isles
+31407890 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_manticore_isles_city
+31407891 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_manticore_isles_temple
+31407892 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_marahai
+31407880 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_marahai_city
+31407881 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_marahai_temple
+31407882 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_isle_of_whips
+31407870 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_isle_of_whips_city
+31407871 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_isle_of_whips_temple
+31407872 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_skane
+314011990 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_thousand_islands
+31408340 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_basiliskpoint
+31407460 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_basiliskpoint_castle
+31407461 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_basiliskpoint_temple
+31407462 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_gorosh
+31407360 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_gorosh_castle
+31407361 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_gorosh_temple
+31407362 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_zamettar
+31407410 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_zamettar_castle
+31407411 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_zamettar_temple
+31407412 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_hidden_city
+31407660 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_hidden_city_city
+31407661 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_hidden_city_temple
+31407662 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_dalos
+31405980 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_dalos
+31405981 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_dalostemple
+31405982 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_telyria
+31407610 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_telyriacastle
+31407611 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_telyriatemple
+31407612 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_anogaria
+31400 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_anogaria
+31401 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_anogariatemple
+31402 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_bhorash
+31406040 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_bhorash
+31406041 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_bhorashtemple
+31406042 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ghozai
+31406210 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghozai
+31406211 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghozai_temple
+31406212 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_velos
+31406220 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_velos_castle
+31406221 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_velos_temple
+31406222 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_elos
+31406230 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_elos
+31406231 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_elos_temple
+31406232 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_gogossos
+31407470 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_gogossos
+31407471 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_gogossos_temple
+31407472 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_nechos
+31406500 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_nechos
+31406501 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_nechos_temple
+31406502 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_qolahn
+31406560 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_qolahn
+31406561 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_qolahn_temple
+31406562 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_old_waste_road
+31406520 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_qal
+31406670 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_west_qal
+31406671 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_east_qal
+31406672 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ghoyan_drohe
+31404500 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghoyan_drohe
+31404501 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghoyan_drohe_temple
+31404502 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ar_noy
+31404290 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ar_noy
+31404291 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ar_noytemple
+31404292 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_northfields
+31404110 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_northfields
+31404111 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_northfieldstemple
+31404112 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_chroyane
+31404130 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_chroyane
+31404131 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_chroyanetemple
+31404132 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_nor_salis
+31404270 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_nor_salis
+31404271 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_nor_salistemple
+31404272 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_rhoyne_vale
+31404260 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_rhoyne_vale
+31404261 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_rhoyne_valetemple
+31404262 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ar_selrys
+31404820 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ar_selrystown
+31404821 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ar_selrystemple
+31404822 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_sar_mell
+31404210 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_sar_mell
+31404211 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_sar_melltemple
+31404212 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_tyvis
+314047620 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_tyvis
+314047621 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_tyvistemple
+314047622 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_tyrosh
+31403670 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_tyrosh
+31403671 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_templeoftrios
+31403672 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_lys
+31403680 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_lys
+31403681 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_redtemplelys
+31403682 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_oldvolantis
+31404190 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_oldvolantis
+31404191 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_volantis
+31404170 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_volantisgates
+31404171 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_templelordoflight
+31404180 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_templelordoflight
+31404181 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_volontherys
+31404200 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_volontherys_castle
+31404201 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_volontherys_temple
+31404202 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_valysar
+31404220 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_valysar_castle
+31404221 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_valysar_temple
+31404222 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_volantenecoast
+31404830 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_volantenecoast_castle
+31404831 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_volantenecoast_temple
+31404832 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_dragonstone
+31402210 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_derlyn
+31402211 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_dragonstone_sept
+31402212 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_driftmark
+31402200 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_spicetown
+31402201 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_driftmark_sept
+31402202 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_claw_isle
+31402190 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_celtina
+31402191 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_claw_isle_sept
+31402192 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_braavos
+31404700 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_braavos
+31404701 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_newghis
+31406250 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_newghis
+31406251 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_newghis_temple
+31406252 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ghaen
+31406240 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghaen
+31406241 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghaentemple
+31406242 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ghiscarihills
+31406180 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghiscarihills
+31406181 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghiscarihillstemple
+31406182 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_bakedshore
+31406170 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_bakedshore
+31406171 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_bakedshoretemple
+31406172 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_ghiscarishore
+31406200 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghiscarishore
+31406201 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_ghiscarishoretemple
+31406202 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_sumbyar
+31406360 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_sumbyar
+31406361 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_sumbyartemple
+31406362 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_jagor
+31406310 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_jagor
+31406311 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_jagortemple
+31406312 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_kalot
+31406320 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_kalot
+31406321 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_kalottemple
+31406322 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_bonecoast
+31406350 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_bonecoast
+31406351 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_bonecoasttemple
+31406352 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_puki
+31406330 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_puki
+31406331 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_pukitemple
+31406332 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_lorath
+31404710 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_lorath
+31404711 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_shivering_port
+31404712 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_lorassyon
+314011330 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_lorassyon_city
+314011331 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_lorassyon_temple
+314011332 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_willowsreach
+31404600 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_willowsreach2
+31404601 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_willowsreach3
+31404602 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_shalorath
+31404450 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_shalorath
+31404451 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_shalorathtemple
+31404452 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_lorathishore
+31404460 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_lorathi_shore
+31404461 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_lorathi_shoretemple
+31404462 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_elbateros
+31404470 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_elbateros
+31404471 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_elbaterostemple
+31404472 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_whitecliffs
+31404480 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_whitecliffs
+31404481 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# b_whitecliffstemple
+31404482 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+}
+# c_goldenbridge
+31404120 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_goldenbridge
+31404121 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_goldenbridgetemple
+31404122 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# c_lhorulu
+31404100 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_lhorulucastle
+31404101 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_lhorulutemple
+31404102 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# c_sar_lhorulys
+31404050 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_sar_lhorulys
+31404051 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_sar_lhorulystemple
+31404052 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# c_sar_rhoy
+31404300 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_sar_rhoy
+31404301 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_sar_rhoytemple
+31404302 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7300.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# c_makhrosh
+31406410 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7900.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_makhrosh
+31406411 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7900.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}
+# b_makhrosh_temple
+31406412 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7900.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}

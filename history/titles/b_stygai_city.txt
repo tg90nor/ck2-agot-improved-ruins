@@ -1,0 +1,4 @@
+# b_stygai_city
+2000.1.1 = {
+	holder = 31407961 # ruin
+}

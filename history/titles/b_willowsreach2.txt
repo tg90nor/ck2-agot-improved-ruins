@@ -1,0 +1,7 @@
+# b_willowsreach2
+6479.1.1 = {
+	holder = 31404601 # ruin
+}
+6564.1.1 = {
+	holder = 0
+}

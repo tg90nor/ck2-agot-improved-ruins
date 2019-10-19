@@ -1,0 +1,16 @@
+# c_ny_sar
+1.1.1 = {
+	liege = d_ny_sar
+	law = succ_primogeniture
+	law = true_cognatic_succession
+}
+7295.4.4 = { # About 700 years before the events of the books Nymeria was Queen.
+	holder = 2000001 # Nymeria
+}
+7298.1.1 = {
+	holder = 31404140 # ruin
+	liege = 0
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

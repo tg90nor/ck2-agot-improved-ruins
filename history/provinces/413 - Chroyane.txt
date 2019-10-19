@@ -1,0 +1,32 @@
+# 413 Chroyane / The Sorrows
+
+# County Title
+title = c_chroyane
+
+# Settlements
+max_settlements = 7
+
+b_palace_of_love = castle
+b_chroyane = city
+b_chroyanetemple = temple
+
+# Misc
+culture = rhoynar
+religion = rhoynar_pagan
+
+# History
+1.1.1 = {
+	b_chroyane = ct_asoiaf_dorne_basevalue_1
+	b_chroyane = ct_asoiaf_dorne_basevalue_2
+	b_chroyane = ct_asoiaf_dorne_basevalue_3
+	b_chroyane = ct_asoiaf_dorne_basevalue_4
+	b_chroyane = ct_asoiaf_dorne_basevalue_5
+	b_chroyane = ct_asoiaf_dorne_basevalue_6
+
+	b_palace_of_love = ca_asoiaf_dorne_basevalue_1
+	b_palace_of_love = ca_asoiaf_dorne_basevalue_2
+	b_palace_of_love = ca_asoiaf_dorne_basevalue_3
+	b_palace_of_love = ca_asoiaf_dorne_basevalue_4
+	b_palace_of_love = ca_asoiaf_dorne_basevalue_5
+	b_palace_of_love = ca_asoiaf_dorne_basevalue_6
+}

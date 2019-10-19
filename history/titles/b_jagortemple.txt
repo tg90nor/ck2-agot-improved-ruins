@@ -1,0 +1,5 @@
+# b_jagortemple
+3300.1.1 = {
+	holder = 31406312 # ruin
+}
+7886.1.1 = { holder = 0 }

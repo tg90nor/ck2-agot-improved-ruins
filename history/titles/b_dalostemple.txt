@@ -1,0 +1,4 @@
+# b_dalostemple
+7886.1.1 = {
+	holder = 31405982 # ruin
+}

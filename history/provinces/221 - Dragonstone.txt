@@ -1,0 +1,48 @@
+# 221 - Dragonstone
+
+# County Title
+title = c_dragonstone
+
+# Settlements
+max_settlements = 5
+b_stone_drum = castle
+b_derlyn = city
+b_dragonstone_sept = temple
+
+#b_sea_dragon_tower = castle
+
+# Misc
+culture = crackclawmen
+religion = old_gods
+
+# History
+
+1.1.1 = {
+	b_stone_drum = ca_asoiaf_crown_basevalue_1
+	b_stone_drum = ca_dragonmont
+
+	b_derlyn = ct_asoiaf_crown_basevalue_1
+}
+5000.1.1 = { religion = the_seven }
+
+7674.1.1 = { # Dragonstone is built as a Valyrian outpost in ~326BC
+	culture = western_valyrian
+	religion = valyrian_rel
+
+	b_stone_drum = ca_asoiaf_crown_basevalue_2
+	b_stone_drum = ca_asoiaf_crown_basevalue_3
+	b_stone_drum = ca_asoiaf_crown_basevalue_4
+	b_stone_drum = ca_painted_table
+	b_stone_drum = ca_dragonstone
+
+	b_windwyrm = castle
+	b_windwyrm = ca_asoiaf_crown_basevalue_1
+}
+
+8000.1.1 = {
+	religion = the_seven
+}
+
+8298.1.1 = { #stannis converts
+	religion = rhllor
+}

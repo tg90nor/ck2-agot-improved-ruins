@@ -1,0 +1,7 @@
+# b_lorassyon_city
+6479.1.1 = {
+	holder = 314011331 # ruin
+}
+6564.1.1 = {
+	holder = 0
+}

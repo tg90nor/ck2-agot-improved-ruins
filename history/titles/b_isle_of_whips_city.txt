@@ -1,0 +1,4 @@
+# b_isle_of_whips_city
+2000.1.1 = {
+	holder = 31407871 # ruin
+}

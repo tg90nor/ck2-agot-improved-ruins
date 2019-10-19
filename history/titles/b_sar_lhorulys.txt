@@ -1,0 +1,5 @@
+# b_sar_lhorulys
+7300.1.1 = {
+	holder = 31404051 # ruin
+}
+

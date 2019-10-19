@@ -1,0 +1,4 @@
+# b_sar_melltemple
+7101.1.1 = {
+	holder = 31404212 # ruin
+}

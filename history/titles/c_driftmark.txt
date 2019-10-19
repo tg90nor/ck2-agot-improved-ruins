@@ -1,0 +1,59 @@
+# c_driftmark
+1.1.1 = {
+	holder = 31402200 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+
+### Velaryons migrate to Driftmark sometime prior to Targaryens arriving on Dragonstone
+7800.1.1 = {
+	holder = 0
+	law = succ_primogeniture
+}
+7874.1.1 = {
+	liege = "d_dragonstone"
+}
+7968.1.1={
+    holder = 601052 # Aegor Velaryon (nc)
+}
+7990.1.1={
+	holder = 38052 #Daemon Velaryon (C)
+}
+7998.5.9={
+	holder = 34052
+}
+8035.1.1={
+	holder = 33052
+}
+8086.1.1={
+	holder = 26052 # Corlys Velaryon (C)
+}
+8112.1.1={ #Fix for Rhaenyra succession
+	#law = succ_feudal_elective
+	law = succ_seniority
+}
+8129.2.12 = {
+	law = succ_primogeniture
+}
+8132.3.6 = {
+	holder = 24052 # Alyn Velaryon (C)
+}
+8176.1.1={
+    holder = 23052
+}
+8197.1.1={
+	holder = 22052
+}
+8235.1.1={
+	holder = 21052
+}
+8258.1.1={
+	holder = 20052
+}
+8285.1.1={
+	holder = 52 	#Monford Velaryon (C)
+}
+8299.7.1 = {
+	holder = 4052   #Monterys Velaryon (C)
+}

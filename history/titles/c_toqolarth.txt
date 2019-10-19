@@ -1,0 +1,26 @@
+# c_toqolarth
+7900.1.1 = {
+	holder = 31406530 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+8298.10.10 = {
+	holder = 77041 # Daenerys
+	law = succ_primogeniture
+	law = cognatic_succession
+	law = slavery_0
+	effect = {
+		if = { # Set province title to "Vaes Tolorro" if ruler is Daenerys
+			limit = {
+				owner = { character = 77041 }
+			}
+			location = {
+				set_name = "Vaes Tolorro"
+			}
+		}
+	}
+}
+8300.1.1 = {
+	holder = 31406530 # ruin
+}

@@ -1,0 +1,5 @@
+# b_goldenbridgetemple
+7300.1.1 = {
+	holder = 31404122 # ruin
+}
+

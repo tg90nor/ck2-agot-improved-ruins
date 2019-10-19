@@ -1,0 +1,4 @@
+# b_anogaria
+7886.1.1 = {
+	holder = 31401 # ruin
+}

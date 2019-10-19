@@ -1,0 +1,13 @@
+# d_ny_sar
+1.1.1 = {
+	liege = k_ny_sar
+	law = succ_primogeniture
+	law = true_cognatic_succession
+}
+7295.4.4 = { # About 700 years before the events of the books Nymeria was Queen.
+	holder = 2000001 # Nymeria
+}
+7298.1.1 = {
+	holder = 0
+	liege = 0
+}

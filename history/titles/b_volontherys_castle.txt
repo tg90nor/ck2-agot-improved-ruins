@@ -1,0 +1,17 @@
+# b_volontherys_castle
+1.1.1 = {
+	holder = 31404201 # ruin
+}
+4000.1.1 = { holder = 0 }
+7975.1.1 = { holder=108174600 } # Colloquo (nc)
+8023.1.1 = { holder=110174600 } # Belicho (nc)
+8050.1.1 = { holder=115174600 } # Colloquo (nc)
+8053.1.1 = { holder=117174600 } # Malaquo (nc)
+8057.1.1 = { holder=119174600 } # Nyessos (nc)
+8092.1.1 = { holder=120174600 } # Nyessos (nc)
+8115.1.1 = { holder=125174600 } # Aelix (nc)
+8137.1.1 = { holder=128174600 } # Jaekar (nc)
+8187.1.1 = { holder=136174600 } # Methyso (nc)
+8228.1.1 = { holder=142174600 } # Haerys (nc)
+8230.1.1 = { holder=145174600 } # Jaekar (nc)
+8279.1.1 = { holder=100174398 }

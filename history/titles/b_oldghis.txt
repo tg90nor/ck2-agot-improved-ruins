@@ -1,0 +1,4 @@
+# b_oldghis
+3300.1.1 = {
+	holder = 31406191 # ruin
+}

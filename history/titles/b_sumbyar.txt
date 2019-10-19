@@ -1,0 +1,5 @@
+# b_sumbyar
+3300.1.1 = {
+	holder = 31406361 # ruin
+}
+7886.1.1 = { holder = 0 }

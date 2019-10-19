@@ -1,0 +1,4 @@
+# b_ghozai_temple
+7886.1.1 = {
+	holder = 31406212 # ruin
+}

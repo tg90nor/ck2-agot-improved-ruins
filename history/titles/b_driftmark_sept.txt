@@ -1,0 +1,5 @@
+# b_driftmark_sept
+1.1.1 = {
+	holder = 31402202 # ruin
+}
+7800.1.1 = { holder = 0 }

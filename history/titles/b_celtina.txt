@@ -1,0 +1,5 @@
+# b_celtina
+1.1.1 = {
+	holder = 31402191 # ruin
+}
+7800.1.1 = { holder = 0 }

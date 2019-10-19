@@ -1,0 +1,5 @@
+# b_valysar_castle
+1.1.1 = {
+	holder = 31404221 # ruin
+}
+4000.1.1 = { holder = 0 }

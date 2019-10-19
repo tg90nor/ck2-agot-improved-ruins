@@ -1,0 +1,23 @@
+# c_qal
+600.1.1={
+	liege="d_qal"
+}
+7886.1.1 = {
+	holder = 31406670 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+7955.1.1 = { holder=10035002 } # Pyat (nc)
+8004.1.1 = { holder=10435002 } # Nyessos (nc)
+8044.1.1 = { holder=10635002 } # Doniphos (nc)
+8070.1.1 = { holder=10835002 } # Mathos (nc)
+8082.1.1 = { holder=11235002 } # Semython (nc)
+8121.1.1 = { holder=11535002 } # Navathos (nc)
+8147.1.1 = { holder=11635002 } # Egon (nc)
+8180.1.1 = { holder=11735002 } # Doniphos (nc)
+8185.1.1 = { holder=11835002 } # Meralyn (nc)
+8210.1.1 = { holder=12135002 } # Wendello (nc)
+8219.1.1 = { holder=12435002 } # Sallor (nc)
+8250.1.1 = { holder=13035002 } # Vogarro (nc)
+8270.1.1 = { holder=13135002 } # Mathos (nc)

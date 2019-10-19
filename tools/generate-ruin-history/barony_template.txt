@@ -1,0 +1,5 @@
+# $TITLENAME
+$STARTDATE = {
+	holder = $CHARID # ruin
+}
+$END

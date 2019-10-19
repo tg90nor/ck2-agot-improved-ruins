@@ -1,0 +1,4 @@
+# b_rhoyne_vale
+7300.1.1 = {
+	holder = 31404261 # ruin
+}

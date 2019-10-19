@@ -1,0 +1,7 @@
+# c_skane
+2000.1.1 = {
+	holder = 314011990 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

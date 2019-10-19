@@ -1,0 +1,27 @@
+# c_lorathishore
+1.1.1 = {
+	liege = "k_lorath"
+}
+6479.1.1 = {
+	holder = 31404460 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+6564.1.1 = {
+	holder = 0
+}
+7985.1.1 = { holder=100300549 } # Ollo (nc)
+8036.1.1 = { holder=101300549 } # Ezzelyno (nc)
+8069.1.1 = { holder=106300549 } # Ezzelyno (nc)
+8076.1.1 = { holder=110300549 } # Myrmello (nc)
+8097.1.1 = { holder=112300549 } # Mellario (nc)
+8108.1.1 = { holder=116300549 } # Qarro (nc)
+8129.1.1 = { holder=118300549 } # Mero (nc)
+8166.1.1 = { holder=121300549 } # Oro (nc)
+8169.1.1 = { holder=124300549 } # Lotho (nc)
+8202.1.1 = { holder=128300549 } # Tagganaro (nc)
+8211.1.1 = { holder=133300549 } # Noho (nc)
+8234.1.1 = { holder=135300549 } # Moreo (nc)
+8256.1.1 = { holder=136300549 } # Orbelo (nc)
+8299.1.1 = { holder=143300549 } # Groleo (nc)

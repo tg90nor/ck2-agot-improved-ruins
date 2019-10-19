@@ -1,0 +1,4 @@
+# b_nechos_temple
+7950.1.1 = {
+	holder = 31406502 # ruin
+}

@@ -1,0 +1,7 @@
+# c_east_nghai
+2000.1.1 = {
+	holder = 31408290 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

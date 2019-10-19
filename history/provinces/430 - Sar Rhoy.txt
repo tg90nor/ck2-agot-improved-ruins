@@ -1,0 +1,21 @@
+# 430 - Sar Rhoy
+
+# County Title
+title = c_sar_rhoy
+
+# Settlements
+max_settlements = 3
+
+b_sar_rhoy_castle = castle
+b_sar_rhoy = city
+b_sar_rhoytemple = temple
+
+# Misc
+culture = rhoynar
+religion = rhoynar_pagan
+
+# History
+1.1.1 = {
+	b_sar_rhoy_castle = ca_asoiaf_dorne_basevalue_1
+	b_sar_rhoy = ct_asoiaf_dorne_basevalue_1
+}

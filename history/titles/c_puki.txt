@@ -1,0 +1,23 @@
+# c_puki
+3300.1.1 = {
+	holder = 31406330 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+7886.1.1 = {
+	holder = 0
+	liege = "k_new_ghis"
+}
+
+7995.1.1 = { holder=100069155 } # Azzak (nc)
+8035.1.1 = { holder=100369155 } # Maezon (nc)
+8051.1.1 = { holder=100569155 } # Reznak (nc)
+8071.1.1 = { holder=100969155 } # Grazdan (nc)
+8119.1.1 = { holder=101469155 } # Grazdan (nc)
+8123.1.1 = { holder=101769155 } # Yezzan (nc)
+8147.1.1 = { holder=101969155 } # Fendahl (nc)
+8209.1.1 = { holder=102169155 } # Gorzhak (nc)
+8238.1.1 = { holder=102369155 } # Haznak (nc)
+8269.1.1 = { holder=102969155 } # Reznak (nc)
+8281.1.1 = { holder=103269155 } # Skahaz (nc)

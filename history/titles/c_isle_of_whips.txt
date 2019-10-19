@@ -1,0 +1,7 @@
+# c_isle_of_whips
+2000.1.1 = {
+	holder = 31407870 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

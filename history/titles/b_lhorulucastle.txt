@@ -1,0 +1,4 @@
+# b_lhorulucastle
+7300.1.1 = {
+	holder = 31404101 # ruin
+}

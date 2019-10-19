@@ -1,0 +1,5 @@
+# b_volantenecoast_temple
+1.1.1 = {
+	holder = 31404832 # ruin
+}
+4000.1.1 = { holder = 0 }

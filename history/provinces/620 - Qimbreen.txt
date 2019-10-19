@@ -1,0 +1,28 @@
+# 620 - Ghiscari Shore / Qimbreen
+
+# County Title
+title = c_ghiscarishore
+
+# Settlements
+max_settlements = 3
+
+b_ghiscarishorecastle = castle
+b_ghiscarishore = city
+b_ghiscarishoretemple = temple
+
+# Misc
+culture = ghiscari
+religion = harpy
+
+# History
+1.1.1 = {
+	trade_post = b_mazlaq
+
+	b_ghiscarishore = ct_asoiaf_ghiscari_basevalue_1
+	b_ghiscarishore = ct_asoiaf_ghiscari_basevalue_2
+	b_ghiscarishore = ct_asoiaf_ghiscari_basevalue_3
+	
+	b_ghiscarishorecastle = ca_asoiaf_ghiscari_basevalue_1
+
+
+}

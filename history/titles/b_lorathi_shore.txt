@@ -1,0 +1,7 @@
+# b_lorathi_shore
+6479.1.1 = {
+	holder = 31404461 # ruin
+}
+6564.1.1 = {
+	holder = 0
+}

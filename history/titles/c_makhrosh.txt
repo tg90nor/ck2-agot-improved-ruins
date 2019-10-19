@@ -1,0 +1,8 @@
+# c_makhrosh
+7900.1.1 = {
+	holder = 31406410 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+

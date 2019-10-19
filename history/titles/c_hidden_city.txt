@@ -1,0 +1,22 @@
+# c_hidden_city
+6380.1.1 = {
+	holder=10065961 #Lo Tho, twenty-second of the scarlet emperors
+}
+6429.1.1 = { holder=0 }
+
+6506.1.1 = {
+	holder=10365961 #Lo Doq, thirty-fourth scarlet emperor
+}
+6520.1.1 = { holder=0 }
+6670.1.1 = {
+	holder=10065963 #Lo Han, forty-second scarlet emperor
+}
+6698.1.1 = {
+	holder=10165963 #Lo HBu, forty-third and last scarlet emperor
+}
+6700.1.1 = {
+	holder = 31407660 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

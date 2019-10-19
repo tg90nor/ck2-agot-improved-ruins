@@ -1,0 +1,148 @@
+# c_dragonstone
+1.1.1 = {
+	holder = 31402210 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+
+### Dragonstone is built as a Valyrian outpost in ~326BC
+7674.1.1 = {
+	holder = 0
+}
+
+### Targaryens migrate to Dragonstone twelve years prior to the Doom of Valyria, in 126BC
+7874.1.1={
+	holder = 77001		#Aenar
+	liege = d_dragonstone
+	effect = {
+		holder_scope = { set_global_flag = age_of_dragons }
+	}
+}
+7890.1.1={
+	holder = 77052		#Gaemon 'the Glorious'
+}
+7910.1.1={
+	holder = 77053		#Aegon (ruled w/ Sister/Wife Elena)
+}
+7925.1.1={
+	holder = 77055		#Maegon
+}
+7930.1.1={
+	holder = 77056		#Aerys
+}
+7945.1.1={
+	holder = 77058		#Aelix
+}
+7956.1.1={
+	holder = 77059		#Baelon
+}
+7963.1.1={
+	holder = 77060		#Daemon
+}
+7971.1.1={
+	holder = 77064		#Aerion
+}
+7996.1.1={
+	holder = 77000		#Aegon I 'the Conqueror'
+}
+8022.1.1={
+	holder = 77004		#Aenys I
+}
+8037.9.9 = {
+	holder=77005 # Maegor
+}
+8041.6.1 = {
+	holder = 60650496		#Aegon Jr.
+}
+8043.1.2={
+	holder = 77006		#Jaehaerys I 'the Conciliator'
+}
+8051.1.1={
+	holder=60540496 #Rhaena, given by Jaehaerys
+}
+8056.5.1={
+	holder = 60520496	#Aemon (Never inherits throne) eldest son of Jaehaerys
+}
+8092.6.8={
+	holder = 77008		#Baelon (Never inherits throne) Second son of Jaehaerys,
+}
+8101.9.1={
+	holder = 77009		#Viserys I
+}
+8105.6.1={
+	holder = 77012		#Rhaenyra (Named heir of Viserys I, loses the dance)
+}
+8130.10.22={
+    holder = 77013      #Aegon II (took control of Dragonstone after Rhaenyra's execution, kept Aegon III hostage.)
+}
+8131.1.8={
+	holder = 77015		#Aegon III the Unlucky
+}
+8143.1.1={
+	holder = 77016		#Daeron I the Young Dragon (no heir apparent)
+}
+8153.1.1={
+	effect = {
+		holder_scope = { clr_global_flag = age_of_dragons }
+	}
+}
+8161.1.1={
+	holder = 77017		#Baelor I the Blessed (no heir apparent)
+}
+8171.1.1={
+	holder = 77020		#Aegon IV the Unworthy
+}
+8172.1.1={
+	holder = 77023		#Daeron II the Good
+}
+8184.1.1={
+	holder = 77029		#Baelor Breakspear (Never inherits throne)
+}
+8209.2.1={
+	holder = 77129		#Valarr (Never inherits throne)
+}
+8209.6.1={
+	holder = 77128		#Rhaegel (Never inherits throne)
+}
+8215.1.1={
+	holder = 77131		#Aelor (Never inherits throne)
+}
+8217.1.1={
+	holder = 77031		#Maekar I
+}
+8221.1.1={
+	holder = 77032		# Daeron the Drunkard (Never inherits throne)
+}
+8229.1.1={
+	holder = 77033		# Aerion Brightflame (Never inherits throne)
+}
+8232.1.1={
+	holder = 77031		# Maekar I (succession is was unclear after Aerion's death)
+}
+8233.1.1={
+	holder = 77035		#Duncan the Small (Gives up his crown)
+}
+8238.1.1={
+	holder = 77036		#Jaehaerys II
+}
+8259.6.1={
+	holder = 77037		#Aerys II the Mad
+}
+8262.1.1={
+	holder = 77039 	#Rhaegar Targaryen
+}
+8283.3.1 = {
+	holder = 77037	#Aerys II the Mad
+}
+8283.6.1 = {
+	holder = 4317	#Stannis Baratheon
+}
+8298.1.1={
+#	liege=0
+}
+8298.10.10 = {
+	effect = {
+		holder_scope = { set_global_flag = age_of_dragons }
+	}
+}

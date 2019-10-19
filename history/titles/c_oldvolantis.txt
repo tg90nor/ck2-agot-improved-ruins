@@ -1,0 +1,40 @@
+# c_oldvolantis
+1.1.1 = {
+	holder = 31404190 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+4000.1.1 = {
+	liege = "d_volantis"
+	holder = 0
+}
+7435.1.1 = { holder=100367823 } # Vhalaso the Munificent
+7468.1.1 = { holder=0 }
+
+7900.1.1 = { holder=100467823 } # Belicho
+7913.1.1 = { holder=100174603 } #Marqelo Tagaros
+7934.1.1 = { holder=0 }
+
+7960.1.1 = { holder=100174396 } # Qoherys (nc)
+7996.12.16 = { holder=100174373 } # Trianna (C) 
+8001.1.1 = { holder=100174372 } 
+8010.1.1 = { holder=101174373 } # Haerys (nc)
+8014.1.1 = { holder=100174372 } 
+8025.1.1 = { holder=102174372 } 
+8049.1.1 = { holder=105174372 } 
+8076.1.1 = { holder=111174371 } # Belicho (nc)
+8086.1.1 = { holder=115174371 } # Benerro (nc)
+8109.1.1 = { holder=111174373 } # Colloquo (nc)
+8114.1.1 = { holder=115174373 } # Vaeron (nc)
+8138.1.1 = { holder=113174396 } # Methyso (nc)
+8148.1.1 = { holder=115174396 } # Gorys (nc)
+8167.1.1 = { holder=119174397 } # Methyso (nc)
+8170.1.1 = { holder=125174397 } # Parquello (nc)
+8203.1.1 = { holder=127174396 } # Matarys (nc)
+8250.1.1 = { holder=131174396 } # Benerro (nc)
+8256.1.1 = { holder=133174397 } # Qavo (nc)
+8260.1.1 = { holder=139174397 } # Vogarro (C)
+8266.1.1 = { holder=141174397 } # Qavo (nc)
+8272.1.1 = { holder=137174372 } 
+8276.1.1 = { holder=147174371 } # Malaquo

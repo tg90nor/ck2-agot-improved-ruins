@@ -1,0 +1,25 @@
+# 762 - Sarhoy / Tyvis
+
+# County Title
+title = c_tyvis
+
+# Settlements
+max_settlements = 6
+
+b_tyviscastle = castle
+b_tyvis = city
+b_tyvistemple = temple
+
+# Misc
+culture = rhoynar
+religion = rhoynar_pagan
+
+# History
+1.1.1 = {
+	b_tyvis = ct_asoiaf_essos_basevalue_1
+	b_tyvis = ct_asoiaf_essos_basevalue_2
+	b_tyvis = ct_asoiaf_essos_basevalue_3
+
+	b_tyviscastle = ca_asoiaf_essos_basevalue_1
+	b_tyviscastle = ca_asoiaf_essos_basevalue_2
+}

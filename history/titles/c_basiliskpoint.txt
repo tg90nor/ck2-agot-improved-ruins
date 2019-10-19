@@ -1,0 +1,7 @@
+# c_basiliskpoint
+3300.1.1 = {
+	holder = 31407460 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}

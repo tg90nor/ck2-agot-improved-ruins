@@ -1,0 +1,4 @@
+# b_ghoyan_drohe_temple
+7300.1.1 = {
+	holder = 31404502 # ruin
+}

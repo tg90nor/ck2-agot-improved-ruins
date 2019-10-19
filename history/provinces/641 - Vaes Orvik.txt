@@ -1,0 +1,25 @@
+# 641 - Vaes Orvik / Makhrosh
+
+# County Title
+title = c_makhrosh
+
+# Settlements
+max_settlements = 3
+
+b_makhrosh_city = city
+b_makhrosh = castle
+b_makhrosh_temple = temple
+
+# Misc
+culture = qartheen
+religion = qarth_warlocks
+
+# History
+1.1.1 = {
+	b_makhrosh = ca_asoiaf_qarth_basevalue_1
+	b_makhrosh = ca_asoiaf_qarth_basevalue_2
+
+	b_makhrosh_city = ct_asoiaf_qarth_basevalue_1
+	b_makhrosh_city = ct_asoiaf_qarth_basevalue_2
+	b_makhrosh_city = ct_asoiaf_qarth_basevalue_3
+}

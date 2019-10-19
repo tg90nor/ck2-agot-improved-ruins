@@ -1,0 +1,7 @@
+# b_templeoftrios
+1.1.1 = {
+	holder = 31403672 # ruin
+}
+4000.1.1 = {
+	holder = 0
+}

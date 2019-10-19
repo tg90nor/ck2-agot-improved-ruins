@@ -1,0 +1,11 @@
+# c_sumbyar
+3300.1.1 = {
+	holder = 31406360 # ruin
+	effect = {
+		location = { province_event = { id = unoccupied.27 } }
+	}
+}
+7886.1.1 = {
+	holder = 0
+	liege = "d_new_ghis"
+}

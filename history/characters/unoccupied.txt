@@ -3217,6 +3217,9 @@
 			character_event = { id = unoccupied.30 }
 		}
 	}
+	4000.1.1 = {
+		death = yes
+	}
 }
 # b_templelordoflight
 31404181 = {

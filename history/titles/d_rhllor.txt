@@ -1,14 +1,7 @@
-# c_templelordoflight
-1.1.1 = {
-	holder = 31404180 # ruin
-	effect = {
-		location = { province_event = { id = unoccupied.27 } }
-	}
+600.1.1={
+	liege="k_volantis"
 }
-4000.1.1 = {
-	liege = "d_rhllor"
-	holder = 0
-}
+
 7995.1.1 = { holder=88000700 } # Methyso (nc)
 8037.1.1 = { holder=88000701 } # Lotho (nc)
 8049.1.1 = { holder=88000702 } # Nyessos (nc)
@@ -19,6 +12,6 @@
 8201.1.1 = { holder=88000707 } # Colloquo (nc)
 8242.1.1 = { holder=88000708 } # Methyso (nc)
 8261.1.1 = { holder=88000709 } # Vysarro (nc)
-8287.1.1 = {
+8287.1.1={
 	holder=600000056 # Benerro
 }

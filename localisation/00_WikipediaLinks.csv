@@ -1,7 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 WIKIPEDIA_LINK;§YWiki of Ice and Fire Link§W;§YLien Wikipédia§W;§YWikipedia Link§W;;§YEnlace a Wikipedia§W;;;;;;;;;x
 WIKIPEDIA_LINK_DESC;Opens a browser to the 'A Wiki of Ice and Fire' page for this character;Ouvre un navigateur vers la page Wikipedia du personnage;Öffnet den Browser und zeigt die Wikipediaseite für diesen Charakter an;;Abre un enlace en el explorador a la página de Wikipedia de este personaje;;;;;;;;;x
-WIKIPEDIA_LINK_MISSING;§YThis character has no Wiki link§W;§YCe personnage n'a pas de page wikipédia§!;§YDieser Charakter besitzt keinen Wikipedia-Link§!;;§YEste personaje no tiene enlace en Wikipedia§W;;;;;;;;;x
+WIKIPEDIA_LINK_MISSING;§YThis character has no Wiki link§W;§YCe personnage n'a pas de page wikipédia?;§YDieser Charakter besitzt keinen Wikipedia-Link?;;§YEste personaje no tiene enlace en Wikipedia§W;;;;;;;;;x
 WIKIPEDIA_LINK_DISABLED;Wiki Links are disabled;Les liens wikipedia sont désactivés;Wikipedia-Links sind deaktiviert;;Los enlaces a la Wikipedia están desactivados;;;;;;;;;x
 ##LINK FOR VALYRIAN STEEL IMAGES##;;;;;;;;;;;;;;x
 W_L_450998;https://www.dropbox.com/s/r1o1docw9xqdw3j/reforgable%20valyrian%20steel%20DO%20NOT%20REMOVE.png?dl=0;;;;;;;;;;;;;x
@@ -470,7 +470,7 @@ W_L_88118;http://awoiaf.westeros.org/index.php/Gallard;http://www.lagardedenuit.
 W_L_;http://awoiaf.westeros.org/index.php/Gared;http://www.lagardedenuit.com/wiki/index.php?title=Gared;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Garibald;;;;;;;;;;;;;x
 W_L_88119;http://awoiaf.westeros.org/index.php/Garizon;http://www.lagardedenuit.com/wiki/index.php?title=Garizon;;;;;;;;;;;;x
-W_L_;http://awoiaf.westeros.org/index.php/Garth_of_Greenaway;http://www.lagardedenuit.com/wiki/index.php?title=Garth_de_Verpassé;;;;;;;;;;;;x
+W_L_;http://awoiaf.westeros.org/index.php/Garth_of_Greenaway;http://www.lagardedenuit.com/wiki/index.php?title=Garth_de_Verpass?;;;;;;;;;;;x
 W_L_118174811;http://awoiaf.westeros.org/index.php/Glendon_Goode;http://www.lagardedenuit.com/wiki/index.php?title=Glendon_Goode;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Gramyon;http://www.lagardedenuit.com/wiki/index.php?title=Gramyon;;;;;;;;;;;;x
 W_L_101174811;http://awoiaf.westeros.org/index.php/Gregor_Goode;http://www.lagardedenuit.com/wiki/index.php?title=Gregor_Lebon;;;;;;;;;;;;x
@@ -488,7 +488,7 @@ W_L_;http://awoiaf.westeros.org/index.php/Heriston;http://www.lagardedenuit.com/
 W_L_1000777;http://awoiaf.westeros.org/index.php/High_Septon_(War_of_Conquest);http://www.lagardedenuit.com/wiki/index.php?title=Grand_Septon#Avant_la_Conqu.C3.AAte;;;;;;;;;;;;x
 W_L_1004777;http://awoiaf.westeros.org/index.php/High_Septon_(stonemason);http://www.lagardedenuit.com/wiki/index.php?title=Pat_(Grand_Septon);;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Hubert;http://www.lagardedenuit.com/wiki/index.php?title=Hubert;;;;;;;;;;;;x
-W_L_1684243;http://awoiaf.westeros.org/index.php/Hugh_Hungerford;http://www.lagardedenuit.com/wiki/index.php?title=Hugues_Sylvegué;;;;;;;;;;;;x
+W_L_1684243;http://awoiaf.westeros.org/index.php/Hugh_Hungerford;http://www.lagardedenuit.com/wiki/index.php?title=Hugues_Sylvegu?;;;;;;;;;;;x
 W_L_1684244;http://awoiaf.westeros.org/index.php/Jack;http://www.lagardedenuit.com/wiki/index.php?title=Jack_le_Rouquin;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Jellicoe;http://www.lagardedenuit.com/wiki/index.php?title=Jellicoe;;;;;;;;;;;;x
 W_L_88107;http://awoiaf.westeros.org/index.php/Jon_Cupps;http://www.lagardedenuit.com/wiki/index.php?title=Jon_Cupps;;;;;;;;;;;;x
@@ -522,7 +522,7 @@ W_L_204081092;http://awoiaf.westeros.org/index.php/Robert_Strong;http://www.laga
 W_L_;http://awoiaf.westeros.org/index.php/Robin_Potter;http://www.lagardedenuit.com/wiki/index.php?title=Robin_Le_Pottier;;;;;;;;;;;;x
 W_L_88129;http://awoiaf.westeros.org/index.php/Ryam;http://www.lagardedenuit.com/wiki/index.php?title=Ryam;;;;;;;;;;;;x
 W_L_164307;http://awoiaf.westeros.org/index.php/Smiling_Knight;http://www.lagardedenuit.com/wiki/index.php?title=Chevalier_Badin;;;;;;;;;;;;x
-W_L_600000065;http://awoiaf.westeros.org/index.php/Spotted_Tom;http://www.lagardedenuit.com/wiki/index.php?title=Tom_le_Tisonné;;;;;;;;;;;;x
+W_L_600000065;http://awoiaf.westeros.org/index.php/Spotted_Tom;http://www.lagardedenuit.com/wiki/index.php?title=Tom_le_Tisonn?;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Stiv;http://www.lagardedenuit.com/wiki/index.php?title=Stiv;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Symeon_Star-Eyes;http://www.lagardedenuit.com/wiki/index.php?title=Symeon_Prunelles_étoilées;;;;;;;;;;;;x
 W_L_88130;http://awoiaf.westeros.org/index.php/Theobald;http://www.lagardedenuit.com/wiki/index.php?title=Theobald;;;;;;;;;;;;x
@@ -685,10 +685,10 @@ W_L_2064;http://awoiaf.westeros.org/index.php/Tristifer_Botley;http://www.lagard
 W_L_5064;http://awoiaf.westeros.org/index.php/Vickon_Botley;http://www.lagardedenuit.com/wiki/index.php?title=Vickon_Botley;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Cadwyl;http://www.lagardedenuit.com/wiki/index.php?title=Cadwyl;;;;;;;;;;;;x
 W_L_88141;http://awoiaf.westeros.org/index.php/Cerrick;http://www.lagardedenuit.com/wiki/index.php?title=Mestre_Cerrick;;;;;;;;;;;;x
-W_L_127174419;http://awoiaf.westeros.org/index.php/Dagon_Codd;http://www.lagardedenuit.com/wiki/index.php?title=Dagon_Morru;;;;;;;;;;;;x
-W_L_135174419;http://awoiaf.westeros.org/index.php/Eldred_Codd;http://www.lagardedenuit.com/wiki/index.php?title=Eldred_Morru;;;;;;;;;;;;x
-W_L_134174419;http://awoiaf.westeros.org/index.php/Lucas_Codd;http://www.lagardedenuit.com/wiki/index.php?title=Lucas_Morru;;;;;;;;;;;;x
-W_L_129174419;http://awoiaf.westeros.org/index.php/Tom_Codd;http://www.lagardedenuit.com/wiki/index.php?title=Tom_Morru;;;;;;;;;;;;x
+W_L_1271507;http://awoiaf.westeros.org/index.php/Dagon_Codd;http://www.lagardedenuit.com/wiki/index.php?title=Dagon_Morru;;;;;;;;;;;;x
+W_L_1351507;http://awoiaf.westeros.org/index.php/Eldred_Codd;http://www.lagardedenuit.com/wiki/index.php?title=Eldred_Morru;;;;;;;;;;;;x
+W_L_1341507;http://awoiaf.westeros.org/index.php/Lucas_Codd;http://www.lagardedenuit.com/wiki/index.php?title=Lucas_Morru;;;;;;;;;;;;x
+W_L_1291507;http://awoiaf.westeros.org/index.php/Tom_Codd;http://www.lagardedenuit.com/wiki/index.php?title=Tom_Morru;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Cromm;http://www.lagardedenuit.com/wiki/index.php?title=Cromm;;;;;;;;;;;;x
 W_L_201081092;http://awoiaf.westeros.org/index.php/Dagmer;http://www.lagardedenuit.com/wiki/index.php?title=Dagmer;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Drennan;http://www.lagardedenuit.com/wiki/index.php?title=Drennan;;;;;;;;;;;;x
@@ -722,13 +722,13 @@ W_L_1112;http://awoiaf.westeros.org/index.php/Gysella_Goodbrother;http://www.lag
 W_L_200112;http://awoiaf.westeros.org/index.php/Norne_Goodbrother;http://www.lagardedenuit.com/wiki/index.php?title=Norne_Bonfr%C3%A8re;;;;;;;;;;;;x
 W_L_550112;http://awoiaf.westeros.org/index.php/Urrathon_IV_Goodbrother;http://www.lagardedenuit.com/wiki/index.php?title=Urragon_IV_Bonfr%C3%A8re;;;;;;;;;;;;x
 W_L_750066;http://awoiaf.westeros.org/index.php/Grey_King;http://www.lagardedenuit.com/wiki/index.php?title=Roi_Gris;;;;;;;;;;;;x
-W_L_501174420;http://awoiaf.westeros.org/index.php/Erich_I_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Erich_I_Greyfer;;;;;;;;;;;;x
-W_L_523174420;http://awoiaf.westeros.org/index.php/Rognar_II_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Rognar_II_Greyfer;;;;;;;;;;;;x
-W_L_513174420;http://awoiaf.westeros.org/index.php/Torgon_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Torgon_Greyfer;;;;;;;;;;;;x
-W_L_512174420;http://awoiaf.westeros.org/index.php/Urragon_III_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Urrathon_III_Greyfer;;;;;;;;;;;;x
-W_L_517174420;http://awoiaf.westeros.org/index.php/Urragon_IV_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Urrathon_IV_Greyfer;;;;;;;;;;;;x
-W_L_500174420;http://awoiaf.westeros.org/index.php/Urras_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Urras_Greyfer;;;;;;;;;;;;x
-W_L_520174420;http://awoiaf.westeros.org/index.php/Urron_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Urron_Greyfer;;;;;;;;;;;;x
+W_L_5011508;http://awoiaf.westeros.org/index.php/Erich_I_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Erich_I_Greyfer;;;;;;;;;;;;x
+W_L_5231508;http://awoiaf.westeros.org/index.php/Rognar_II_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Rognar_II_Greyfer;;;;;;;;;;;;x
+W_L_5131508;http://awoiaf.westeros.org/index.php/Torgon_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Torgon_Greyfer;;;;;;;;;;;;x
+W_L_5121508;http://awoiaf.westeros.org/index.php/Urragon_III_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Urrathon_III_Greyfer;;;;;;;;;;;;x
+W_L_5171508;http://awoiaf.westeros.org/index.php/Urragon_IV_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Urrathon_IV_Greyfer;;;;;;;;;;;;x
+W_L_5001508;http://awoiaf.westeros.org/index.php/Urras_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Urras_Greyfer;;;;;;;;;;;;x
+W_L_5201508;http://awoiaf.westeros.org/index.php/Urron_Greyiron;http://www.lagardedenuit.com/wiki/index.php?title=Urron_Greyfer;;;;;;;;;;;;x
 W_L_4107;http://awoiaf.westeros.org/index.php/Aeron_Greyjoy;http://www.lagardedenuit.com/wiki/index.php?title=Aeron_Greyjoy;;;;;;;;;;;;x
 W_L_19107;http://awoiaf.westeros.org/index.php/Alton_Greyjoy;http://www.lagardedenuit.com/wiki/index.php?title=Alton_Greyjoy;;;;;;;;;;;;x
 W_L_7107;http://awoiaf.westeros.org/index.php/Asha_Greyjoy;http://www.lagardedenuit.com/wiki/index.php?title=Asha_Greyjoy;;;;;;;;;;;;x
@@ -801,14 +801,14 @@ W_L_11066;http://awoiaf.westeros.org/index.php/Qhorwyn_Hoare;http://www.lagarded
 W_L_356066;http://awoiaf.westeros.org/index.php/Ravos_Hoare;http://www.lagardedenuit.com/wiki/index.php?title=Ravos_Chenu_(le_Violeur);;;;;;;;;;;;x
 W_L_360066;http://awoiaf.westeros.org/index.php/Wulfgar_Hoare;http://www.lagardedenuit.com/wiki/index.php?title=Wulfgar_Chenu_(le_Faiseur_de_Veuves);;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Hrothgar;http://www.lagardedenuit.com/wiki/index.php?title=Hrothgar_de_Pyk;;;;;;;;;;;;x
-W_L_130174421;http://awoiaf.westeros.org/index.php/Adrack_Humble;http://www.lagardedenuit.com/wiki/index.php?title=Adrack_Humble;;;;;;;;;;;;x
-W_L_128174421;http://awoiaf.westeros.org/index.php/Burton_Humble;http://www.lagardedenuit.com/wiki/index.php?title=Burton_Humble;;;;;;;;;;;;x
-W_L_129174421;http://awoiaf.westeros.org/index.php/Quellon_Humble;http://www.lagardedenuit.com/wiki/index.php?title=Quellon_Humble;;;;;;;;;;;;x
-W_L_126174421;http://awoiaf.westeros.org/index.php/Will_Humble;http://www.lagardedenuit.com/wiki/index.php?title=Will_Humble;;;;;;;;;;;;x
-W_L_205085092;http://awoiaf.westeros.org/index.php/Dagon_Ironmaker;http://www.lagardedenuit.com/wiki/index.php?title=Dagon_Forgefer;;;;;;;;;;;;x
-W_L_205081092;http://awoiaf.westeros.org/index.php/Erik_Ironmaker;http://www.lagardedenuit.com/wiki/index.php?title=Erik_Forgefer;;;;;;;;;;;;x
-W_L_205084092;http://awoiaf.westeros.org/index.php/Thormor_Ironmaker;http://www.lagardedenuit.com/wiki/index.php?title=Thormor_Forgefer;;;;;;;;;;;;x
-W_L_205083092;http://awoiaf.westeros.org/index.php/Urek_Ironmaker;http://www.lagardedenuit.com/wiki/index.php?title=Urek_Forgefer;;;;;;;;;;;;x
+W_L_1301506;http://awoiaf.westeros.org/index.php/Adrack_Humble;http://www.lagardedenuit.com/wiki/index.php?title=Adrack_Humble;;;;;;;;;;;;x
+W_L_1281506;http://awoiaf.westeros.org/index.php/Burton_Humble;http://www.lagardedenuit.com/wiki/index.php?title=Burton_Humble;;;;;;;;;;;;x
+W_L_1291506;http://awoiaf.westeros.org/index.php/Quellon_Humble;http://www.lagardedenuit.com/wiki/index.php?title=Quellon_Humble;;;;;;;;;;;;x
+W_L_1261506;http://awoiaf.westeros.org/index.php/Will_Humble;http://www.lagardedenuit.com/wiki/index.php?title=Will_Humble;;;;;;;;;;;;x
+W_L_131500;http://awoiaf.westeros.org/index.php/Dagon_Ironmaker;http://www.lagardedenuit.com/wiki/index.php?title=Dagon_Forgefer;;;;;;;;;;;;x
+W_L_1500;http://awoiaf.westeros.org/index.php/Erik_Ironmaker;http://www.lagardedenuit.com/wiki/index.php?title=Erik_Forgefer;;;;;;;;;;;;x
+W_L_121500;http://awoiaf.westeros.org/index.php/Thormor_Ironmaker;http://www.lagardedenuit.com/wiki/index.php?title=Thormor_Forgefer;;;;;;;;;;;;x
+W_L_111500;http://awoiaf.westeros.org/index.php/Urek_Ironmaker;http://www.lagardedenuit.com/wiki/index.php?title=Urek_Forgefer;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Jorl_the_Whale;http://www.lagardedenuit.com/wiki/index.php?title=Jorl_la_Baleine;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Kenned;http://www.lagardedenuit.com/wiki/index.php?title=Kenned_la_Baleine;;;;;;;;;;;;x
 W_L_150195;http://awoiaf.westeros.org/index.php/Herrock_Kenning;http://www.lagardedenuit.com/wiki/index.php?title=Sarocq_Kenning;;;;;;;;;;;;x
@@ -849,11 +849,11 @@ W_L_;http://awoiaf.westeros.org/index.php/Rook;http://www.lagardedenuit.com/wiki
 W_L_;http://awoiaf.westeros.org/index.php/Rus;http://www.lagardedenuit.com/wiki/index.php?title=Russ;;;;;;;;;;;;x
 W_L_109;http://awoiaf.westeros.org/index.php/Donnor_Saltcliffe;http://www.lagardedenuit.com/wiki/index.php?title=Donnor_Salfalaise;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Sauron_Salt-Tongue;http://www.lagardedenuit.com/wiki/index.php?title=Sauron_Langue-de-Sel;;;;;;;;;;;;x
-W_L_;http://awoiaf.westeros.org/index.php/Alvyn_Sharp;http://www.lagardedenuit.com/wiki/index.php?title=Alvyn_Aigu;;;;;;;;;;;;x
-W_L_;http://awoiaf.westeros.org/index.php/Harmund_Sharp;http://www.lagardedenuit.com/wiki/index.php?title=Harmund_Aigu;;;;;;;;;;;;x
-W_L_;http://awoiaf.westeros.org/index.php/Harrag_Sharp;http://www.lagardedenuit.com/wiki/index.php?title=Harrag_Aigu;;;;;;;;;;;;x
-W_L_;http://awoiaf.westeros.org/index.php/Daegon_Shepherd;http://www.lagardedenuit.com/wiki/index.php?title=Daegon_Berger;;;;;;;;;;;;x
-W_L_;http://awoiaf.westeros.org/index.php/Qarl_Shepherd;http://www.lagardedenuit.com/wiki/index.php?title=Qarl_Berger;;;;;;;;;;;;x
+W_L_141504;http://awoiaf.westeros.org/index.php/Alvyn_Sharp;http://www.lagardedenuit.com/wiki/index.php?title=Alvyn_Aigu;;;;;;;;;;;;x
+W_L_1504;http://awoiaf.westeros.org/index.php/Harmund_Sharp;http://www.lagardedenuit.com/wiki/index.php?title=Harmund_Aigu;;;;;;;;;;;;x
+W_L_101504;http://awoiaf.westeros.org/index.php/Harrag_Sharp;http://www.lagardedenuit.com/wiki/index.php?title=Harrag_Aigu;;;;;;;;;;;;x
+W_L_10124;http://awoiaf.westeros.org/index.php/Daegon_Shepherd;http://www.lagardedenuit.com/wiki/index.php?title=Daegon_Berger;;;;;;;;;;;;x
+W_L_11124;http://awoiaf.westeros.org/index.php/Qarl_Shepherd;http://www.lagardedenuit.com/wiki/index.php?title=Qarl_Berger;;;;;;;;;;;;x
 W_L_250066;http://awoiaf.westeros.org/index.php/Shrike;http://www.lagardedenuit.com/wiki/index.php?title=Pie-Gri%C3%A8che;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Sigrin;http://www.lagardedenuit.com/wiki/index.php?title=Sigrinn;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Skyte;http://www.lagardedenuit.com/wiki/index.php?title=Skyt;;;;;;;;;;;;x
@@ -883,7 +883,7 @@ W_L_;http://awoiaf.westeros.org/index.php/Uller;http://www.lagardedenuit.com/wik
 W_L_;http://awoiaf.westeros.org/index.php/Urzen;http://www.lagardedenuit.com/wiki/index.php?title=Urzen;;;;;;;;;;;;x
 W_L_5119;http://awoiaf.westeros.org/index.php/Maron_Volmark;http://www.lagardedenuit.com/wiki/index.php?title=Maron_Volmark;;;;;;;;;;;;x
 W_L_3000119;http://awoiaf.westeros.org/index.php/Qhorin_Volmark;http://www.lagardedenuit.com/wiki/index.php?title=Qhorin_Volmark;;;;;;;;;;;;x
-W_L_;http://awoiaf.westeros.org/index.php/Romny_Weaver;http://www.lagardedenuit.com/wiki/index.php?title=Romny_Tisserand;;;;;;;;;;;;x
+W_L_1505;http://awoiaf.westeros.org/index.php/Romny_Weaver;http://www.lagardedenuit.com/wiki/index.php?title=Romny_Tisserand;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Werlag;http://www.lagardedenuit.com/wiki/index.php?title=Werlag;;;;;;;;;;;;x
 W_L_11064;http://awoiaf.westeros.org/index.php/Wex_Pyke;http://www.lagardedenuit.com/wiki/index.php?title=Wex_Pyke;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Wulfe;http://www.lagardedenuit.com/wiki/index.php?title=Wulfe-qu%27une-oreille;;;;;;;;;;;;x
@@ -2783,11 +2783,11 @@ W_L_;http://awoiaf.westeros.org/index.php/Drox;http://www.lagardedenuit.com/wiki
 W_L_550186;http://awoiaf.westeros.org/index.php/Gerold_Grafton_(king);http://www.lagardedenuit.com/wiki/index.php?title=Gerold_Grafton;;;;;;;;;;;;x
 W_L_900174999;http://awoiaf.westeros.org/index.php/Hugor_of_the_Hill;http://www.lagardedenuit.com/wiki/index.php?title=Hugor_de_la_Colline;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Hukko;;;;;;;;;;;;;x
-W_L_9001190;http://awoiaf.westeros.org/index.php/Lann_the_Clever;http://www.lagardedenuit.com/wiki/index.php?title=Lann_le_Futé;;;;;;;;;;;;x
+W_L_9001190;http://awoiaf.westeros.org/index.php/Lann_the_Clever;http://www.lagardedenuit.com/wiki/index.php?title=Lann_le_Fut?;;;;;;;;;;;x
 W_L_155001;http://awoiaf.westeros.org/index.php/Morgan_Martell;http://www.lagardedenuit.com/wiki/index.php?title=Morgan_Martell;;;;;;;;;;;;x
 W_L_;http://awoiaf.westeros.org/index.php/Argos_Sevenstar;http://www.lagardedenuit.com/wiki/index.php?title=Argos_Sept_Étoiles;;;;;;;;;;;;x
 ###Asshai###;;;;;;;;;;;;;;x
-W_L_2002994;http://awoiaf.westeros.org/index.php/Melisandre;http://www.lagardedenuit.com/wiki/index.php?title=Mélisandre_d'Asshaï;;;;;;;;;;;;x
+W_L_2002994;http://awoiaf.westeros.org/index.php/Melisandre;http://www.lagardedenuit.com/wiki/index.php?title=Mélisandre_d'Assha?;;;;;;;;;;;x
 W_L_14032901;http://awoiaf.westeros.org/index.php/Quaithe;http://www.lagardedenuit.com/wiki/index.php?title=Quaithe;;;;;;;;;;;;x
 ###Astapor###;;;;;;;;;;;;;;x
 W_L_600000060;http://awoiaf.westeros.org/index.php/Cleon;http://www.lagardedenuit.com/wiki/index.php?title=Cleon;;;;;;;;;;;;x

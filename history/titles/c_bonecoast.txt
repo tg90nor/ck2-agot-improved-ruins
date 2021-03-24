@@ -5,12 +5,16 @@
 		location = { province_event = { id = unoccupied.27 } }
 	}
 }
-7886.1.1 = {
-	holder = 0
+7849.1.1 = {
+	holder = 34469151 # Draqaz (nc)
 	liege = "k_new_ghis"
 }
+7883.1.1 = { holder=34369151 } # Grazdan (nc)
+7910.1.1 = { holder=34269151 } # Azzak (nc)
+7929.1.1 = { holder=34169151 } # Fendahl (nc)
+7953.1.1 = { holder=34069151 } # Zazhan (nc)
 
-7995.1.1 = { holder=100069151 } # Kraznys (nc)
+7987.1.1 = { holder=100069151 } # Kraznys (nc)
 8039.1.1 = { holder=100169151 } # Bharkaz (nc)
 8064.1.1 = { holder=100769151 } # Marghaz (nc)
 8076.1.1 = { holder=101169151 } # Kraznys (nc)

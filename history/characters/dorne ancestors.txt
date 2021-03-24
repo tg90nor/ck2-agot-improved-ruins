@@ -1,3 +1,4 @@
+##Fire and Blood Update and later maintenance by Paxter Redwyne and Alex "Kuczaja" Kwiatek##
 #####################
 ###Martell History###
 #####################
@@ -147,17 +148,6 @@
 
 	7301.1.1 = {birth="7301.1.1"}
 	7317.1.1 = {add_trait=skilled_warrior}
-	7319.1.1 = {add_matrilineal_spouse=4055001}
-	7358.1.1 = {death="7358.1.1"}
-}
-4055001 = {
-	name="Maron"
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7301.1.1 = {birth="7301.1.1"}
-	7327.1.1 = {add_trait=knight add_trait=trained_warrior}
 	7358.1.1 = {death="7358.1.1"}
 }
 6150001 = {
@@ -214,23 +204,10 @@
 	culture="salt_dornish"
 
 	mother=6055001
-	father=4055001
 
 	7325.1.1 = {birth="7325.1.1"}
 	7341.1.1 = {add_trait=knight add_trait=trained_warrior}
 	7390.1.1 = {death="7390.1.1"}
-}
-4056001 = {
-	name="Myriah"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7320.1.1 = {birth="7320.1.1"}
-	7341.1.1 = {add_trait=trained_warrior}
-	7343.1.1 = {add_spouse=6056001}
-	7398.1.1 = {death="7398.1.1"}
 }
 60570001 = {
 	name="Myriah"	# a lady
@@ -240,23 +217,11 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	mother=4056001
 	father=6056001
 
 	7359.1.1 = {birth="7359.1.1"}
 	7375.1.1 = {add_trait=trained_warrior}
-	7377.1.1 = {add_matrilineal_spouse=40570001}
 	7390.1.1 = { give_nickname = nick_the_red }
-	7418.1.1 = {death="7418.1.1"}
-}
-40570001 = {
-	name="Maron"
-	
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7359.1.1 = {birth="7359.1.1"}
-	7375.1.1 = {add_trait=knight add_trait=trained_warrior}
 	7418.1.1 = {death="7418.1.1"}
 }
 60840001 = {
@@ -268,24 +233,11 @@
 	culture="salt_dornish"
 
 	mother=60570001
-	father=40570001
 
 	7382.1.1 = {birth="7382.1.1"}
 	7398.1.1 = {add_trait=skilled_warrior}
-	7399.1.1 = {add_matrilineal_spouse=40840001}
 	7418.1.1 = { give_nickname = nick_the_red }
 	7445.1.1 = {death="7445.1.1"}
-}
-40840001 = {
-	name="Olyvar"
-	
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7380.1.1 = {birth="7380.1.1"}
-	7398.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7430.1.1 = {death="7430.1.1"}
 }
 6058001 = {
 	name="Garin"	# a lord
@@ -295,22 +247,10 @@
 	culture="salt_dornish"
 	
 	mother=60840001
-	father=40840001
 
 	7400.1.1 = {birth="7400.1.1"}
 	7416.1.1 = {add_trait=poor_warrior}
-	7418.1.1 = {add_spouse=4058001}
 	7445.1.1 = { give_nickname = nick_the_red }
-	7470.1.1 = {death="7470.1.1"}
-}
-4058001 = {
-	name="Ellaria"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7400.1.1 = {birth="7400.1.1"}
 	7470.1.1 = {death="7470.1.1"}
 }
 6059001 = {
@@ -322,20 +262,8 @@
 	culture="salt_dornish"
 
 	father=6058001
-	mother=4058001
 
 	7418.1.1 = {birth="7418.1.1"}
-	7496.1.1 = {death="7496.1.1"}
-}
-4059001 = {
-	name="Gascoyne"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7418.1.1 = {birth="7418.1.1"}
-	7434.1.1 = {add_trait=poor_warrior}
-	7436.1.1 = {add_matrilineal_spouse=6059001}
 	7496.1.1 = {death="7496.1.1"}
 }
 6060001 = {
@@ -345,22 +273,10 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	father=4059001
 	mother=6059001
 
 	7453.1.1 = {birth="7453.1.1"}
 	7469.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	7471.1.1 = {add_spouse=4060001}
-	7504.1.1 = {death="7504.1.1"}
-}
-4060001 = {
-	name="Obella"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7453.1.1 = {birth="7453.1.1"}
 	7504.1.1 = {death="7504.1.1"}
 }
 6061001 = {
@@ -372,20 +288,8 @@
 	culture="salt_dornish"
 
 	father=6060001
-	mother=4060001
 
 	7471.1.1 = {birth="7471.1.1"}
-	7532.1.1 = {death="7532.1.1"}
-}
-4061001 = {
-	name="Olyvar"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7471.1.1 = {birth="7471.1.1"}
-	7487.1.1 = {add_trait=poor_warrior}
-	7489.1.1 = {add_matrilineal_spouse=6061001}
 	7532.1.1 = {death="7532.1.1"}
 }
 6062001 = {
@@ -395,22 +299,10 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	father=4061001
 	mother=6061001
 
 	7491.1.1 = {birth="7491.1.1"}
 	7507.1.1 = {add_trait=knight add_trait=poor_warrior}
-	7509.1.1 = {add_spouse=4062001}
-	7567.1.1 = {death="7567.1.1"}
-}
-4062001 = {
-	name="Cassella"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7491.1.1 = {birth="7491.1.1"}
 	7567.1.1 = {death="7567.1.1"}
 }
 6064001 = {
@@ -421,21 +313,9 @@
 	culture="salt_dornish"
 
 	father=6062001
-	mother=4062001
 
 	7517.1.1 = {birth="7517.1.1"}
 	7533.1.1 = {add_trait=poor_warrior}
-	7535.1.1 = {add_spouse=4064001}
-	7596.1.1 = {death="7596.1.1"}
-}
-4064001 = {
-	name="Cyrenna"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7517.1.1 = {birth="7517.1.1"}
 	7596.1.1 = {death="7596.1.1"}
 }
 6065001 = {
@@ -447,20 +327,8 @@
 	culture="salt_dornish"
 
 	father=6064001
-	mother=4064001
 
 	7543.1.1 = {birth="7543.1.1"}
-	7598.1.1 = {death="7598.1.1"}
-}
-4065001 = {
-	name="Deziel"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7543.1.1 = {birth="7543.1.1"}
-	7559.1.1 = {add_trait=poor_warrior}
-	7561.1.1 = {add_matrilineal_spouse=6065001}
 	7598.1.1 = {death="7598.1.1"}
 }
 6066001 = {
@@ -471,21 +339,9 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	father=4065001
 	mother=6065001
 
 	7562.1.1 = {birth="7562.1.1"}
-	7635.1.1 = {death="7635.1.1"}
-}
-4066001 = {
-	name="Mors"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7562.1.1 = {birth="7562.1.1"}
-	7578.1.1 = {add_trait=poor_warrior}
-	7580.1.1 = {add_matrilineal_spouse=6066001}
 	7635.1.1 = {death="7635.1.1"}
 }
 6067001 = {
@@ -495,22 +351,10 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	father=4066001
 	mother=6066001
 
 	7597.1.1 = {birth="7597.1.1"}
 	7613.1.1 = {add_trait=knight add_trait=poor_warrior}
-	7615.1.1 = {add_spouse=4067001}
-	7634.1.1 = {death="7634.1.1"}
-}
-4067001 = {
-	name="Sylva"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7597.1.1 = {birth="7597.1.1"}
 	7634.1.1 = {death="7634.1.1"}
 }
 6069001 = {
@@ -521,21 +365,9 @@
 	culture="salt_dornish"
 
 	father=6067001
-	mother=4067001
 
 	7626.1.1 = {birth="7626.1.1"}
 	7642.1.1 = {add_trait=knight add_trait=poor_warrior}
-	7644.1.1 = {add_spouse=4069001}
-	7664.1.1 = {death="7664.1.1"}
-}
-4069001 = {
-	name="Obara"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7626.1.1 = {birth="7626.1.1"}
 	7664.1.1 = {death="7664.1.1"}
 }
 6070001 = {
@@ -546,22 +378,10 @@
 	culture="salt_dornish"
 
 	father=6069001
-	mother=4069001
 
 	7658.1.1 = {birth="7658.1.1"}
 	7674.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7676.1.1 = {add_spouse=4070001}
 	7712.1.1 = {death = {death_reason = death_battle}}
-}
-4070001 = {
-	name="Liane"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7658.1.1 = {birth="7658.1.1"}
-	7712.1.1 = {death="7712.1.1"}
 }
 6071001 = {
 	name="Manfrey"	# a lord
@@ -571,21 +391,9 @@
 	culture="salt_dornish"
 
 	father=6070001
-	mother=4070001
 
 	7690.1.1 = {birth="7690.1.1"}
 	7706.1.1 = {add_trait=poor_warrior}
-	7708.1.1 = {add_spouse=4071001}
-	7748.1.1 = {death="7748.1.1"}
-}
-4071001 = {
-	name="Jeyne"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7690.1.1 = {birth="7690.1.1"}
 	7748.1.1 = {death="7748.1.1"}
 }
 6073001 = {
@@ -596,21 +404,9 @@
 	culture="salt_dornish"
 
 	father=6071001
-	mother=4071001
 
 	7709.1.1 = {birth="7709.1.1"}
 	7725.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	7727.1.1 = {add_spouse=4073001}
-	7763.1.1 = {death="7763.1.1"}
-}
-4073001 = {
-	name="Alyse"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7709.1.1 = {birth="7709.1.1"}
 	7763.1.1 = {death="7763.1.1"}
 }
 6074001 = {
@@ -621,21 +417,9 @@
 	culture="salt_dornish"
 
 	father=6073001
-	mother=4073001
 
 	7727.1.1 = {birth="7727.1.1"}
 	7743.1.1 = {add_trait=knight add_trait=poor_warrior}
-	7745.1.1 = {add_spouse=4074001}
-	7779.1.1 = {death="7779.1.1"}
-}
-4074001 = {
-	name="Belandra"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7727.1.1 = {birth="7727.1.1"}
 	7779.1.1 = {death="7779.1.1"}
 }
 6075001 = {
@@ -647,20 +431,8 @@
 	culture="salt_dornish"
 
 	father=6074001
-	mother=4074001
 
 	7750.1.1 = {birth="7750.1.1"}
-	7790.1.1 = {death="7790.1.1"}
-}
-4075001 = {
-	name="Trebor"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7750.1.1 = {birth="7750.1.1"}
-	7766.1.1 = {add_trait=poor_warrior}
-	7768.1.1 = {add_matrilineal_spouse=6075001}
 	7790.1.1 = {death="7790.1.1"}
 }
 6076001 = {
@@ -670,23 +442,11 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	father=4075001
 	mother=6075001
 
 	7775.1.1 = {birth="7775.1.1"}
 	7791.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7793.1.1 = {add_spouse=4076001}
 	7835.1.1 = {death = {death_reason = death_battle}}
-}
-4076001 = {
-	name="Ashara"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7775.1.1 = {birth="7775.1.1"}
-	7835.1.1 = {death="7835.1.1"}
 }
 6077001 = {
 	name="Nymeria"	# a lord
@@ -697,20 +457,8 @@
 	culture="salt_dornish"
 
 	father=6076001
-	mother=4076001
 
 	7799.1.1 = {birth="7799.1.1"}
-	7875.1.1 = {death="7875.1.1"}
-}
-4077001 = {
-	name="Armen"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7799.1.1 = {birth="7799.1.1"}
-	7815.1.1 = {add_trait=poor_warrior}
-	7817.1.1 = {add_matrilineal_spouse=6077001}
 	7875.1.1 = {death="7875.1.1"}
 }
 6078001 = {
@@ -721,22 +469,10 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	father=4077001
 	mother=6077001
 
 	7822.1.1 = {birth="7822.1.1"}
-	7880.1.1 = {death="7880.1.1"}
-}
-4078001 = {
-	name="Oberyn"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7822.1.1 = {birth="7822.1.1"}
-	7838.1.1 = {add_trait=poor_warrior}
-	7840.1.1 = {add_matrilineal_spouse=6078001}
-	7880.1.1 = {death="7880.1.1"}
+	7860.1.1 = {death="7860.1.1"}
 }
 6079001 = {
 	name="Olyvar"	# a lord
@@ -745,23 +481,11 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	father=4078001
 	mother=6078001
 
 	7854.1.1 = {birth="7854.1.1"}
 	7870.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	7872.1.1 = {add_spouse=4079001}
 	7895.1.1 = {death = {death_reason = death_accident}}
-}
-4079001 = {
-	name="Cerenna"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7854.1.1 = {birth="7854.1.1"}
-	7895.1.1 = {death="7895.1.1"}
 }
 6082001 = {
 	name="Trystane"	# a lord
@@ -771,21 +495,9 @@
 	culture="salt_dornish"
 
 	father=6079001
-	mother=4079001
 
 	7877.1.1 = {birth="7877.1.1"}
 	7893.1.1 = {add_trait=knight add_trait=poor_warrior}
-	7895.1.1 = {add_spouse=4082001}
-	7920.1.1 = {death="7920.1.1"}
-}
-4082001 = {
-	name="Cassana"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7877.1.1 = {birth="7877.1.1"}
 	7920.1.1 = {death="7920.1.1"}
 }
 6083001 = {
@@ -796,24 +508,12 @@
 	culture="salt_dornish"
 
 	father=6082001
-	mother=4082001
 	
 	add_trait=quick
 
 	7900.1.1 = {birth="7900.1.1"}
 	7916.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7918.1.1 = {add_spouse=4083001}
 	7940.1.1 = {death = {death_reason = death_battle}}
-}
-4083001 = {
-	name="Tyene"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7899.1.1 = {birth="7899.1.1"}
-	7951.1.1 = {death="7951.1.1"}
 }
 
 ####Dornish Princes and Princesses since Aegon's Landing
@@ -834,25 +534,21 @@
 	religion="the_seven"
 	culture="salt_dornish"
 	
-	add_trait="genius"
-	
 	father=6083001
-	mother=4083001
+	
+	add_trait="genius"
+	disallow_random_traits=yes
 
 	7920.1.1 = {
 		birth="7920.1.1"  #80yo at time of Aegon's Landing in 7998.
 		effect = { health = 5 }
 	} 
-	7934.1.1={add_trait="brilliant_strategist"}
-	7936.1.1 = {
-		add_matrilineal_spouse = 42001
-	}
-	7938.1.1={add_trait="diligent"
-	          add_trait="brave"
-	          add_trait="deceitful" 
-			  add_trait="gluttonous"
-	          add_trait="patient"}
-	7943.1.1={add_trait="proud"}	
+	7926.1.1={add_trait="diligent"}
+	7928.1.1={add_trait="brave"}
+	7930.1.1={add_trait="deceitful"}
+	7932.1.1={add_trait="gluttonous"}
+	7934.1.1={add_trait="brilliant_strategist" add_trait="patient" add_trait="proud"}
+	7950.1.1={add_matrilineal_spouse=42001}	#Yorick Yronwood
 	7980.1.1 = { 
 		add_trait="widowed"
 		add_trait = is_fat
@@ -860,18 +556,8 @@
 			set_variable = { which = physique_variable value = 25 }		
 		}
 	}
-	7995.1.1 = { add_trait="blinded_age"}	
+	7990.1.1 = { add_trait="blinded_age"}	
 	8013.6.1 = {death="8013.6.1"}
-}
-42001 = {
-	name="Doran"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7918.1.1 = {birth="7918.1.1"}
-	7934.1.1 = {add_trait=knight add_trait=poor_warrior}
-	7980.1.1 = {death="7980.1.1"}
 }
 21001 = {
 	name="Nymor"	# a lord
@@ -892,24 +578,15 @@
 	add_trait=diligent 
 	add_trait=patient
 	add_trait=ruthless
+
+	employer=22001
 	
 	7953.1.1 = {birth="7953.1.1"}
 	7969.1.1 = {add_trait=knight add_trait=trained_warrior }
-	7975.1.1 = {add_spouse=4000001}
+	7980.1.1 = {add_spouse=4000001} #Barbrey Manwoody
 	8008.1.1 = { add_trait=infirm }
 	8015.1.1 = {death="8015.1.1"}
 }
-4000001 = {
-	name="Elia"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7950.1.1 = {birth="7950.1.1"}
-	8003.1.1 = {death="8003.1.1"}
-}
-
 19001 = {
 	name="Deria"	# a lord
 	female=yes
@@ -928,22 +605,17 @@
 	father=21001
 	mother=4000001
 
+	add_trait=charismatic_negotiator
+	add_trait=just 
+	add_trait=diligent 
+	add_trait=patient 
+	add_trait=kind
+
 	7983.1.1 = {birth="7983.1.1"  }
-	7998.1.1 = {add_trait=just add_trait=diligent add_trait=patient add_trait=kind}
-	7998.12.13 = {
-		add_matrilineal_spouse = 49001
+	8000.1.1 = {
+		add_matrilineal_spouse = 49001 #Garrison Fowler
 	}
 	8040.1.1 = {death="8040.1.1"}
-}
-49001 = {
-	name="Perros"
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7983.1.1 = {birth="7983.1.1"}
-	7999.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8035.1.1 = {death="8035.1.1"}
 }
 25001 = {
 	name="Lewyn"	# not a lord
@@ -984,7 +656,7 @@
 	mother=4000001
 
 	7992.1.1 = {birth="7992.1.1"}
-	8008.1.1 = {add_trait=knight add_trait=poor_warrior add_trait=nightswatch}
+	8008.1.1 = {add_trait=knight add_trait=poor_warrior}
 	8070.1.1 = {death="8070.1.1"}
 }
 18001 = {
@@ -1084,7 +756,23 @@
 
 	8060.1.1 = {birth="8060.1.1"}
 	8076.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8086.6.1 = {death= {death_reason = death_battle}} #roasted by Jaehaerys and his sons
+	## Fourth Dornish War 
+	8083.5.29 = {
+		effect = {
+			d_cape_wrath = {
+				reverse_unsafe_war = {
+					target = ROOT
+					casus_belli = invasion_ambition
+				}
+			}
+		}
+	}
+	8083.6.1 = {
+		death= { #roasted by Jaehaerys and his sons
+			death_reason = death_battle
+			killer = 77006
+		}
+	}
 }
 16001 = {
 	name="Mara"	# Canon
@@ -1161,18 +849,8 @@
 
 	8083.1.1 = {birth="8083.1.1"} #fought with Daemon over control of Stepstones
 	8099.1.1={add_trait="knight" add_trait="trained_warrior" }
-	8114.1.1 = {add_spouse=44001}
+	8114.1.1 = {add_spouse=44001} #Delonne Allyrion
 	8132.1.1 = {death="8132.1.1"}
-}
-44001 = {
-	name="Ellaria"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8097.1.1 = {birth="8097.1.1"}
-	8134.1.1 = {death="8134.1.1"}
 }
 38001 = {
 	name="Arianne"	#
@@ -1575,7 +1253,7 @@
 	8202.1.1={death="8202.1.1"}
 }
 99002 = {
-	name="Olyvar" # Prince. Sire of Obera and co.
+	name="Olyvar" # Prince. Gransire of Loreza and co.
 	dynasty=1
 
 	martial=5
@@ -1593,8 +1271,8 @@
 	father=11001
 	mother=11496
 
-	8190.8.8 = {birth="8190.8.8"  }
-	8206.8.8 = {add_trait="knight" add_trait="trained_warrior" add_trait="charismatic_negotiator" }
+	8188.8.8 = {birth="8188.8.8"  }
+	8204.8.8 = {add_trait="knight" add_trait="trained_warrior" add_trait="charismatic_negotiator" }
 	8230.1.1 = {death="8230.1.1"}
 }
 20001 = {
@@ -1628,16 +1306,79 @@
 	8194.1.1 = {birth="8194.1.1" effect = { culture=salt_dornish}}
 	8260.1.1 = {death="8260.1.1"}
 }
+24001 = {
+	name="Mors" # Prince. Sire of Loreza and co. Added him so Doran's mom is younger when she gives birth to him. Paxter Redwyne
+	dynasty=1
+	
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=99002
+
+	8209.1.1 = {birth="8209.1.1"  }
+	8225.1.1 = {add_trait="knight" add_trait="trained_warrior"}
+	8251.1.1 = {death="8251.1.1"}
+}
+
 ####################
 ###House Santagar###
 ####################
 ### Dynasty id (2) Non-canon 300+, canon 200+, female and male lowborn spouses 400+. \Chrisjm89/
+349002 = {
+	name="Franklyn"	# a lord
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	7839.1.1 = {birth="7839.1.1"}
+	7885.1.1 = {death="7885.1.1"}
+}
+348002 = {
+	name="Sybella"	# a lord
+	female=yes
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=349002
+	
+	7862.1.1 = {birth="7862.1.1"}
+	7915.1.1 = {death="7915.1.1"}
+}
+347002 = {
+	name="Deziel"	# a lord
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	mother=348002
+	
+	7887.1.1 = {birth="7887.1.1"}
+	7950.1.1 = {death="7950.1.1"}
+}
+346002 = {
+	name="Garibald"	# a lord
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+	
+	father=347002
+
+	7910.1.1 = {birth="7910.1.1"}
+	7966.1.1 = {death="7966.1.1"}
+}
 302002 = {
 	name="Alyn"	# a lord
 	dynasty=2
 
 	religion="the_seven"
 	culture="salt_dornish"
+	
+	father=346002
 
 	7931.1.1 = {birth="7931.1.1"}
 	7947.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=402002}
@@ -1665,17 +1406,6 @@
 
 	7966.1.1 = {birth="7966.1.1"}
 	7984.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	7996.1.1 = {add_spouse=4000002}
-	8027.1.1 = {death="8027.1.1"}
-}
-4000002 = {
-	name="Allyria"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7968.1.1 = {birth="7968.1.1"}
 	8027.1.1 = {death="8027.1.1"}
 }
 303002 = {
@@ -1686,21 +1416,9 @@
 	culture="salt_dornish"
 
 	father=300002
-	mother=4000002
 
 	7993.1.1 = {birth="7993.1.1"}
 	8009.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8011.1.1 = {add_spouse=403002}
-	8055.1.1 = {death="8055.1.1"}
-}
-403002 = {
-	name="Tyene"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7993.1.1 = {birth="7993.1.1"}
 	8055.1.1 = {death="8055.1.1"}
 }
 307002 = {
@@ -1711,21 +1429,9 @@
 	culture="salt_dornish"
 
 	father=303002
-	mother=403002
 
 	8015.1.1 = {birth="8015.1.1"}
 	8031.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8033.1.1 = {add_spouse=407002}
-	8059.1.1 = {death="8059.1.1"}
-}
-407002 = {
-	name="Gwyneth"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8019.1.1 = {birth="8019.1.1"}
 	8059.1.1 = {death="8059.1.1"}
 }
 308002 = {
@@ -1736,22 +1442,10 @@
 	culture="salt_dornish"
 
 	father=307002
-	mother=407002
 
 	8054.1.1 = {birth="8054.1.1"}
 	8070.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8072.1.1 = {add_spouse=408002}
 	8099.1.1 = {death = {death_reason = death_battle}}
-}
-408002 = {
-	name="Sarella"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8054.1.1 = {birth="8054.1.1"}
-	8101.1.1 = {death="8101.1.1"}
 }
 311002 = {
 	name="Franklyn"	# a lord
@@ -1761,21 +1455,9 @@
 	culture="salt_dornish"
 
 	father=308002
-	mother=408002
 
 	8077.1.1 = {birth="8077.1.1"}
 	8093.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8095.1.1 = {add_spouse=411002}
-	8126.1.1 = {death="8126.1.1"}
-}
-411002 = {
-	name="Mellei"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8077.1.1 = {birth="8077.1.1"}
 	8126.1.1 = {death="8126.1.1"}
 }
 309002 = {
@@ -1786,7 +1468,6 @@
 	culture="salt_dornish"
 
 	father=308002
-	mother=408002
 
 	8080.1.1 = {birth="8080.1.1"}
 	8096.1.1 = {add_trait=knight add_trait=skilled_warrior}
@@ -1861,7 +1542,6 @@
 	culture="salt_dornish"
 
 	father=311002
-	mother=411002
 
 	8096.1.1 = {birth="8096.1.1"}
 	8112.1.1 = {add_trait=knight add_trait=poor_warrior}
@@ -1886,7 +1566,6 @@
 	culture="salt_dornish"
 
 	father=311002
-	mother=411002
 
 	8100.1.1 = {birth="8100.1.1"}
 	8116.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -1965,6 +1644,20 @@
 	8171.2.3 = {add_trait=knight add_trait=trained_warrior}
 	8212.1.1 = {death="8212.1.1"}
 }
+339002 = {
+	name="Emilia"	# not a lord
+	female=yes
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=312002
+	mother=6305919
+
+	8127.1.1 = {birth="8127.1.1"}
+	8176.1.1 = {death="8176.1.1"}
+}
 305002 = {
 	name="Silva"	# not a lord
 	female=yes
@@ -1979,6 +1672,23 @@
 	8130.1.1 = {birth="8130.1.1"}
 	8194.1.1 = {death="8194.1.1"}
 }
+345002 = {
+	name="Galeran"	# not a lord
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=312002
+	mother=6305919
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=maester add_trait=martial_cleric employer=31412}
+	8157.9.14 = {employer=31812}
+	8187.1.1 = {employer=32212}
+	8194.1.1 = {employer=32312}
+	8201.1.1 = {death="8201.1.1"}
+}
 55118 = {
 	name="Nicola"	# not a lord
 	dynasty=2
@@ -1988,7 +1698,6 @@
 	culture="salt_dornish"
 
 	father=311002
-	mother=411002
 
 	8103.1.1 = {birth="8103.1.1"}
 	8179.1.1 = {death="8179.1.1"}
@@ -2002,7 +1711,6 @@
 	culture="salt_dornish"
 
 	father=311002
-	mother=411002
 
 	add_trait=weak
 
@@ -2087,6 +1795,20 @@
 	8162.1.1 = {add_spouse=6110110}
 	8183.1.1 = {death="8183.1.1"}
 }
+344002 = {
+	name="Russell"	# not a lord
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=322002
+	mother=61810
+
+	8147.1.1 = {birth="8147.1.1"}
+	8163.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8193.1.1 = {death="8193.1.1"}
+}
 325002 = {
 	name="Warrin"	# not a lord
 	dynasty=2
@@ -2114,6 +1836,95 @@
 	8167.1.1 = {birth="8167.1.1"}
 	8183.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8199.1.1 = {death="8199.1.1"}
+}
+350002 = {
+	name="Madyn"	# not a lord
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=315002
+	mother=415002
+
+	add_trait=twin
+
+	8126.1.1 = {birth="8126.1.1"}
+	8142.1.1 = {add_trait=knight add_trait=master_warrior}
+	8184.1.1 = {death="8184.1.1"}
+}
+360002 = {
+	name="Tara"	# not a lord
+	dynasty=2
+	female=yes
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=315002
+	mother=415002
+
+	add_trait=twin
+
+	8126.1.1 = {birth="8126.1.1"}
+	8195.1.1 = {death="8195.1.1"}
+}
+340002 = {
+	name="Sylas"	# not a lord
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=315002
+	mother=415002
+
+	8128.1.1 = {birth="8128.1.1"}
+	8144.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8148.1.1 = {add_spouse=62918}
+	8179.1.1 = {death="8179.1.1"}
+}
+341002 = {
+	name="Evelyn"	# not a lord
+	dynasty=2
+	female=yes
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=340002
+	mother=62918
+
+	8149.1.1 = {birth="8149.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+342002 = {
+	name="Sylva"	# not a lord
+	dynasty=2
+	female=yes
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=340002
+	mother=62918
+
+	8152.1.1 = {birth="8152.1.1"}
+	8192.1.1 = {death="8192.1.1"}
+}
+343002 = {
+	name="Symon"	# not a lord
+	dynasty=2
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=340002
+	mother=62918
+
+	8156.1.1 = {birth="8156.1.1"}
+	8172.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8203.1.1 = {death="8203.1.1"}
 }
 319002 = {
 	name="Senara"	# a lord
@@ -2277,18 +2088,7 @@
 
 	8187.1.1 = {birth="8187.1.1"}
 	8203.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8209.1.1 = {add_spouse=424002}
 	8244.1.1 = {death="8244.1.1"}
-}
-424002 = {
-	name="Ellaria"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8191.1.1 = {birth="8191.1.1"}
-	8249.1.1 = {death="8249.1.1"}
 }
 327002 = {
 	name="Quentyn"	# a lord
@@ -2298,7 +2098,6 @@
 	culture="salt_dornish"
 
 	father=324002
-	mother=424002
 
 	8215.1.1 = {birth="8215.1.1"}
 	8231.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -2315,16 +2114,82 @@
 	8214.1.1 = {birth="8214.1.1"}
 	8265.1.1 = {death="8265.1.1"}
 }
+
 ######################
 ###House Drinkwater###
 ######################
 ### Dynasty id (3) Non-canon 300+, canon 200+, female and male lowborn spouses 400+. \Chrisjm89/
+3002403 = {
+	name="Symon"	# a lord
+	dynasty=3
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	7822.1.1 = {birth="7822.1.1"}
+	7838.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7860.1.1 = {death="7860.1.1"}
+}
+3000903 = {
+	name="Samwell"	# a lord
+	dynasty=3
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father=3002403
+
+	7848.1.1 = {birth="7848.1.1"}
+	7864.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7888.1.1 = {death="7888.1.1"}
+}
+3000803 = {
+	name="Gerris"	# a lord
+	dynasty=3
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father=3000903
+
+	7865.1.1 = {birth="7865.1.1"}
+	7881.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7900.1.1 = {death="7900.1.1"}
+}
+3000703 = {
+	name="Garyn"	# a lord
+	dynasty=3
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father=3000803
+
+	7890.1.1 = {birth="7890.1.1"}
+	7906.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7941.1.1 = {death="7941.1.1"}
+}
+3000603 = {
+	name="Gerold"	# a lord
+	dynasty=3
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father=3000703
+
+	7909.1.1 = {birth="7909.1.1"}
+	7925.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7958.1.1 = {death="7958.1.1"}
+}
 3000103 = {
 	name="Willam"	# a lord
 	dynasty=3
 
 	religion="the_seven"
 	culture="stone_dornish"
+	
+	father=3000603
 
 	7936.1.1 = {birth="7936.1.1"}
 	7952.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=4000103}
@@ -2351,18 +2216,8 @@
 	mother=4000103
 
 	7958.1.1 = {birth="7958.1.1"}
-	7974.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=4000303}
+	7974.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8023.1.1 = {death = {death_reason = death_accident}}
-}
-4000303 = {
-	name="Nymeria"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7958.1.1 = {birth="7958.1.1"}
-	8023.1.1 = {death="8023.1.1"}
 }
 3000003 = {
 	name="Gerris"	# not a lord
@@ -2372,22 +2227,10 @@
 	culture="stone_dornish"
 
 	father=3000303
-	mother=4000303
 
 	7976.1.1 = {birth="7976.1.1"}
 	7994.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7999.1.1 = {add_spouse=4000003}
 	8002.1.1 = {death = {death_reason = death_battle}}
-}
-4000003 = {
-	name="Obella"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7973.1.1 = {birth="7973.1.1"}
-	8019.1.1 = {death="8019.1.1"}
 }
 3000203 = {
 	name="Ysilla"	# a lord
@@ -2398,7 +2241,6 @@
 	culture="stone_dornish"
 
 	father=3000003
-	mother=4000003
 
 	8001.1.1 = {birth="8001.1.1"}
 	8056.1.1 = {death="8056.1.1"}
@@ -2426,18 +2268,7 @@
 
 	8025.1.1 = {birth="8025.1.1"}
 	8041.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8043.1.1 = {add_spouse=4000403}
 	8067.1.1 = {death="8067.1.1"}
-}
-4000403 = {
-	name="Jennelyn"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8030.1.1 = {birth="8030.1.1"}
-	8076.1.1 = {death="8076.1.1"}
 }
 3000503 = {
 	name="Anders"	# a lord
@@ -2447,22 +2278,10 @@
 	culture="stone_dornish"
 
 	father=3000403
-	mother=4000403
 
 	8047.1.1 = {birth="8047.1.1"}
 	8063.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8065.1.1 = {add_spouse=4000503}
 	8098.1.1 = {death="8098.1.1"}
-}
-4000503 = {
-	name="Frynne"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8049.1.1 = {birth="8049.1.1"}
-	8104.1.1 = {death="8104.1.1"}
 }
 3001003 = {
 	name="Bedwyck"	# a lord
@@ -2472,22 +2291,10 @@
 	culture="stone_dornish"
 
 	father=3000503
-	mother=4000503
 
 	8070.1.1 = {birth="8070.1.1"}
 	8086.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8088.1.1 = {add_spouse=4001003}
 	8125.1.1 = {death="8125.1.1"}
-}
-4001003 = {
-	name="Alysanne"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8070.1.1 = {birth="8070.1.1"}
-	8117.1.1 = {death = {death_reason = death_accident}}
 }
 3001103 = {
 	name="Doran"	# not a lord
@@ -2497,20 +2304,9 @@
 	culture="stone_dornish"
 
 	father=3001003
-	mother=4001003
 
 	8091.1.1 = {birth="8091.1.1"}
-	8107.1.1 = {add_trait=knight add_trait=poor_warrior add_spouse=4001103}
-	8124.1.1 = {death = {death_reason = death_accident}}
-}
-4001103 = {
-	name="Ynys"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8091.1.1 = {birth="8091.1.1"}
+	8107.1.1 = {add_trait=knight add_trait=poor_warrior}
 	8124.1.1 = {death = {death_reason = death_accident}}
 }
 3001303 = {
@@ -2522,7 +2318,6 @@
 	culture="stone_dornish"
 
 	father=3001003
-	mother=4001003
 
 	8098.1.1 = {birth="8098.1.1"}
 	8116.1.1 = {
@@ -2542,7 +2337,6 @@
 	culture="stone_dornish"
 
 	father=3001003
-	mother=4001003
 
 	add_trait=lustful
 
@@ -2565,6 +2359,19 @@
 	8143.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8174.1.1 = {death="8174.1.1"}
 }
+300293 = {
+	name="Marylla"	# not a lord
+	female=yes
+	dynasty=3
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=3001003
+
+	8109.1.1 = {birth="8109.1.1"}
+	8182.1.1 = {death="8182.1.1"}
+}
 3001203 = {
 	name="Symon"	# a lord
 	dynasty=3
@@ -2573,22 +2380,10 @@
 	culture="stone_dornish"
 
 	father=3001103
-	mother=4001103
 
 	8122.1.1 = {birth="8122.1.1"}
 	8138.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8140.1.1 = {add_spouse=4001203}
 	8158.4.17 = {death = {death_reason = death_battle}}
-}
-4001203 = {
-	name="Gwyneth"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8122.1.1 = {birth="8122.1.1"}
-	8168.1.1 = {death="8168.1.1"}
 }
 3001903 = {
 	name="Wynafryd"	# not a lord
@@ -2599,7 +2394,6 @@
 	culture="stone_dornish"
 
 	father=3001103
-	mother=4001103
 
 	8124.1.1 = {birth="8124.1.1"}
 	8185.1.1 = {death="8185.1.1"}
@@ -2612,7 +2406,6 @@
 	culture="stone_dornish"
 
 	father=3001203
-	mother=4001203
 
 	8140.1.1 = {birth="8140.1.1"}
 	8156.1.1 = {add_trait=knight add_trait=poor_warrior}
@@ -2627,7 +2420,6 @@
 	culture="stone_dornish"
 
 	father=3001203
-	mother=4001203
 
 	8147.1.1 = {birth="8147.1.1"}
 	8190.1.1 = {death="8190.1.1"}
@@ -2652,10 +2444,23 @@
 	culture="stone_dornish"
 
 	father=3001203
-	mother=4001203
 
 	8148.1.1 = {birth="8148.1.1"}
 	8180.1.1 = {death="8180.1.1"}
+}
+3002303 = {
+	name="Dunstan"	# not a lord
+	dynasty=3
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=3001203
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8172.1.1 = {add_spouse=66019}
+	8197.1.1 = {death="8197.1.1"}
 }
 3001703 = {
 	name="Ryon"	# a lord
@@ -2668,18 +2473,8 @@
 	mother=3001603
 
 	8180.1.1 = {birth="8180.1.1"}
-	8196.1.1 = {add_spouse=4001703}
+	8196.1.1 = {add_trait=knight}
 	8197.2.4 = {death = {death_reason = death_battle}}
-}
-4001703 = {
-	name="Amarei"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8179.1.1 = {birth="8179.1.1"}
-	8209.1.1 = {death="8209.1.1"}
 }
 3001803 = {
 	name="Gerion"	# a lord
@@ -2693,18 +2488,7 @@
 
 	8182.1.1 = {birth="8182.1.1"}
 	8198.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8200.1.1 = {add_spouse=4001803}
 	8237.1.1 = {death="8237.1.1"}
-}
-4001803 = {
-	name="Sylva"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8183.1.1 = {birth="8183.1.1"}
-	8236.1.1 = {death="8236.1.1"}
 }
 3002003 = {
 	name="Gerold"	# a lord
@@ -2714,22 +2498,10 @@
 	culture="stone_dornish"
 
 	father=3001803
-	mother=4001803
 
 	8215.1.1 = {birth="8215.1.1"}
 	8231.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8233.1.1 = {add_spouse=4002003}
 	8240.5.2 = {death = {death_reason = death_accident}}
-}
-4002003 = {
-	name="Elia"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8215.1.1 = {birth="8215.1.1"}
-	8257.1.1 = {death="8257.1.1"}
 }
 300263 = {
 	name="Sylva" # Married to Ormond Yronwood.
@@ -2737,8 +2509,6 @@
 	dynasty=3
 	
 	father=3001803
-	mother=4001803
-	
 
 	religion="the_seven"
 	culture="stone_dornish"
@@ -2747,14 +2517,13 @@
 	8269.1.1 = {death="8269.1.1"}
 }
 3002103 = {
-	name="Arron"	# A lord
+	name="Arron"	# a lord
 	dynasty=3
 
 	religion="the_seven"
 	culture="stone_dornish"
 
 	father=3002003
-	mother=4002003
 
 	8234.1.1 = {birth="8234.1.1"}
 	8250.1.1 = {add_trait=poor_warrior}
@@ -2780,15 +2549,87 @@
 	culture="stone_dornish"
 
 	father=3002003
-	mother=4002003
 
 	8237.1.23 = {birth="8237.1.23"}
 	8274.9.5 = {death="8274.9.5"}
 }
+
 ##################
 ###House Toland###
 ##################
 ### Dynasty id (4) Non-canon 300+, canon 200+, female and male lowborn spouses 400+. \Chrisjm89/
+35374 = {
+	name="Obara"	# a lord
+	female=yes
+	dynasty=4
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	7840.1.1 = {
+		birth="7840.1.1"
+		effect = { 
+			any_dynasty_member_even_if_dead = { dynasty = 499 } #pre_conquest CoA
+			dynasty = 499
+		}
+	}
+	7884.1.1 = {death="7884.1.1"}
+}
+35364 = {
+	name="Oberyn"	# a lord
+	dynasty=4
+
+	religion="the_seven"
+	culture="salt_dornish"
+	
+	mother=35374
+
+	7862.1.1 = {
+		birth="7862.1.1"
+		effect = { 
+			any_dynasty_member_even_if_dead = { dynasty = 499 } #pre_conquest CoA
+			dynasty = 499
+		}
+	}
+	7915.1.1 = {death="7915.1.1"}
+}
+35354 = {
+	name="Obella"	# a lord
+	female=yes
+	dynasty=4
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35364
+	
+	7890.1.1 = {
+		birth="7890.1.1"
+		effect = { 
+			any_dynasty_member_even_if_dead = { dynasty = 499 } #pre_conquest CoA
+			dynasty = 499
+		}
+	}
+	7933.1.1 = {death="7933.1.1"}
+}
+35344 = {
+	name="Perros"	# a lord
+	dynasty=4
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	mother=35354
+
+	7911.1.1 = {
+		birth="7911.1.1"
+		effect = { 
+			any_dynasty_member_even_if_dead = { dynasty = 499 } #pre_conquest CoA
+			dynasty = 499
+		}
+	}
+	7960.1.1 = {death="7960.1.1"}
+}
 35004 = {
 	name="Cassana"	# a lord
 	female=yes
@@ -2796,6 +2637,8 @@
 
 	religion="the_seven"
 	culture="salt_dornish"
+
+	father=35344
 
 	7935.1.1 = {
 		birth="7935.1.1"
@@ -2851,17 +2694,6 @@
 	}
 	8007.1.1 = {death="8007.1.1"}
 }
-45014 = {
-	name="Elyana"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7958.1.1 = {birth="7958.1.1"}
-	7976.1.1 = {add_spouse=35014}
-	8003.1.1 = {death="8003.1.1"}
-}
 35024 = {
 	name="Ellaria"	# a lord
 	dynasty=4
@@ -2870,7 +2702,6 @@
 	religion="the_seven"
 	culture="salt_dornish"
 
-	mother=45014
 	father=35014
 
 	7974.1.1 = {birth="7974.1.1"}
@@ -2910,46 +2741,7 @@
 
 	8003.1.1 = {birth="8003.1.1"}
 	8019.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8021.1.1 = {add_spouse=45074}
 	8051.1.1 = {death="8051.1.1"}
-}
-45074 = {
-	name="Janyce"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8003.1.1 = {birth="8003.1.1"}
-	8062.1.1 = {death="8062.1.1"}
-}
-35094 = {
-	name="Gwyneth"	# not a lord
-	female=yes
-	dynasty=4
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	mother=35024
-	father=45024
-
-	8008.1.1 = {birth="8008.1.1"}
-	8042.1.1 = {death="8042.1.1"}
-}
-35104 = {
-	name="Ashara"	# not a lord
-	female=yes
-	dynasty=4
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	mother=35024
-	father=45024
-
-	8010.1.1 = {birth="8010.1.1"}
-	8068.1.1 = {death="8068.1.1"}
 }
 35114 = {
 	name="Oberyn"	# a lord
@@ -2959,22 +2751,10 @@
 	culture="salt_dornish"
 
 	father=35074
-	mother=45074
 
 	8023.1.1 = {birth="8023.1.1"}
 	8039.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8041.1.1 = {add_spouse=45114}
 	8080.1.1 = {death="8080.1.1"}
-}
-45114 = {
-	name="Eleanor"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8023.1.1 = {birth="8023.1.1"}
-	8054.1.1 = {death = {death_reason = death_dungeon}}
 }
 35124 = {
 	name="Elric"	# a lord
@@ -2984,7 +2764,6 @@
 	culture="salt_dornish"
 
 	father=35114
-	mother=45114
 
 	8049.1.1 = {birth="8049.1.1"}
 	8065.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -3009,7 +2788,6 @@
 	culture="salt_dornish"
 
 	father=35114
-	mother=45114
 
 	8054.1.1 = {birth="8054.1.1"}
 	8070.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -3075,7 +2853,7 @@
 	8131.1.1 = {death="8131.1.1"}
 }
 51310 = {
-	name="Elyce"
+	name="Elyce"	# from MUSH
 	female=yes
 	dynasty=4
 
@@ -3089,7 +2867,7 @@
 	8125.1.1 = {death = {death_reason = death_accident}}
 }
 51410 = {
-	name="Sarilla"
+	name="Sarilla"	# from MUSH
 	female=yes
 	dynasty=4
 
@@ -3112,9 +2890,8 @@
 	8094.1.1 = {birth="8094.1.1"}
 	8136.1.1 = {death="8136.1.1"}
 }
-
 39005204 = {
-	name="Tamsyn"	# not a lord, married Gaynor Martell, then Warryn Uller
+	name="Tamsyn"	# not a lord, married Warryn Uller
 	dynasty=4
 	female=yes
 
@@ -3228,7 +3005,34 @@
 	8144.8.22 = {add_trait=knight add_trait=trained_warrior}
 	8161.6.2 = {death ={death_reason=death_battle killer=2016109}} #killed by Dagur Saltcliffe
 }
+41005204 = {
+	name="Halera"	# not a lord
+	dynasty=4
+	female=yes
 
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=40005204
+	mother=64215
+
+	8146.1.1 = {birth="8146.1.1"}
+	8198.1.1 = {death ="8198.1.1"}
+}
+41005304 = {
+	name="Eleria"	# not a lord
+	dynasty=4
+	female=yes
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=40005204
+	mother=64215
+
+	8153.1.1 = {birth="8153.1.1"}
+	8206.1.1 = {death ="8206.1.1"}
+}
 34005204 = {
 	name="Lilya"	# not a lord, married Arrant Blackmont
 	dynasty=4
@@ -3243,6 +3047,7 @@
 	8129.7.13 = {birth="8129.7.13"}
 	8190.1.1 = {death ="8190.1.1"}
 }
+
 100004 = {
 	name="Garwin"	# not a lord
 	dynasty=4
@@ -3466,24 +3271,9 @@
 	mother=35274
 
 	8191.1.1 = {birth="8191.1.1"}
-	8207.1.1 = {add_trait=knight add_trait=master_warrior}
+	8207.1.1 = {add_trait=knight}
 	8219.1.1 = {add_spouse=45294} # Dorea Martell
 	8259.2.8 = {death = {death_reason = death_battle}}
-}
-
-35304 = {
-	name="Quentyn"	# not a lord
-	dynasty=4
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=45274
-	mother=35274
-
-	8193.1.1 = {birth="8193.1.1"}
-	8209.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8267.1.1 = {death="8267.1.1"}
 }
 35314 = {
 	name="Trystane"	# not a lord
@@ -3528,10 +3318,60 @@
 	8254.1.1 = {add_spouse=3002203} # Drinkwater maid.
 	8279.3.2 = {death = {death_reason = death_accident}}
 }
+
 ######################
 ###House Ladybright###
 ######################
 ### Dynasty id (5) Non-canon 300+, canon 200+, female and male lowborn spouses 400+. \Chrisjm89/
+35335 = {
+	name="Jeyne"	# a lord
+	female=yes
+	dynasty=5
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	7834.1.1 = {birth="7834.1.1"}
+	7886.1.1 = {death="7886.1.1"}
+}
+35325 = {
+	name="Castor"	# a lord
+	dynasty=5
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	mother=35335
+	
+	7857.1.1 = {birth="7857.1.1"}
+	7916.1.1 = {death="7916.1.1"}
+}
+35065 = {
+	name="Ravenna"	# a lord
+	female=yes
+	dynasty=5
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=35325
+	
+	7885.1.1 = {birth="7885.1.1"}
+	7948.1.1 = {death="7948.1.1"}
+}
+35055 = {
+	name="Alanna"	# a lord
+	female=yes
+	dynasty=5
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	mother=35065
+	
+	7921.1.1 = {birth="7921.1.1"}
+	7966.1.1 = {death="7966.1.1"}
+}
 35015 = {
 	name="Jeyne"	# a lord
 	female=yes
@@ -3539,6 +3379,8 @@
 
 	religion="the_seven"
 	culture="sand_dornish"
+
+	mother=35055
 
 	7944.1.1 = {birth="7944.1.1"}
 	7996.1.1 = {death="7996.1.1"}
@@ -3603,19 +3445,6 @@
 	8003.1.1 = {add_matrilineal_spouse=35025}
 	8046.1.1 = {death = {death_reason = death_battle}}
 }
-35035 = {
-	name="Anders"	# not a lord
-	dynasty=5
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	mother=35005
-
-	7988.1.1 = {birth="7988.1.1"}
-	8004.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8044.1.1 = {death = {death_reason = death_battle}}
-}
 35045 = {
 	name="Lewyn"	# a lord
 	dynasty=5
@@ -3628,46 +3457,7 @@
 
 	8017.1.1 = {birth="8017.1.1"}
 	8033.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8035.1.1 = {add_spouse=45045}
 	8074.1.1 = {death="8074.1.1"}
-}
-45045 = {
-	name="Morra"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8015.1.1 = {birth="8015.1.1"}
-	8070.1.1 = {death="8070.1.1"}
-}
-35055 = {
-	name="Ryon"	# not a lord
-	dynasty=5
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=45025
-	mother=35025
-
-	8019.1.1 = {birth="8019.1.1"}
-	8035.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8078.1.1 = {death="8078.1.1"}
-}
-35065 = {
-	name="Elyana"	# not a lord
-	female=yes
-	dynasty=5
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=45025
-	mother=35025
-
-	8020.1.1 = {birth="8020.1.1"}
-	8078.1.1 = {death="8078.1.1"}
 }
 35075 = {
 	name="Elia"	# a lord
@@ -3678,7 +3468,6 @@
 	culture="sand_dornish"
 
 	father=35045
-	mother=45045
 
 	8041.1.1 = {birth="8041.1.1"}
 	8089.1.1 = {death="8089.1.1"}
@@ -3694,20 +3483,6 @@
 	8059.1.1 = {add_matrilineal_spouse=35075}
 	8089.1.1 = {death="8089.1.1"}
 }
-35085 = {
-	name="Mellei"	# not a lord
-	female=yes
-	dynasty=5
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=35045
-	mother=45045
-
-	8044.1.1 = {birth="8044.1.1"}
-	8063.1.1 = {death="8063.1.1"}
-}
 35125 = {
 	name="Dagos"	# a lord
 	dynasty=5
@@ -3720,18 +3495,7 @@
 
 	8059.1.1 = {birth="8059.1.1"}
 	8075.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8087.1.1 = {add_spouse=45125}
 	8105.1.1 = {death="8105.1.1"}
-}
-45125 = {
-	name="Dorea"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8072.1.1 = {birth="8072.1.1"}
-	8112.1.1 = {death="8112.1.1"}
 }
 35135 = {
 	name="Allar"	# not a lord
@@ -3745,18 +3509,7 @@
 
 	8060.1.1 = {birth="8060.1.1"}
 	8076.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8078.1.1 = {add_spouse=45135}
 	8104.1.1 = {death = {death_reason = death_accident}}
-}
-45135 = {
-	name="Janyce"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8060.1.1 = {birth="8060.1.1"}
-	8089.1.1 = {death="8089.1.1"}
 }
 35165 = {
 	name="Marya"	# a lord
@@ -3767,21 +3520,19 @@
 	culture="sand_dornish"
 
 	father=35125
-	mother=45125
 
 	8096.1.1 = {birth="8096.1.1"}
 	8114.1.1 = {add_spouse=35175}
 	8132.1.1 = {death="8132.1.1"}
 }
 35255 = {
-	name="Lewyn"	# not a lord
+	name="Lewyn"	# not a lord, from MUSH
 	dynasty=5
 
 	religion="the_seven"
 	culture="sand_dornish"
 
 	father=35125
-	mother=45125
 
 	8100.1.1 = {birth="8100.1.1"}
 	8116.1.1 = {add_trait=knight add_trait=poor_warrior}
@@ -3797,11 +3548,10 @@
 	culture="sand_dornish"
 
 	father=35135
-	mother=45135
 
 	8082.1.1 = {birth="8082.1.1"}
 	8098.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8125.1.1 = {death="8125.1.1"}
+	8132.1.1 = {death="8132.1.1"}
 }
 35195 = {
 	name="Timeon"	# a lord
@@ -3815,21 +3565,10 @@
 
 	8121.1.1 = {birth="8121.1.1"}
 	8137.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8139.1.1 = {add_spouse=45195}
 	8159.4.25 = {death = {death_reason = death_battle}}
 }
-45195 = {
-	name="Myria"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8121.1.1 = {birth="8121.1.1"}
-	8180.1.1 = {death="8180.1.1"}
-}
 35205 = {
-	name="Derwen"	# not a lord
+	name="Derwen"	# not a lord, from MUSH
 	dynasty=5
 
 	religion="the_seven"
@@ -3855,7 +3594,7 @@
 	8160.1.1 = {death = {death_reason = death_childbirth}}
 }
 35145 = {
-	name="Derlyn"	# not a lord
+	name="Derlyn"	# not a lord, from MUSH
 	dynasty=5
 
 	religion="the_seven"
@@ -3869,7 +3608,7 @@
 	8211.1.1 = {death="8211.1.1"}
 }
 35155 = {
-	name="Yolande"	# not a lord
+	name="Yolande"	# not a lord, from MUSH
 	female=yes
 	dynasty=5
 
@@ -3883,7 +3622,7 @@
 	8225.1.1 = {death="8225.1.1"}
 }
 35185 = {
-	name="Arylla"	# not a lord
+	name="Arylla"	# not a lord, from MUSH
 	female=yes
 	dynasty=5
 
@@ -3897,7 +3636,7 @@
 	8230.1.1 = {death="8230.1.1"}
 }
 35105 = {
-	name="Jarwyn"	# not a lord
+	name="Jarwyn"	# not a lord, from MUSH
 	dynasty=5
 
 	religion="the_seven"
@@ -3911,7 +3650,7 @@
 	8185.1.1 = {death="8185.1.1"}
 }
 35115 = {
-	name="Maria"	# not a lord
+	name="Maria"	# not a lord, from MUSH
 	female=yes
 	dynasty=5
 
@@ -3922,10 +3661,10 @@
 	mother=45205
 
 	8160.1.1 = {birth="8160.1.1"}
-	8177.1.1 = {death = {death_reason = death_accident}}
+	8187.1.1 = {death="8187.1.1"}
 }
 35095 = {
-	name="Kedry"	# not a lord
+	name="Kedry"	# not a lord, from MUSH
 	dynasty=5
 
 	religion="the_seven"
@@ -3938,6 +3677,72 @@
 	8185.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8190.1.1 = {death="8190.1.1"}
 }
+35305 = {
+	name="Julien"	# not a lord, from MUSH
+	dynasty=5
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=35175
+	mother=35165
+
+	add_trait=twin
+
+	8127.1.1 = {birth="8127.1.1"}
+	8143.1.1 = {add_trait=knight add_spouse=62713}
+	8157.8.18 = {death = {death_reason = death_battle}}
+}
+35405 = {
+	name="Jannet"	# not a lord, from MUSH
+	dynasty=5
+	female=yes
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=35305
+	mother=62713
+
+	8151.1.1 = {birth="8151.1.1"}
+	8196.1.1 = {death="8196.1.1"}
+}
+35505 = {
+	name="Maire"	# not a lord, from MUSH
+	dynasty=5
+	female=yes
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=35305
+	mother=62713
+
+	8155.1.1 = {birth="8155.1.1"}
+	8215.1.1 = {death="8215.1.1"}
+}
+35605 = {
+	name="Warren"	# not a lord, from MUSH
+	dynasty=5
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=35175
+	mother=35165
+
+	add_trait=twin
+
+	8127.1.1 = {birth="8127.1.1"}
+	8143.1.1 = {add_trait=skilled_tactician add_trait=knight add_trait=master_warrior}
+	8147.1.1 = {
+		employer=13001 # Marence Martell
+		effect = {
+			give_minor_title = title_captain_of_guard 
+		}
+	}
+	8161.1.1 = {death = {death_reason = death_battle}}
+}
 35215 = {
 	name="Nymeria"	# a lord
 	female=yes
@@ -3947,10 +3752,9 @@
 	culture="sand_dornish"
 
 	father=35195
-	mother=45195
 
 	8142.1.1 = {birth="8142.1.1"}
-	8169.1.1 = {death = {death_reason = death_dungeon}}
+	8169.1.1 = {death = {death_reason = death_childbirth}}
 }
 45215 = {
 	name="Alaric"
@@ -3961,7 +3765,7 @@
 	8142.1.1 = {birth="8142.1.1"}
 	8158.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8160.1.1 = {add_matrilineal_spouse=35215}
-	8196.8.7 = {death = {death_reason = death_battle}}
+	8196.6.1 = {death = {death_reason = death_battle}}
 }
 35225 = {
 	name="Sylva"	# a lord
@@ -4000,34 +3804,7 @@
 
 	8187.1.1 = {birth="8187.1.1"}
 	8203.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8205.1.1 = {add_spouse=45245}
 	8241.1.1 = {death="8241.1.1"}
-}
-45245 = {
-	name="Jeyne"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8187.1.1 = {birth="8187.1.1"}
-	8246.1.1 = {death="8246.1.1"}
-}
-35265 = {
-	name="Allar"	# not a lord
-	dynasty=5
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	mother=35225
-	father=45225
-
-	8192.1.1 = {birth="8192.1.1"}
-	8208.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8212.1.1 = {  add_trait=nightswatch}
-	8214.1.1 = {remove_trait=poor_warrior add_trait=trained_warrior}
-	8256.3.6 = {death="8256.3.6"}
 }
 35275 = {
 	name="Maron"	# a lord
@@ -4037,7 +3814,6 @@
 	culture="sand_dornish"
 
 	father=35245
-	mother=45245
 
 	8219.1.1 = {birth="8219.1.1"}
 	8235.1.1 = {add_trait=knight add_trait=skilled_warrior}
@@ -4063,15 +3839,62 @@
 	culture="sand_dornish"
 
 	father=35245
-	mother=45245
 
 	8224.1.1 = {birth="8224.1.1"}
 	8268.1.1 = {death="8268.1.1"}
 }
+
 ################
 ###House Dalt###
 ################
 ### Dynasty id (6) Non-canon 300+, canon 200+, female and male lowborn spouses 400+. \Chrisjm89/
+45146 = {
+	name="Deziel"	# a lord
+	dynasty=6
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	7829.1.1 = {birth="7829.1.1"}
+	7881.1.1 = {death="7881.1.1"}
+}
+45126 = {
+	name="Tremond"	# a lord
+	dynasty=6
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=45146
+	
+	7854.1.1 = {birth="7854.1.1"}
+	7923.1.1 = {death="7923.1.1"}
+}
+45096 = {
+	name="Allanys"	# a lord
+	female=yes
+	dynasty=6
+
+	religion="the_seven"
+	culture="salt_dornish"
+	
+	father=45126
+
+	7880.1.1 = {birth="7880.1.1"}
+	7931.1.1 = {death="7931.1.1"}
+}
+45086 = {
+	name="Manfrey"	# a lord
+	dynasty=6
+
+	religion="the_seven"
+	culture="salt_dornish"
+	
+	mother=45096
+
+	7916.1.1 = {birth="7916.1.1"}
+	7959.1.1 = {death="7959.1.1"}
+}
 35026 = {
 	name="Liane"	# a lord
 	female=yes
@@ -4079,6 +3902,8 @@
 
 	religion="the_seven"
 	culture="salt_dornish"
+	
+	father=45086
 
 	7941.1.1 = {birth="7941.1.1"}
 	8007.1.1 = {death = {death_reason = death_accident}}
@@ -4105,18 +3930,8 @@
 	mother=35026
 
 	7959.1.1 = {birth="7959.1.1"}
-	7986.1.1 = {add_trait=knight add_trait=skilled_warrior add_spouse=45036}
+	7986.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8021.1.1 = {death="8021.1.1"}
-}
-45036 = {
-	name="Lynesse"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7951.1.1 = {birth="7951.1.1"}
-	8015.1.1 = {death="8015.1.1"}
 }
 35006 = {
 	name="Manfrey"	# a lord
@@ -4126,26 +3941,14 @@
 	culture="salt_dornish"
 
 	father=35036
-	mother=45036
 
 	7986.1.1 = {birth="7986.1.1"}
 	8000.1.1 = {
-		add_spouse=45006
 		add_trait=trained_warrior
 	}
 	8002.1.1 = {
 		death = {death_reason = death_battle}
 	}
-}
-45006 = {
-	name="Elia"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7981.1.1 = {birth="7981.1.1"}
-	8015.1.1 = {death="8015.1.1"}
 }
 35016 = {
 	name="Denyse"	# a lord
@@ -4156,7 +3959,6 @@
 	culture="salt_dornish"
 
 	father=35006
-	mother=45006
 
 	8000.1.1 = {birth="8000.1.1"}
 	8035.1.1 = {death="8035.1.1"}
@@ -4184,18 +3986,7 @@
 
 	8030.1.1 = {birth="8030.1.1"}
 	8046.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8048.1.1 = {add_spouse=45046}
 	8062.1.1 = {death="8062.1.1"}
-}
-45046 = {
-	name="Cedra"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8030.1.1 = {birth="8030.1.1"}
-	8065.1.1 = {death="8065.1.1"}
 }
 35076 = {
 	name="Larra"	# a lord
@@ -4206,7 +3997,6 @@
 	culture="salt_dornish"
 
 	father=35046
-	mother=45046
 
 	8058.1.1 = {birth="8058.1.1"}
 	8102.1.1 = {death="8102.1.1"}
@@ -4230,7 +4020,6 @@
 	culture="salt_dornish"
 
 	father=35046
-	mother=45046
 
 	8060.1.1 = {birth="8060.1.1"}
 	8076.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -4518,6 +4307,21 @@
 	8172.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8205.1.1 = {death="8205.1.1"}
 }
+35326 = {
+	name="Simon"	# not a lord
+	dynasty=6
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35086
+	mother=313002
+
+	8134.1.1 = {birth="8134.1.1"}
+	8150.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8160.1.1 = {add_spouse=62618}
+	8187.1.1 = {death="8187.1.1"}
+}
 35256 = {
 	name="Gilda"	# not a lord
 	female=yes
@@ -4646,16 +4450,6 @@
 	8154.1.1 = {birth="8154.1.1"}
 	8185.1.1 = {death="8185.1.1"}
 }
-45176 = {
-	name="Janyce"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8159.1.1 = {birth="8159.1.1"}
-	8206.1.1 = {death="8206.1.1"}
-}
 35186 = {
 	name="Deneza"	# a lord
 	female=yes
@@ -4736,18 +4530,7 @@
 
 	8202.1.1 = {birth="8202.1.1"}
 	8217.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8227.1.1 = {add_spouse=45246}
 	8259.1.1 = {death = {death_reason = death_battle}}
-}
-45246 = {
-	name="Loreza"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8210.1.1 = {birth="8210.1.1"}
-	8267.1.1 = {death="8267.1.1"}
 }
 35286 = {
 	name="Timeon"	# a lord
@@ -4760,19 +4543,8 @@
 	mother=35236
 
 	8227.1.1 = {birth="8227.1.1"}
-	8243.1.1 = {add_trait=knight add_trait=master_warrior}
-	8245.1.1 = {add_spouse=45286}
+	8243.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8259.2.9 = {death = {death_reason = death_battle}}
-}
-45286 = {
-	name="Ysilla"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8225.1.1 = {birth="8225.1.1"}
-	8273.1.1 = {death="8273.1.1"}
 }
 35296 = {
 	name="Tystene"	# not a lord
@@ -4782,7 +4554,6 @@
 	culture="salt_dornish"
 
 	father=35246
-	mother=45246
 
 	8232.1.1 = {birth="8232.1.1"}
 	8248.1.1 = {add_trait=knight add_trait=poor_warrior}
@@ -4840,30 +4611,71 @@
 	8263.1.1 = {birth="8263.1.1"}
 	8296.1.1 = {death = {death_reason = death_accident}}
 }
+
 ####################
 ###House Gargalen###
 ####################
 ### Dynasty id (7) Non-canon 300+, canon 200+, female and male lowborn spouses 400+. \Chrisjm89/
+35327 = {
+	name="Ursula"	# a lord
+	female=yes
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	7831.1.1 = {birth="7831.1.1"}
+	7880.1.1 = {death="7880.1.1"}
+}
+35297 = {
+	name="Mors"	# a lord
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+	
+	mother=35327
+
+	7853.1.1 = {birth="7853.1.1"}
+	7911.1.1 = {death="7911.1.1"}
+}
+35287 = {
+	name="Marei"	# a lord
+	female=yes
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+	
+	father=35297
+
+	7900.1.1 = {birth="7900.1.1"}
+	7976.1.1 = {death="7976.1.1"}
+}
+35277 = {
+	name="Godric"	# not a lord
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+	
+	mother=35287
+
+	7923.1.1 = {birth="7923.1.1"}
+	7972.1.1 = {death="7972.1.1"}
+}
 35027 = {
 	name="Mors"	# a lord
 	dynasty=7
 
 	religion="the_seven"
 	culture="salt_dornish"
+	
+	father=35277
 
 	7955.1.1 = {birth="7955.1.1"}
-	7971.1.1 = {add_trait=knight add_trait=skilled_warrior add_spouse=45027}
+	7971.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8003.1.1 = {death = {death_reason = death_battle}}
-}
-45027 = {
-	name="Cassella"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7955.1.1 = {birth="7955.1.1"}
-	8000.1.1 = {death="8000.1.1"}
 }
 35007 = {
 	name="Trebor"	# a lord
@@ -4873,22 +4685,10 @@
 	culture="salt_dornish"
 
 	father=35027
-	mother=45027
 
 	7976.1.1 = {birth="7976.1.1"}
 	7992.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7994.1.1 = {add_spouse=45007}
 	8047.1.1 = {death="8047.1.1"}
-}
-45007 = {
-	name="Myriah"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7976.1.1 = {birth="7976.1.1"}
-	8050.1.1 = {death="8050.1.1"}
 }
 35017 = {
 	name="Quentyn"	# a lord
@@ -4898,36 +4698,10 @@
 	culture="salt_dornish"
 
 	father=35007
-	mother=45007
 
 	7994.1.1 = {birth="7994.1.1"}
 	8010.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8012.1.1 = {add_spouse=45017}
 	8066.1.1 = {death="8066.1.1"}
-}
-45017 = {
-	name="Loreza"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7994.1.1 = {birth="7994.1.1"}
-	8047.1.1 = {death="8047.1.1"}
-}
-35037 = {
-	name="Oberyn"	# not a lord
-	dynasty=7
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=35007
-	mother=45007
-
-	7996.1.1 = {birth="7996.1.1"}
-	8012.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8027.1.1 = {death = {death_reason = death_battle}}
 }
 35057 = {
 	name="Alyse"	# a lord
@@ -4938,24 +4712,9 @@
 	culture="salt_dornish"
 
 	father=35017
-	mother=45017
 
 	8020.1.1 = {birth="8020.1.1"}
 	8069.1.1 = {death="8069.1.1"}
-}
-35047 = {
-	name="Mors"	# not a lord
-	dynasty=7
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=35017
-	mother=45017
-
-	8022.1.1 = {birth="8022.1.1"}
-	8038.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8058.1.1 = {death="8058.1.1"}
 }
 45057 = {
 	name="Deziel"
@@ -4992,20 +4751,6 @@
 
 	8073.1.1 = {birth="8073.1.1"}
 	8111.1.1 = {death="8111.1.1"}
-}
-35077 = {
-	name="Doran"	# not a lord
-	dynasty=7
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=45057
-	mother=35057
-
-	8047.1.1 = {birth="8047.1.1"}
-	8063.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8078.1.1 = {death="8078.1.1"}
 }
 35117 = {
 	name="Arthur"	# a lord
@@ -5091,6 +4836,62 @@
 	8125.1.1 = {birth="8125.1.1"}
 	8178.1.1 = {death="8178.1.1"}
 }
+35607 = {
+	name="Wendel"	# not a lord
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35087
+	mother=35208
+
+	8132.1.1 = {birth="8132.1.1"}
+	8148.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8157.11.4 = {death={death_reason=death_battle}}
+}
+35707 = {
+	name="Edryck"	# not a lord
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35087
+	mother=35208
+
+	8136.1.1 = {birth="8136.1.1"}
+	8152.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=64915}
+	8190.1.1 = {death="8190.1.1"}
+}
+35807 = {
+	name="Serene"	# not a lord
+	female=yes
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35087
+	mother=35208
+
+	8139.1.1 = {birth="8139.1.1"}
+	8200.1.1 = {death="8200.1.1"}
+}
+35907 = {
+	name="Malia"	# not a lord
+	female=yes
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35087
+	mother=35208
+
+	8141.1.1 = {birth="8141.1.1"}
+	8210.1.1 = {death="8210.1.1"}
+}
 35167 = {
 	name="Davit"	# a lord
 	dynasty=7
@@ -5152,6 +4953,57 @@
 	8142.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=38005204}
 	8178.1.1 = {death="8178.1.1"}
 }
+3530007 = {
+	name="Glynis"	# not a lord
+	female=yes
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=3510007
+	mother=38005204
+
+	add_trait=twin
+
+	8144.1.1 = {birth="8144.1.1"}
+	8187.1.1 = {death="8187.1.1"}
+}
+3540007 = {
+	name="Griffin"	# not a lord
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=3510007
+	mother=38005204
+
+	add_trait=twin
+
+	add_trait=flamboyant_schemer
+	add_trait=deceitful
+	add_trait=lustful
+
+	8144.1.1 = {birth="8144.1.1"}
+	8154.1.1 = {add_trait=crippled}
+	8163.1.1 = {effect={add_lover=164016}}
+	8198.1.1 = {death="8198.1.1"}
+}
+3550007 = {
+	name="Linette"	# not a lord
+	female=yes
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=3510007
+	mother=38005204
+
+	8146.9.30 = {effect={add_trait=sickly} birth=8146.9.30}
+	8146.12.5 = {death = { death_reason = death_sickly }}
+}
 35264 = {
 	name="Richelle"	# not a lord
 	female=yes
@@ -5165,6 +5017,21 @@
 
 	8148.1.1 = {birth="8148.1.1"}
 	8215.1.1 = {death = {death_reason = death_accident}}
+}
+3560007 = {
+	name="Ivor"	# not a lord
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=3510007
+	mother=38005204
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=knight}
+	8172.1.1 = {add_spouse=41005304}
+	8212.1.1 = {death="8212.1.1"}
 }
 3520007 = {
 	name="Maia"	# not a lord
@@ -5272,6 +5139,37 @@
 
 	8139.1.1 = {birth="8139.1.1"}
 	8182.1.1 = {death="8182.1.1"}
+}
+35407 = {
+	name="Armand"	# not a lord
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35157
+	mother=350706
+
+	add_trait=underhanded_rogue
+	add_trait=patient
+
+	8141.1.1 = {birth="8141.1.1"}
+	8157.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8202.1.1 = {death="8202.1.1"}
+}
+35507 = {
+	name="Gileta"	# not a lord
+	female=yes
+	dynasty=7
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35157
+	mother=350706
+
+	8142.1.1 = {birth="8142.1.1"}
+	8184.1.1 = {death="8184.1.1"}
 }
 35187 = {
 	name="Joleta"	# a lord
@@ -5416,23 +5314,63 @@
 
 	8185.1.1 = {birth="8185.1.1"}
 	8201.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8231.1.1 = {add_spouse=45257}
 	8245.1.1 = {death = {death_reason = death_accident}}
 }
-45257 = {
-	name="Elyana"
-	female=yes
 
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8210.1.1 = {birth="8210.1.1"}
-	8279.1.1 = {death="8279.1.1"}
-}
 #################
 ###House Vaith###
 #################
 ### Dynasty id (8) Dynast members 300+, female and male lowborn spouses 500+. \Chrisjm89/
+35418 = {
+	name="Damarya"	# a lord
+	female=yes
+	dynasty=8
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	7829.1.1 = {birth="7829.1.1"}
+	7870.1.1 = {death="7870.1.1"}
+}
+35318 = {
+	name="Gavella"	# a lord
+	female=yes
+	dynasty=8
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	mother=35418
+	
+	7856.1.1 = {birth="7856.1.1"}
+	7901.1.1 = {death="7901.1.1"}
+}
+35298 = {
+	name="Oberyn"	# a lord
+	dynasty=8
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	mother=35318
+	
+	7880.1.1 = {birth="7880.1.1"}
+	7896.1.1 = {add_trait=poor_warrior add_trait=knight}
+	7933.1.1 = {death="7933.1.1"}
+}
+35278 = {
+	name="Elinor"	# a lord
+	female=yes
+	dynasty=8
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=35298
+	
+	7905.1.1 = {birth="7905.1.1"}
+	7957.1.1 = {death="7957.1.1"}
+}
 35018 = {
 	name="Ysilla"	# a lord
 	female=yes
@@ -5440,6 +5378,8 @@
 
 	religion="the_seven"
 	culture="sand_dornish"
+	
+	mother=35278
 
 	7932.1.1 = {birth="7932.1.1"}
 	7980.1.1 = {death="7980.1.1"}
@@ -5467,23 +5407,12 @@
 
 	7957.1.1 = {birth="7957.1.1"}
 	7973.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	7975.1.1 = {add_spouse=55008}
 	8012.1.1 = {
 		death = {
 			death_reason = death_murder
 			killer = 77000
 		}
 	}
-}
-55008 = {
-	name="Belandra"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7957.1.1 = {birth="7957.1.1"}
-	8009.1.1 = {death = {death_reason = death_accident}}
 }
 35038 = {
 	name="Franklyn"	# a lord
@@ -5493,22 +5422,10 @@
 	culture="sand_dornish"
 
 	father=35008
-	mother=55008
 
 	7985.1.1 = {birth="7985.1.1"}
 	8001.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8003.1.1 = {add_spouse=55038}
 	8044.1.1 = {death="8044.1.1"}
-}
-55038 = {
-	name="Wylla"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7984.1.1 = {birth="7984.1.1"}
-	8058.1.1 = {death="8058.1.1"}
 }
 35068 = {
 	name="Oberyn"	# a lord
@@ -5518,22 +5435,10 @@
 	culture="sand_dornish"
 
 	father=35038
-	mother=55038
 
 	8007.1.1 = {birth="8007.1.1"}
 	8023.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8025.1.1 = {add_spouse=55068}
 	8071.1.1 = {death="8071.1.1"}
-}
-55068 = {
-	name="Amarei"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8007.1.1 = {birth="8007.1.1"}
-	8077.1.1 = {death="8077.1.1"}
 }
 35078 = {
 	name="Nymeria"	# not a lord
@@ -5544,7 +5449,6 @@
 	culture="sand_dornish"
 
 	father=35068
-	mother=55068
 
 	8031.1.1 = {birth="8031.1.1"}
 	8066.1.1 = {death="8066.1.1"}
@@ -5666,7 +5570,8 @@
 	mother=55098
 
 	8070.1.1 = {birth="8070.1.1"}
-	8086.1.1 = {add_trait=knight add_trait=skilled_warrior add_spouse=55048}
+	8086.1.1 = {add_trait=knight}
+	8098.1.1 = {add_spouse=55048}
 	8119.1.1 = {death = {death_reason = death_murder}}
 }
 55048 = {
@@ -5676,7 +5581,7 @@
 	religion="the_seven"
 	culture="sand_dornish"
 
-	8070.1.1 = {birth="8070.1.1"}
+	8080.1.1 = {birth="8080.1.1"}
 	8124.1.1 = {death="8124.1.1"}
 }
 50129 = {
@@ -5735,6 +5640,21 @@
 
 	8109.1.1 = {birth="8109.1.1"}
 	8180.1.1 = {death="8180.1.1"}
+}
+35518 = {
+	name="Josiane"	# not a lord
+	dynasty=8
+	female=yes
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=50129
+	mother=61420
+
+	8111.1.1 = {birth="8111.1.1"}
+	8127.1.1 = {add_trait=septa}
+	8179.1.1 = {death="8179.1.1"}
 }
 35058 = {
 	name="Ysilla"	# not a lord
@@ -5826,6 +5746,20 @@
 		}
 	}
 	8157.7.11 = {death = {death_reason = death_battle}}
+}
+35608 = {
+	name="Jeynora"	# not a lord
+	female=yes
+	dynasty=8
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=35048
+	mother=55048
+
+	8117.1.1 = {birth="8117.1.1"}
+	8176.1.1 = {death="8176.1.1"}
 }
 35128 = {
 	name="Caston"	# a lord
@@ -5978,6 +5912,48 @@
 	8148.1.1 = {add_spouse=61215}
 	8196.4.4 = {death = {death_reason = death_battle}}
 }
+35348 = {
+	name="Jeffory"	# not a lord
+	dynasty=8
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father=35248
+	mother=61215
+
+	8149.1.1 = {birth="8149.1.1"}
+	8165.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8184.1.1 = {death="8184.1.1"}
+}
+35448 = {
+	name="Jehana"	# not a lord
+	dynasty=8
+	female=yes
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father=35248
+	mother=61215
+
+	8151.1.1 = {birth="8151.1.1"}
+	8194.1.1 = {death="8194.1.1"}
+}
+35548 = {
+	name="Serra"	# not a lord
+	dynasty=8
+	female=yes
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father=35248
+	mother=61215
+
+	8155.1.1 = {birth="8155.1.1"}
+	8204.1.1 = {death="8204.1.1"}
+}
 35148 = {
 	name="Cassella"	# canon, a lord. Third Mistress of Aegon IV. An old lady at the time of Aerys I's reign.
 	female=yes
@@ -6061,18 +6037,8 @@
 	mother=35288
 
 	8178.1.1 = {birth="8178.1.1"}
-	8194.1.1 = {add_trait=knight add_spouse=55238}
+	8194.1.1 = {add_trait=knight}
 	8213.1.1 = {death="8213.1.1"}
-}
-55238 = {
-	name="Cassella"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8170.1.1 = {birth="8170.1.1"}
-	8240.1.1 = {death="8240.1.1"}
 }
 35158 = {
 	name="Jeyne"	# a lord
@@ -6083,7 +6049,6 @@
 	culture="sand_dornish"
 
 	father=35238
-	mother=55238
 
 	8194.1.1 = {birth="8194.1.1"}
 	8238.1.1 = {death="8238.1.1"}
@@ -6111,18 +6076,7 @@
 
 	8214.1.1 = {birth="8214.1.1"}
 	8230.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8232.1.1 = {add_spouse=55168}
 	8259.2.8 = {death = {death_reason = death_battle}}
-}
-55168 = {
-	name="Obella"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8212.1.1 = {birth="8212.1.1"}
-	8272.1.1 = {death="8272.1.1"}
 }
 35178 = {
 	name="Arron"	# not a lord
@@ -6132,7 +6086,6 @@
 	culture="sand_dornish"
 
 	father=35168
-	mother=55168
 
 	8238.1.1 = {birth="8238.1.1"}
 	8253.1.1 = {add_trait=knight add_trait=poor_warrior}
@@ -6146,37 +6099,94 @@
 	culture="sand_dornish"
 
 	father=35168
-	mother=55168
 
 	8240.1.1 = {birth="8240.1.1"}
 	8258.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8301.1.1 = {death="8301.1.1"}
 }
+
 ####################
 ###House Allyrion### # Completed by HobbesMKII
 ##No foe may pass###
 ####################
 ### Dynasty id (9) Dynast members 600+, female and male lowborn spouses 500+. \Chrisjm89/
+60169 = {
+	name="Ballard"	# a lord
+	dynasty=9
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	7821.1.1 = {birth="7821.1.1"}
+	7837.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7866.1.1 = {death="7866.1.1"}
+}
+60159 = {
+	name="Utheryn"	# a lord
+	dynasty=9
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father=60169
+
+	7840.1.1 = {birth="7840.1.1"}
+	7856.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7903.1.1 = {death="7903.1.1"}
+}
+60109 = {
+	name="Darcia"	# a lord
+	female=yes
+	dynasty=9
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father=60159
+
+	7867.1.1 = {birth="7867.1.1"}
+	7883.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7922.1.1 = {death="7922.1.1"}
+}
+60079 = {
+	name="Gwyneth"	# a lord
+	female=yes
+	dynasty=9
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	mother=60109
+
+	7890.1.1 = {birth="7890.1.1"}
+	7906.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7943.1.1 = {death="7943.1.1"}
+}
+60069 = {
+	name="Garibald"	# a lord
+	dynasty=9
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	mother=60079
+
+	7915.1.1 = {birth="7915.1.1"}
+	7931.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7958.1.1 = {death="7958.1.1"}
+}
 60059 = {
 	name="Garin"	# a lord
 	dynasty=9
 
 	religion="the_seven"
 	culture="sand_dornish"
+	
+	father=60069
 
 	7933.1.1 = {birth="7933.1.1"}
-	7949.1.1 = {add_trait=knight add_trait=skilled_warrior add_spouse=50059}
+	7949.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8003.1.1 = {death="8003.1.1"}
-}
-50059 = {
-	name="Meria"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7933.1.1 = {birth="7933.1.1"}
-	7998.1.1 = {death="7998.1.1"}
 }
 60029 = {
 	name="Perros"	# a lord
@@ -6186,22 +6196,9 @@
 	culture="sand_dornish"
 
 	father=60059
-	mother=50059
-	
-	add_trait=strong
 
 	7958.1.1 = {birth="7958.1.1"}
-	7974.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=50029}
-	8015.1.1 = {death="8015.1.1"}
-}
-50029 = {
-	name="Arianne"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7958.1.1 = {birth="7958.1.1"}
+	7974.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8015.1.1 = {death="8015.1.1"}
 }
 60039 = {
@@ -6212,21 +6209,10 @@
 	culture="sand_dornish"
 	
 	father=60029
-	mother=50029
 
 	7979.1.1 = {birth="7979.1.1"}
 	7995.1.1 = {add_trait=knight add_trait=poor_warrior}
 	8008.1.1 = {death = {death_reason = death_battle}}
-}
-50039 = {
-	name="Loreza"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7979.1.1 = {birth="7979.1.1"}
-	8015.1.1 = {death="8015.1.1"}
 }
 60009 = {
 	name="Alyn"	# a lord
@@ -6236,21 +6222,9 @@
 	culture="sand_dornish"
 
 	father=60039
-	mother=50039
 
 	7996.1.1 = {birth="7996.1.1"}
 	8012.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8016.1.1 = {add_spouse=50009}
-	8028.1.1 = {death="8028.1.1"}
-}
-50009 = {
-	name="Deria"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7999.1.1 = {birth="7999.1.1"}
 	8028.1.1 = {death="8028.1.1"}
 }
 60019 = {
@@ -6261,23 +6235,9 @@
 	culture="sand_dornish"
 
 	father=60009
-	mother=50009
-	
-	add_trait=fair
 
 	8018.1.1 = {birth="8018.1.1"}
 	8034.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8040.1.1 = {add_spouse=50019}
-	8059.1.1 = {death="8059.1.1"}
-}
-50019 = {
-	name="Marei"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8020.1.1 = {birth="8020.1.1"}
 	8059.1.1 = {death="8059.1.1"}
 }
 60049 = {
@@ -6288,21 +6248,9 @@
 	culture="sand_dornish"
 
 	father=60019
-	mother=50019
 
 	8041.1.1 = {birth="8041.1.1"}
 	8057.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8059.1.1 = {add_spouse=50049}
-	8091.1.1 = {death="8091.1.1"}
-}
-50049 = {
-	name="Cedra"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8041.1.1 = {birth="8041.1.1"}
 	8091.1.1 = {death="8091.1.1"}
 }
 60099 = {
@@ -6314,7 +6262,6 @@
 	culture="sand_dornish"
 
 	father=60049
-	mother=50049
 
 	8060.1.1 = {birth="8060.1.1"}
 	8114.1.1 = {death="8114.1.1"}
@@ -6346,7 +6293,22 @@
 	8081.1.1 = {birth="8081.1.1"}
 	8099.1.1 = {add_trait=knight add_trait=poor_warrior}
 	8099.1.1 = {add_spouse=50119}
-	8126.1.1 = {add_trait=depressed death = {death_reason = death_trait}}
+	8125.1.1 = {add_trait=depressed}
+	8126.1.1 = {death = {death_reason = death_trait}}
+}
+44001 = {
+	name="Delonne"
+	female=yes
+	dynasty=9
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=50099
+	mother=60099
+
+	8087.1.1 = {birth="8087.1.1"}
+	8134.1.1 = {death="8134.1.1"}
 }
 600609 = {
 	name="Ryon"	# not a lord
@@ -6373,7 +6335,7 @@
 
 	8126.1.1 = {birth="8126.1.1"}
 	8142.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8160.3.16 = {death = {death_reason = death_battle}}
+	8158.1.2 = {death = {death_reason = death_battle}}
 }
 60089 = {
 	name="Nymeria"	# a lord
@@ -6430,7 +6392,7 @@
 
 	8099.1.1 = {birth="8099.1.1"}
 	8115.1.1 = {add_trait=knight add_trait=trained_warrior add_trait=ruthless add_trait=arbitrary add_spouse=35137}
-	8148.1.1 = {
+	8125.1.1 = {
 		remove_spouse=35137
 		add_trait=nightswatch
 	}
@@ -6593,7 +6555,7 @@
 	8155.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8157.6.4 = {add_trait=scarred}
 	8160.10.5 = {add_trait=wounded}
-	8160.10.11 = {
+	8165.10.11 = {
 		remove_trait=wounded 
 		effect = {
 			if = {
@@ -6876,32 +6838,35 @@
 	8253.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8264.1.1 = {death="8264.1.1"}
 }
+
 ######################
 ####House Jordayne####
 ###Let it be written##
 ######################
 ### Dynasty id (10) Dynast members 600+, female and male lowborn spouses 500+. \Chrisjm89/
-6000010 = {
-	name="Dalyn"	# not a lord
+6030010 = {
+	name="Tremond"	# a lord
 	dynasty=10
 
 	religion="the_seven"
 	culture="salt_dornish"
 
-	7880.1.1 = {birth="7880.1.1"}
-	7896.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7898.1.1 = {add_spouse=4000010}
-	7949.1.1 = {death = {death_reason = death_battle}}
+	7861.1.1 = {birth="7861.1.1"}
+	7877.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7881.1.1 = {death = {death_reason = death_battle}}
 }
-4000010 = {
-	name="Ynys"
-	female=yes
+6000010 = {
+	name="Daryn"	# a lord
+	dynasty=10
 
 	religion="the_seven"
 	culture="salt_dornish"
 
+	father=6030010
+	
 	7880.1.1 = {birth="7880.1.1"}
-	7942.1.1 = {death="7942.1.1"}
+	7896.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7949.1.1 = {death = {death_reason = death_battle}}
 }
 6010010 = {
 	name="Edric"	# a lord
@@ -6911,7 +6876,6 @@
 	culture="salt_dornish"
 
 	father=6000010
-	mother=4000010
 
 	7909.1.1 = {birth="7909.1.1"}
 	7925.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -6942,50 +6906,6 @@
 	7941.1.1 = {birth="7941.1.1"}
 	7982.1.1 = {death="7982.1.1"}
 }
-6030010 = {
-	name="Darryn"	# not a lord # Cadet for the scourage so an "of" dynasty member doesn't get given it
-	dynasty=10
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=6010010
-	mother=4010010
-
-	7950.1.1 = {birth="7950.1.1"}
-	7978.1.1 = {add_trait=trained_warrior add_trait=knight add_trait=content}
-	7980.1.1 = {add_spouse=4030010}
-	8010.1.1 = {death= {death_reason = death_battle}}
-}
-4030010 = {
-	name="Cedra"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7962.1.1 = {birth="7962.1.1"}
-	8010.1.1 = {death="8010.1.1"}
-}
-6040010 = {
-	name="Symon"	# Darryn's son, a Lord
-	dynasty=10
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=6030010
-	mother=4030010
-
-	7982.1.1 = {birth="7982.1.1"}
-	7998.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8012.1.1 = {
-		death = {
-			death_reason = death_murder
-			killer = 77000
-		}
-	}
-}
 60010 = {
 	name="Mors"	# a lord
 	dynasty=10
@@ -6998,18 +6918,7 @@
 
 	7945.1.1 = {birth="7945.1.1"}
 	7977.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7979.1.1 = {add_spouse=50010}
 	8004.1.1 = {death="8004.1.1"}
-}
-50010 = {
-	name="Elyana"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	7961.1.1 = {birth="7961.1.1"}
-	8013.1.1 = {death="8013.1.1"}
 }
 60110 = {
 	name="Sylva"	# a lord
@@ -7020,7 +6929,6 @@
 	culture="salt_dornish"
 
 	father=60010
-	mother=50010
 
 	7982.1.1 = {birth="7982.1.1"}
 	8000.1.1 = {
@@ -7160,7 +7068,7 @@
 
 	8066.1.1 = {birth="8066.1.1"}
 	8084.1.1 = {add_matrilineal_spouse=51010}
-	8139.1.1 = {death="8139.1.1"}
+	8119.1.1 = {death="8119.1.1"}
 }
 51010 = {
 	name="Oberyn"
@@ -7184,7 +7092,6 @@
 
 	8073.1.1 = {birth="8073.1.1"}
 	8089.1.1 = {add_trait=knight add_trait=poor_warrior}
-	#8091.1.1 = {add_spouse=50910} #non-existent ID
 	8105.1.1 = {death = {death_reason = death_murder}}
 }
 61110 = {
@@ -7302,6 +7209,50 @@
 	8141.1.1 = {birth="8141.1.1"}
 	8201.1.1 = {death="8201.1.1"}
 }
+62410 = {
+	name="Olymer"	# not a lord
+	dynasty=10
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=60810
+	mother=61118
+
+	add_trait=lustful
+
+	8143.1.1 = {birth="8143.1.1"}
+	8159.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8192.1.1 = {death="8192.1.1"}
+}
+62510 = {
+	name="Vincent"	# not a lord
+	dynasty=10
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=60810
+	mother=61118
+
+	8145.1.1 = {birth="8145.1.1"}
+	8161.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8195.1.1 = {death="8195.1.1"}
+}
+62610 = {
+	name="Eremon"	# not a lord
+	dynasty=10
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=60810
+	mother=61118
+
+	8150.1.1 = {birth="8150.1.1"}
+	8166.1.1 = {add_trait=septon}
+	8212.1.1 = {death="8212.1.1"}
+}
 61710 = {
 	name="Jaspin"	# not a lord
 	dynasty=10
@@ -7356,6 +7307,7 @@
 	add_trait=lustful
 
 	8125.1.1 = {birth="8125.1.1"}
+	8150.1.1 = {effect={add_lover=162016}}
 	8181.1.1 = {death="8181.1.1"}
 }
 62010 = {
@@ -7776,32 +7728,7 @@
 
 	8169.1.1 = {birth="8169.1.1"}
 	8185.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8201.1.1 = {add_spouse=51001110}
 	8227.1.1 = {death="8227.1.1"}
-}
-51001110 = {
-	name="Emberlei"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8183.1.1 = {birth="8183.1.1"}
-	8215.1.1 = {add_trait=has_bubonic_plague death = {death_reason = death_trait}}
-}
-61001410 = {
-	name="Myriah"	# not a lord
-	female=yes
-	dynasty=10
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=61001110
-	mother=51001110
-
-	8208.1.1 = {birth="8208.1.1"}
-	8209.1.1 = {add_trait=has_bubonic_plague death = {death_reason = death_trait}}
 }
 61001510 = {
 	name="Daeron"	# a lord
@@ -7811,22 +7738,10 @@
 	culture="salt_dornish"
 
 	father=61001110
-	mother=51001110
 
 	8209.1.1 = {birth="8209.1.1"}
 	8225.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8227.1.1 = {add_spouse=51001510}
 	8262.1.1 = {death="8262.1.1"}
-}
-51001510 = {
-	name="Ashara"
-	female=yes
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	8209.1.1 = {birth="8209.1.1"}
-	8264.1.1 = {death="8264.1.1"}
 }
 61001610 = {
 	name="Mors"	# not a lord
@@ -7836,26 +7751,11 @@
 	culture="salt_dornish"
 
 	father=61001110
-	mother=51001110
 
 	8210.1.1 = {birth="8210.1.1"}
 	8226.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8228.1.1 = {add_spouse=51001610}
 	8259.1.1 = {death = {death_reason = death_battle}}
-}
-175010 = {
-	name="Doran" # not a lord, random father of Doran and siblings
-	dynasty=10
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=61001110
-	mother=51001110
-
-	8214.1.1 = {birth="8214.1.1"}
-	8230.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8272.1.1 = {death="8272.1.1"}
 }
 51001610 = {
 	name="Morra"
@@ -7875,7 +7775,6 @@
 	culture="salt_dornish"
 
 	father=61001510
-	mother=51001510
 
 	8229.1.1 = {birth="8229.1.1"}
 	8245.1.1 = {add_trait=knight add_trait=skilled_warrior}
@@ -7891,6 +7790,19 @@
 
 	8228.1.1 = {birth="8228.1.1"}
 	8269.1.1 = {death = {death_reason = death_accident}}
+}
+175010 = {
+	name="Lewyn" # not a lord, random father of Doran and siblings
+	dynasty=10
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=61001510
+
+	8230.1.1 = {birth="8230.1.1"}
+	8246.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8275.1.1 = {death="8275.1.1"}
 }
 61002210 = {
 	name="Daemon"	# not a lord
@@ -7946,32 +7858,69 @@
 	8316.1.1 = {death="8316.1.1"}
 }
 
-
 ##################
 ####House Wells###
 ##################
 ### Dynasty id (11) Dynast members 600+, female and male lowborn spouses 500+. \Chrisjm89/
+63311 = {
+	name="Ulwyn"	# a lord
+	dynasty=11
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	7849.1.1 = {birth="7849.1.1"}
+	7878.1.1 = {death="7878.1.1"}
+}
+62311 = {
+	name="Jeffory"	# a lord
+	dynasty=11
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=63311
+	
+	7870.1.1 = {birth="7870.1.1"}
+	7927.1.1 = {death="7927.1.1"}
+}
+61411 = {
+	name="Gerold"	# a lord
+	dynasty=11
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=62311
+	
+	7897.1.1 = {birth="7897.1.1"}
+	7935.1.1 = {death="7935.1.1"}
+}
+60611 = {
+	name="Lanei"	# a lord
+	female=yes
+	dynasty=11
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=61411
+	
+	7922.1.1 = {birth="7922.1.1"}
+	7970.1.1 = {death="7970.1.1"}
+}
 60011 = {
 	name="Garin"	# a lord
 	dynasty=11
 
 	religion="the_seven"
 	culture="sand_dornish"
+	
+	mother=60611
 
 	7947.1.1 = {birth="7947.1.1"}
 	7963.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7965.1.1 = {add_spouse=50011}
 	8002.1.1 = {death = {death_reason = death_battle}}
-}
-50011 = {
-	name="Leyla"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7947.1.1 = {birth="7947.1.1"}
-	8013.1.1 = {death="8013.1.1"}
 }
 60111 = {
 	name="Eleanor"	# a lord
@@ -7982,7 +7931,6 @@
 	culture="sand_dornish"
 
 	father=60011
-	mother=50011
 
 	7981.1.1 = {birth="7981.1.1"}
 	7997.6.1 = {
@@ -8000,34 +7948,6 @@
 	7996.1.1 = {add_trait=knight add_trait=poor_warrior}
 	8043.1.1 = {death="8043.1.1"}
 }
-60211 = {
-	name="Castos"	# not a lord
-	dynasty=11
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=60011
-	mother=50011
-
-	7983.1.1 = {birth="7983.1.1"}
-	7999.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8039.1.1 = {death = {death_reason = death_battle}}
-}
-60311 = {
-	name="Tanselle"	# not a lord
-	female=yes
-	dynasty=11
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=60011
-	mother=50011
-
-	7986.1.1 = {birth="7986.1.1"}
-	8010.1.1 = {death = {death_reason = death_dungeon}}
-}
 60411 = {
 	name="Gascoyne"	# a lord
 	dynasty=11
@@ -8040,18 +7960,7 @@
 
 	7998.1.1 = {birth="7998.1.1"}
 	8014.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8018.1.1 = {add_spouse=50411}
 	8043.1.1 = {death = {death_reason = death_battle}}
-}
-50411 = {
-	name="Loreza"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8001.1.1 = {birth="8001.1.1"}
-	8063.1.1 = {death="8063.1.1"}
 }
 60511 = {
 	name="Elia"	# a lord
@@ -8062,7 +7971,6 @@
 	culture="sand_dornish"
 
 	father=60411
-	mother=50411
 
 	8032.1.1 = {birth="8032.1.1"}
 	8097.1.1 = {death="8097.1.1"}
@@ -8077,20 +7985,6 @@
 	8046.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8048.1.1 = {add_matrilineal_spouse=60511}
 	8072.1.1 = {death = {death_reason = death_battle}}
-}
-60611 = {
-	name="Marya"	# not a lord
-	female=yes
-	dynasty=11
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=60411
-	mother=50411
-
-	8035.1.1 = {birth="8035.1.1"}
-	8094.1.1 = {death="8094.1.1"}
 }
 61011 = {
 	name="Allyria"	# a lord
@@ -8210,6 +8104,20 @@
 	8114.1.1 = {birth="8114.1.1"}
 	8130.1.1 = {add_trait=knight add_trait=skilled_warrior give_nickname=nick_the_big}
 	8157.1.1 = {death = {death_reason = death_battle killer=77022}}
+}
+61811 = {
+	name="Dorianne"	# not a lord
+	female=yes
+	dynasty=11
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=51111
+	mother=61111
+
+	8115.1.1 = {birth="8115.1.1"}
+	8191.1.1 = {death="8191.1.1"}
 }
 61611 = {
 	name="Theobard"	# a lord
@@ -8339,31 +8247,7 @@
 
 	8181.1.1 = {birth="8181.1.1"}
 	8197.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8199.1.1 = {add_spouse=52111}
 	8225.1.1 = {death="8225.1.1"}
-}
-52111 = {
-	name="Delonne"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8180.1.1 = {birth="8180.1.1"}
-	8227.1.1 = {death="8227.1.1"}
-}
-62311 = {
-	name="Caleotte"	# not a lord
-	dynasty=11
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	mother=61911
-	father=51911
-
-	8194.1.1 = {birth="8194.1.1"}
-	8210.1.1 = {add_trait=has_bubonic_plague death = {death_reason = death_trait}}
 }
 62411 = {
 	name="Edric"	# not a lord
@@ -8398,7 +8282,6 @@
 	culture="sand_dornish"
 
 	father=62111
-	mother=52111
 
 	8201.1.1 = {birth="8201.1.1"}
 	8217.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -8717,7 +8600,46 @@
 	7330.1.1 = {
 		birth=7330.1.1
 	}
-	7911.1.1 = {death="7911.1.1"}
+	7825.1.1 = {death="7825.1.1"}
+}
+165012 = {
+	name="Edgar"	# a lord
+	dynasty=12
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 159012
+
+	7825.1.1 = {birth="7825.1.1"}
+	7841.1.1 = {add_trait=knight add_trait=poor_warrior}
+	7875.1.1 = {death="7875.1.1"}
+}
+164012 = {
+	name="Cletus"	# a lord
+	dynasty=12
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 165012
+
+	7853.1.1 = {birth="7853.1.1"}
+	7897.1.1 = {add_trait=knight add_trait=poor_warrior}
+	7927.1.1 = {death="7927.1.1"}
+}
+163012 = {
+	name="Anders"	# a lord
+	dynasty=12
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 164012
+
+	7881.1.1 = {birth="7881.1.1"}
+	7897.1.1 = {add_trait=knight add_trait=poor_warrior}
+	7925.1.1 = {death="7925.1.1"}
 }
 160012 = {
 	name="Anders"	# a lord
@@ -8726,14 +8648,14 @@
 	religion="the_seven"
 	culture="stone_dornish"
 	
-	father = 159012
+	father = 163012
 
 	7911.1.1 = {birth="7911.1.1"}
 	7927.1.1 = {add_trait=knight add_trait=poor_warrior}
 	7957.1.1 = {death="7957.1.1"}
 }
 161012 = {
-	name="Yorick"	# a lord
+	name="Benedict"	# a lord
 	dynasty=12
 
 	religion="the_seven"
@@ -8754,6 +8676,21 @@
 
 	7930.1.1 = {birth="7930.1.1"}
 	7988.1.1 = {death="7988.1.1"}
+}
+42001 = {
+	name="Yorick"
+	dynasty=12
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 160012
+
+	add_trait=fair
+
+	7932.1.1 = {birth="7932.1.1"}
+	7934.1.1 = {add_trait=knight add_trait=poor_warrior}
+	7980.1.1 = {death="7980.1.1"}
 }	
 30012 = {
 	name="Yoren"	# a lord
@@ -8767,32 +8704,7 @@
 
 	7949.1.1 = {birth="7949.1.1"}
 	7965.1.1 = {add_trait=knight add_trait=poor_warrior}
-	7967.1.1 = {add_spouse=40012}
 	8007.1.1 = {death="8007.1.1"}
-}
-40012 = {
-	name="Obara"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7950.1.1 = {birth="7950.1.1"}
-	8008.1.1 = {death="8008.1.1"}
-}
-30112 = {
-	name="Yorick"	# not a lord
-	dynasty=12
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=30012
-	mother=40012
-
-	7974.1.1 = {birth="7974.1.1"}
-	7990.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8012.1.1 = {death = {death_reason = death_battle}}
 }
 30212 = {
 	name="Cletus"	# a lord
@@ -8802,22 +8714,10 @@
 	culture="stone_dornish"
 
 	father=30012
-	mother=40012
 
 	7971.1.1 = {birth="7971.1.1"}
 	7987.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	7989.1.1 = {add_spouse=40212}
 	8022.1.1 = {death="8022.1.1"}
-}
-40212 = {
-	name="Carellen"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7971.1.1 = {birth="7971.1.1"}
-	8034.1.1 = {death="8034.1.1"}
 }
 30312 = {
 	name="Ulrick"	# a lord
@@ -8827,50 +8727,10 @@
 	culture="stone_dornish"
 
 	father=30212
-	mother=40212
 
 	7989.1.1 = {birth="7989.1.1"}
 	8005.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8007.1.1 = {add_spouse=40312}
 	8048.1.1 = {death="8048.1.1"}
-}
-40312 = {
-	name="Alysanne"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7988.1.1 = {birth="7988.1.1"}
-	8057.1.1 = {death="8057.1.1"}
-}
-30412 = {
-	name="Olyvar"	# not a lord
-	dynasty=12
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=30212
-	mother=40212
-
-	7990.1.1 = {birth="7990.1.1"}
-	8006.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8047.1.1 = {death="8047.1.1"}
-}
-30712 = {
-	name="Gwyneth"	# not a lord
-	female=yes
-	dynasty=12
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=30312
-	mother=40312
-
-	8021.1.1 = {birth="8021.1.1"}
-	8044.1.1 = {death = {death_reason = death_accident}}
 }
 31012 = {
 	name="Gyles"	# a lord
@@ -8880,22 +8740,10 @@
 	culture="stone_dornish"
 
 	father=30312
-	mother=40312
 
 	8028.1.1 = {birth="8028.1.1"}
 	8044.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8046.1.1 = {add_spouse=41012}
 	8075.1.1 = {death="8075.1.1"}
-}
-41012 = {
-	name="Janyce"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8028.1.1 = {birth="8028.1.1"}
-	8073.1.1 = {death="8073.1.1"}
 }
 31112 = {
 	name="Anders"	# a lord
@@ -8905,36 +8753,10 @@
 	culture="stone_dornish"
 
 	father=31012
-	mother=41012
 
 	8054.1.1 = {birth="8054.1.1"}
 	8070.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8072.1.1 = {add_spouse=41112}
 	8109.1.1 = {death="8109.1.1"}
-}
-30612 = {
-	name="Ynys"	# not a lord
-	female=yes
-	dynasty=12
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=31012
-	mother=41012
-
-	8058.1.1 = {birth="8058.1.1"}
-	8065.1.1 = {death="8065.1.1"}
-}
-41112 = {
-	name="Ynys"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8052.1.1 = {birth="8052.1.1"}
-	8104.1.1 = {death="8104.1.1"}
 }
 31212 = {
 	name="Archibald"	# a lord
@@ -8944,10 +8766,9 @@
 	culture="stone_dornish"
 
 	father=31112
-	mother=41112
 
 	8072.1.1 = {birth="8072.1.1"}
-	8088.1.1 = {add_trait=knight add_trait=master_warrior}
+	8088.1.1 = {add_trait=knight}
 	8090.1.1 = {add_spouse=41212}
 	8120.1.1 = {death ="8120.1.1"}
 }
@@ -8969,7 +8790,6 @@
 	culture="stone_dornish"
 
 	father=31112
-	mother=41112
 
 	8073.1.1 = {birth="8073.1.1"}
 	8091.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -8983,7 +8803,6 @@
 	culture="stone_dornish"
 
 	father=31112
-	mother=41112
 
 	8074.1.1 = {birth="8074.1.1"}
 	8090.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -9115,7 +8934,7 @@
 	8143.1.1 = {add_trait=scholar}
 	8200.1.1 = {death ="8200.1.1"}
 }
-##
+
 389912 = {
 	name="Ambrose"	# not a lord
 	dynasty=12
@@ -9257,6 +9076,7 @@
 	father=41312 #Ormond Yronwood
 
 	8127.4.18 = {birth="8127.4.18"}
+	8145.1.1 = {add_trait=knight add_spouse=339002}
 	8157.9.14 = {death={death_reason=death_battle killer=17206}} #killed at the Carrion Woods
 }
 32012 = {
@@ -9344,47 +9164,46 @@
 
 	8169.6.23 = {birth="8169.6.23"}
 	8187.6.23 = {add_trait=knight}
-	8192.1.1 = {add_spouse=42312}
-	8195.3.7={ #Blackfyre Rebellion
+	8195.3.7 = { #Blackfyre Rebellion
 		raise_levies = {
 			location = 334 #Yronwood
 			force_mult = 1
 		}
 		effect = {
-			set_defacto_liege = ROOT
-			set_character_flag = against_king
-			set_character_flag = against_loyal_liege
-			any_demesne_title = {
-				limit = { 
-					OR = {
-						tier = COUNT
-						tier = DUKE
-					}
-				}				
-				set_variable = { which = "de_facto_kingdom" value = 7 } #dorne
-			}
-			e_iron_throne = {
-				holder_scope = { 
-					opinion = {
-						modifier = opinion_joined_rebellion
-						who = ROOT
-						years = 20
+			if = {
+				limit = { NOT = { start_date = 8196.6.1 } }
+				set_defacto_liege = ROOT
+				set_character_flag = against_king
+				set_character_flag = against_loyal_liege
+				any_demesne_title = {
+					limit = { 
+						OR = {
+							tier = COUNT
+							tier = DUKE
+						}
+					}				
+					set_variable = { which = "de_facto_kingdom" value = 7 } #dorne
+				}
+				e_iron_throne = {
+					holder_scope = { 
+						opinion = {
+							modifier = opinion_joined_rebellion
+							who = ROOT
+							years = 20
+						}
 					}
 				}
-			}
-			k_daemon_blackfyres_host = {
-				holder_scope = { 
-					opinion = {
-						who = ROOT
-						modifier = opinion_joined_cause
-					}
-					reverse_opinion = {
-						modifier = opinion_with_rebel_leader
-						who = ROOT
-						years = 100
-					}
-					if = {
-						limit = { NOT = { year = 8197 } }
+				k_daemon_blackfyres_host = {
+					holder_scope = { 
+						opinion = {
+							who = ROOT
+							modifier = opinion_joined_cause
+						}
+						reverse_opinion = {
+							modifier = opinion_with_rebel_leader
+							who = ROOT
+							years = 100
+						}
 						ROOT = {
 							join_attacker_wars = PREV
 						}
@@ -9393,49 +9212,8 @@
 			}
 		}
 	}
-	8196.12.31={ 
-		effect = {
-			k_dorne = {
-				holder_scope = {
-					ROOT = { set_defacto_liege = PREV }
-				}
-			}
-			clr_character_flag = against_king
-			clr_character_flag = against_loyal_liege
-			any_demesne_title = {
-				limit = { 
-					OR = {
-						tier = COUNT
-						tier = DUKE
-					}
-				}				
-				set_variable = { which = "de_facto_kingdom" value = 7 } #dorne
-			}
-			e_iron_throne = {
-				holder_scope = { 
-					remove_opinion = {
-						modifier = opinion_joined_rebellion
-						who = ROOT
-					}
-				}
-			}
-			k_daemon_blackfyres_host = {
-				holder_scope = { 
-					remove_opinion = {
-						who = ROOT
-						modifier = opinion_joined_cause
-					}
-					reverse_remove_opinion = {
-						modifier = opinion_with_rebel_leader
-						who = ROOT
-					}
-				}
-			}
-		}
-	}
 	8230.1.1 = {death="8230.1.1"}
 }
-
 30912 = {
 	name="Loreza"	# not a lord
 	female=yes
@@ -9450,16 +9228,6 @@
 	8176.1.1 = {birth="8176.1.1"}
 	8250.1.1 = {death="8250.1.1"}
 }
-42312 = {
-	name="Senelle"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8174.1.1 = {birth="8174.1.1"}
-	8230.1.1 = {death="8230.1.1"}
-}
 30512 = {
 	name="Olyvar"	# not a lord
 	dynasty=12
@@ -9468,23 +9236,11 @@
 	culture="stone_dornish"
 
 	father=32312
-	mother=42312
 
 	8200.1.1 = {birth="8200.1.1"}
-	8216.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=40512}
+	8216.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8228.1.1 = {death="8228.1.1"}
 }
-40512 = {
-	name="Ynys"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8200.1.1 = {birth="8200.1.1"}
-	8270.1.1 = {death="8270.1.1"}
-}
-
 32712 = {
 	name="Gwyneth"	# not a lord
 	female=yes
@@ -9494,7 +9250,6 @@
 	culture="stone_dornish"
 
 	father=32312
-	mother=42312
 
 	8202.1.1 = {birth="8202.1.1"}
 	8280.1.1 = {death="8280.1.1"}
@@ -9507,7 +9262,6 @@
 	culture="stone_dornish"
 
 	father=30512
-	mother=40512
 	
 	add_trait=tall
 	add_trait=strong
@@ -9556,13 +9310,13 @@
 		death="7316.1.1"
 	}
 }
-##
+
 #################
 ###House Uller###
 #################
 ### Dynasty id (13) Dynast members 600+, female and male lowborn spouses 500+. \Chrisjm89/
 150013 = {
-	name="Alaric"	# a lord Husband of Nymeria
+	name="Oberyn"	# a lord Husband of Nymeria
 	dynasty=13
 
 	religion="the_seven"
@@ -9573,7 +9327,7 @@
 	7316.1.1 = {death="7316.1.1"}
 }
 151013 = {
-	name="Line of Alaric"	# a lord Husband of Nymeria
+	name="Line of Oberyn"	# a lord Husband of Nymeria
 	dynasty=13
 	occluded = yes
 
@@ -9583,7 +9337,46 @@
 	father = 150013
 
 	7316.1.1 = {birth="7316.1.1"}
-	7912.1.1 = {death="7912.1.1"}
+	7821.1.1 = {death="7821.1.1"}
+}
+155013 = {
+	name="Benedict"	# a lord
+	dynasty=13
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father = 151013
+
+	7821.1.1 = {birth="7821.1.1"}
+	7837.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7873.1.1 = {death="7873.1.1"}
+}
+154013 = {
+	name="Harmon"	# a lord
+	dynasty=13
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father = 155013
+
+	7856.1.1 = {birth="7856.1.1"}
+	7872.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7900.1.1 = {death="7900.1.1"}
+}
+153013 = {
+	name="Eselle"	# a lord
+	female=yes
+	dynasty=13
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father = 154013
+
+	7885.1.1 = {birth="7885.1.1"}
+	7928.1.1 = {death="7928.1.1"}
 }
 152013 = {
 	name="Lewyn"	# a lord
@@ -9592,7 +9385,7 @@
 	religion="the_seven"
 	culture="sand_dornish"
 	
-	father = 151013
+	mother = 153013
 
 	7912.1.1 = {birth="7912.1.1"}
 	7928.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -9638,48 +9431,12 @@
 
 	7962.1.1 = {birth="7962.1.1"}
 	7978.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	7980.1.1 = {add_spouse=50113}
 	8010.6.1 = {
 		death = {
 			death_reason = death_murder
 			killer = 77000
 		}
 	}
-}
-60000013 = {
-	name="Fyron"	# a lord # so the Ullers don't give their extra county to an "of" dynasty
-	dynasty=13
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=60013
-	mother=50013
-
-	7965.1.1 = {birth="7965.1.1"}
-	7978.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7980.1.1 = {add_spouse=40000013}
-	8004.1.1 = {death = {death_reason = death_execution}}
-}
-50113 = {
-	name="Obella"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7963.1.1 = {birth="7963.1.1"}
-	8008.1.1 = {death="8008.1.1"}
-}
-40000013 = {
-	name="Myra"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7963.1.1 = {birth="7963.1.1"}
-	8008.1.1 = {death="8008.1.1"}
 }
 60213 = {
 	name="Quentyn"	# a lord
@@ -9689,7 +9446,6 @@
 	culture="sand_dornish"
 
 	father=60113
-	mother=50113
 
 	7980.1.1 = {birth="7980.1.1"}
 	7996.1.1 = {add_trait=knight add_trait=poor_warrior}
@@ -9708,7 +9464,6 @@
 	culture="sand_dornish"
 
 	father=60113
-	mother=50113
 
 	7982.1.1 = {birth="7982.1.1"}
 	7998.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -9727,7 +9482,6 @@
 	culture="sand_dornish"
 
 	father=60113
-	mother=50113
 
 	7986.1.1 = {birth="7986.1.1"}
 	8002.1.1 = {add_trait=knight add_trait=poor_warrior}
@@ -9747,7 +9501,6 @@
 	culture="sand_dornish"
 
 	father=60113
-	mother=50113
 
 	7990.1.1 = {birth="7990.1.1"}
 	8006.1.1 = {
@@ -9774,7 +9527,6 @@
 	culture="sand_dornish"
 
 	father=60113
-	mother=50113
 
 	7993.1.1 = {birth="7993.1.1"}
 	8024.1.1 = {death = {death_reason = death_dungeon}}
@@ -9802,18 +9554,7 @@
 
 	8019.1.1 = {birth="8019.1.1"}
 	8035.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8037.1.1 = {add_spouse=50613}
 	8054.1.1 = {death = {death_reason = death_murder}}
-}
-50613 = {
-	name="Loreza"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8017.1.1 = {birth="8017.1.1"}
-	8059.1.1 = {death = {death_reason = death_accident}}
 }
 60713 = {
 	name="Mariya"	# not a lord
@@ -9863,10 +9604,9 @@
 	culture="sand_dornish"
 
 	father=60613
-	mother=50613
 
 	8039.1.1 = {birth="8039.1.1"}
-	8055.1.1 = {add_trait=knight add_trait=master_warrior}
+	8055.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8083.1.1 = {death="8083.1.1"}
 }
 61213 = {
@@ -9962,6 +9702,20 @@
 	8126.1.1 = {add_spouse=35108}
 	8173.1.1 = {death="8173.1.1"}
 }
+62713 = {
+	name="Talia"	# not a lord
+	dynasty=13
+	female=yes
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=61413
+	mother=35108
+
+	8130.1.1 = {birth="8130.1.1"}
+	8191.1.1 = {death="8191.1.1"}
+}
 61813 = {
 	name="Selwyn"	# not a lord
 	dynasty=13
@@ -9995,6 +9749,22 @@
 	8157.6.6 = {
 		death = { death_reason = death_battle }
 	}
+}
+62813 = {
+	name="Gavin"	# not a lord
+	dynasty=13
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=61413
+
+	add_trait=bastard
+	give_nickname=nick_sand
+
+	8132.1.1 = {birth="8132.1.1"}
+	8148.1.1 = {add_trait=maester}
+	8199.1.1 = {death="8199.1.1"}
 }
 63813 = {
 	name="Jinny"	# not a lord
@@ -10203,6 +9973,20 @@
 	8158.1.1 = {add_trait=silent_sister}
 	8199.1.1 = {death="8199.1.1"}
 }
+52513 = {
+	name="Galwell"
+	dynasty=6
+
+	religion="the_seven"
+	culture="salt_dornish"
+
+	father=35116
+	mother=45116
+
+	8130.1.1 = {birth="8130.1.1"}
+	8180.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8204.1.1 = {death="8204.1.1"}
+}
 63013 = {
 	name="Serena"	# not a lord
 	dynasty=13
@@ -10283,23 +10067,12 @@
 	father=62213
 	mother=39005204
 
+	add_trait=proud
+	add_trait=wroth
+
 	8134.1.1 = {birth="8134.1.1"}
 	8166.1.1 = {add_matrilineal_spouse=52513}
 	8196.4.18 = {death = {death_reason = death_accident}}
-}
-52513 = {
-	name="Galwell"
-	dynasty=6
-
-	religion="the_seven"
-	culture="salt_dornish"
-
-	father=35116
-	mother=45116
-
-	8130.1.1 = {birth="8130.1.1"}
-	8180.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8204.1.1 = {death="8204.1.1"}
 }
 62613 = {
 	name="Serion"	# not a lord
@@ -10334,18 +10107,7 @@
 
 	8173.1.1 = {birth="8173.1.1"}
 	8199.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8201.1.1 = {add_spouse=52913}
 	8211.2.10 = {death="8211.2.10"}
-}
-52913 = {
-	name="Coryanne"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8183.1.1 = {birth="8183.1.1"}
-	8210.1.1 = {death="8210.1.1"}
 }
 63113 = {
 	name="Doran"	# a lord
@@ -10359,31 +10121,7 @@
 
 	8176.1.1 = {birth="8176.1.1"}
 	8202.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8204.1.1 = {add_spouse=53113}
 	8243.1.1 = {death="8243.1.1"}
-}
-53113 = {
-	name="Dorea"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8186.1.1 = {birth="8186.1.1"}
-	8257.1.1 = {death="8257.1.1"}
-}
-63513 = {
-	name="Allar"	# not a lord
-	dynasty=13
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=62913
-	mother=52913
-
-	8209.1.1 = {birth="8209.1.1"}
-	8213.1.1 = {add_trait=has_bubonic_plague death = {death_reason = death_trait}}
 }
 63613 = {
 	name="Daemon"	# not a lord
@@ -10393,28 +10131,13 @@
 	culture="sand_dornish"
 
 	father=63113
-	mother=53113
 
 	8204.1.1 = {birth="8204.1.1"}
 	8220.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8222.1.1 = {add_spouse=32712} # Maid of House Yronwood.
 	8259.2.17 = {death="8259.2.17"}
 }
-53613 = {
-	name="Mellei"
-	dynasty=13
-	female=yes
 
-	religion="the_seven"
-	culture="sand_dornish"
-	
-	
-	father=63113
-	mother=53113
-
-	8207.1.1 = {birth="8207.1.1"}
-	8272.1.1 = {death="8272.1.1"}
-}
 ##################
 ###House Fowler###
 ###Let me Soar####
@@ -10497,7 +10220,33 @@
 	occluded = yes
 
 	7311.1.1={birth="7311.1.1"}
-	7901.1.1={death="7901.1.1"}
+	7844.1.1={death="7844.1.1"}
+}
+158014 = {
+	name="Gerris"	# a lord
+	dynasty=14
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 153014
+
+	7844.1.1 = {birth="7844.1.1"}
+	7861.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7883.1.1 = {death="7883.1.1"}
+}
+156014 = {
+	name="Andrey"	# a lord
+	dynasty=14
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 158014
+
+	7869.1.1 = {birth="7869.1.1"}
+	7885.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7917.1.1 = {death="7917.1.1"}
 }
 154014 = {
 	name="Vorian"	# a lord
@@ -10506,7 +10255,7 @@
 	religion="the_seven"
 	culture="stone_dornish"
 	
-	father = 153014
+	father = 156014
 
 	7901.1.1 = {birth="7901.1.1"}
 	7917.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -10553,23 +10302,12 @@
 	
 	7949.1.1 = {birth="7949.1.1"}
 	7965.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7967.1.1 = {add_spouse=50014}
 	8012.1.1 = {
 		death = {
 			death_reason = death_murder
 			killer = 77000
 		}
 	}
-}
-50014 = {
-	name="Alys"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7950.1.1 = {birth="7950.1.1"}
-	8019.1.1 = {death="8019.1.1"}
 }
 60114 = {
 	name="Cassana"	# a lord
@@ -10580,7 +10318,6 @@
 	culture="stone_dornish"
 
 	father=60014
-	mother=50014
 
 	7979.1.1 = {birth="7979.1.1"}
 	7995.1.1 = {add_matrilineal_spouse = 50114}
@@ -10596,6 +10333,21 @@
 	7996.1.1 = {add_trait=knight add_trait=poor_warrior}
 	8036.1.1 = {death = {death_reason = death_battle}}
 }
+49001 = {
+	name="Garrison"
+	dynasty=14
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60014
+
+	add_trait=fair
+
+	7983.1.1 = {birth="7983.1.1"}
+	7999.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8035.1.1 = {death="8035.1.1"}
+}
 60414 = {
 	name="Franklyn"	# a lord
 	dynasty=14
@@ -10608,18 +10360,7 @@
 
 	8005.1.1 = {birth="8005.1.1"}
 	8021.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8023.1.1 = {add_spouse=50414}
 	8080.1.1 = {death="8080.1.1"}
-}
-50414 = {
-	name="Sarella"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8007.1.1 = {birth="8007.1.1"}
-	8082.1.1 = {death="8082.1.1"}
 }
 60714 = {
 	name="Marya"	# a lord
@@ -10630,7 +10371,6 @@
 	culture="stone_dornish"
 
 	father=60414
-	mother=50414
 
 	8024.1.1 = {birth="8024.1.1"}
 	8043.1.1 = {
@@ -10998,7 +10738,7 @@
 	8172.1.1 = {death="8172.1.1"}
 }
 60814 = {
-	name="Madoc"	# a lord
+	name="Madoc"	# not a lord
 	dynasty=14
 
 	religion="the_seven"
@@ -11012,6 +10752,63 @@
 	8118.9.12 = {birth="8118.9.12"}
 	8140.1.1 = {add_spouse=62118}
 	8178.1.1 = {death ="8178.1.1"}
+}
+61814 = {
+	name="Garmond"	# not a lord
+	dynasty=14
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60814
+	mother=62118
+
+	8146.1.1 = {birth="8146.1.1"}
+	8162.1.1 = {add_trait=knight}
+	8166.1.1 = {add_spouse=41005204}
+	8207.1.1 = {death ="8207.1.1"}
+}
+61914 = {
+	name="Doncella"	# not a lord
+	dynasty=14
+	female=yes
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=61814
+	mother=41005204
+
+	8168.1.1 = {birth="8168.1.1"}
+	8218.1.1 = {death ="8218.1.1"}
+}
+62014 = {
+	name="Galenna"	# not a lord
+	dynasty=14
+	female=yes
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60814
+	mother=62118
+
+	8148.1.1 = {birth="8148.1.1"}
+	8218.1.1 = {death ="8218.1.1"}
+}
+62314 = {
+	name="Alekyne"	# not a lord
+	dynasty=14
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60814
+	mother=62118
+
+	8152.1.1 = {birth="8152.1.1"}
+	8168.1.1 = {add_trait=knight}
+	8186.1.1 = {death ="8186.1.1"}
 }
 61614 = {
 	name="Darion"	# not a lord
@@ -11110,32 +10907,7 @@
 
 	8199.1.1 = {birth="8199.1.1"}
 	8215.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8217.1.1 = {add_spouse=52214}
 	8254.1.1 = {death="8254.1.1"}
-}
-52214 = {
-	name="Lia"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8199.1.1 = {birth="8199.1.1"}
-	8258.1.1 = {death="8258.1.1"}
-}
-62314 = {
-	name="Jennelyn"	# not a lord
-	female=yes
-	dynasty=14
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	mother=62114
-	father=52114
-
-	8201.1.1 = {birth="8201.1.1"}
-	8240.1.1 = {death="8240.1.1"}
 }
 63014 = {
 	name="Gerold"	# a lord
@@ -11145,7 +10917,6 @@
 	culture="stone_dornish"
 
 	father=62214
-	mother=52214
 
 	8225.1.1 = {birth="8225.1.1"}
 	8241.1.1 = {add_trait=knight add_trait=poor_warrior}
@@ -11170,7 +10941,6 @@
 	culture="stone_dornish"
 
 	father=62214
-	mother=52214
 
 	8229.1.1 = {birth="8229.1.1"}
 	8245.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -11226,10 +10996,61 @@
 	8250.1.1 = {birth="8250.1.1"}
 	8298.1.1 = {death="8298.1.1"}
 }
+
 ###################
 ###House Qorgyle###
 ###################
 ### Dynasty id (15) Dynast members 600+, female and male lowborn spouses 500+. \Chrisjm89/
+65715 = {
+	name="Cassella"	# a lord
+	female=yes
+	dynasty=15
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	7831.1.1 = {birth="7831.1.1"}
+	7886.1.1 = {death="7886.1.1"}
+}
+65615 = {
+	name="Idella"	# a lord
+	female=yes
+	dynasty=15
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	mother=65715
+	
+	7869.1.1 = {birth="7869.1.1"}
+	7905.1.1 = {death="7905.1.1"}
+}
+65515 = {
+	name="Jantos"	# a lord
+	dynasty=15
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	mother=65615
+
+	7890.1.1 = {birth="7890.1.1"}
+	7906.1.1 = {add_trait=knight add_trait=skilled_warrior}
+	7925.1.1 = {death="7925.1.1"}
+}
+65415 = {
+	name="Jannet"	# a lord
+	female=yes
+	dynasty=15
+
+	religion="the_seven"
+	culture="sand_dornish"
+	
+	father=65515
+
+	7908.1.1 = {birth="7908.1.1"}
+	7961.1.1 = {death="7961.1.1"}
+}
 60215 = {
 	name="Moriah"	# a lord
 	female=yes
@@ -11238,6 +11059,8 @@
 	religion="the_seven"
 	culture="sand_dornish"
 
+	mother=65415
+	
 	7939.1.1 = {birth="7939.1.1"}
 	7998.1.1 = {death="7998.1.1"}
 }
@@ -11252,7 +11075,7 @@
 	7999.1.1 = {death="7999.1.1"}
 }
 60015 = {
-	name="Allar"	# a lord
+	name="Allard"	# a lord
 	dynasty=15
 
 	religion="the_seven"
@@ -11263,18 +11086,7 @@
 
 	7961.1.1 = {birth="7961.1.1"}
 	7977.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	7979.1.1 = {add_spouse=50015}
 	8006.1.1 = {death="8006.1.1"}
-}
-50015 = {
-	name="Jennelyn"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7961.1.1 = {birth="7961.1.1"}
-	8019.1.1 = {death="8019.1.1"}
 }
 60115 = {
 	name="Lythene"	# a lord
@@ -11285,7 +11097,6 @@
 	culture="sand_dornish"
 
 	father=60015
-	mother=50015
 
 	7986.1.1 = {birth="7986.1.1"}
 	8045.1.1 = {death="8045.1.1"}
@@ -11338,18 +11149,7 @@
 
 	8011.1.1 = {birth="8011.1.1"}
 	8027.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8029.1.1 = {add_spouse=50415}
 	8063.1.1 = {death="8063.1.1"}
-}
-50415 = {
-	name="Ysilla"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8012.1.1 = {birth="8012.1.1"}
-	8072.1.1 = {death="8072.1.1"}
 }
 60615 = {
 	name="Arron"	# a lord
@@ -11359,22 +11159,10 @@
 	culture="sand_dornish"
 
 	father=60415
-	mother=50415
 
 	8034.1.1 = {birth="8034.1.1"}
 	8050.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8052.1.1 = {add_spouse=50615}
 	8066.1.1 = {death="8066.1.1"}
-}
-50615 = {
-	name="Cassella"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8034.1.1 = {birth="8034.1.1"}
-	8087.1.1 = {death="8087.1.1"}
 }
 60915 = {
 	name="Quentyn"	# a lord
@@ -11384,7 +11172,6 @@
 	culture="sand_dornish"
 
 	father=60615
-	mother=50615
 
 	8058.1.1 = {birth="8058.1.1"}
 	8074.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -11409,7 +11196,6 @@
 	culture="sand_dornish"
 
 	father=60615
-	mother=50615
 
 	8064.1.1 = {birth="8064.1.1"}
 	8080.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -11533,6 +11319,34 @@
 
 	8113.1.1 = {birth="8113.1.1"}
 	8197.1.1 = {death="8197.1.1"}
+}
+64815 = {
+	name="Roncel"	# not a lord
+	dynasty=15
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=62015
+	mother=61713
+
+	8118.1.1 = {birth="8118.1.1"}
+	8134.1.1 = {add_trait=knight add_spouse=35608}
+	8188.1.1 = {death="8188.1.1"}
+}
+64915 = {
+	name="Cyrene"	# not a lord
+	female=yes
+	dynasty=15
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=64815
+	mother=35608
+
+	8135.1.1 = {birth="8135.1.1"}
+	8180.1.1 = {death="8180.1.1"}
 }
 64215 = {
 	name="Sabia"	# not a lord
@@ -12005,18 +11819,7 @@
 
 	8171.1.1 = {birth="8171.1.1"}
 	8187.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8188.1.1 = {add_spouse=52315}
 	8209.1.1 = {death="8209.1.1"}
-}
-52315 = {
-	name="Lynesse"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8170.1.1 = {birth="8170.1.1"}
-	8210.1.1 = {death="8210.1.1"}
 }
 62515 = {
 	name="Harmen"	# a lord
@@ -12026,31 +11829,19 @@
 	culture="sand_dornish"
 
 	father=62315
-	mother=52315
 
 	8190.1.1 = {birth="8190.1.1"}
-	8206.1.1 = {add_trait=knight add_trait=skilled_warrior add_spouse=52515}
+	8206.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8236.1.1 = {death="8236.1.1"}
 }
-52515 = {
-	name="Morra"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8184.1.1 = {birth="8184.1.1"}
-	8213.1.1 = {death="8213.1.1"}
-}
 62815 = {
-	name="Allar"	# a lord
+	name="Allard"	# a lord
 	dynasty=15
 
 	religion="the_seven"
 	culture="sand_dornish"
 
 	father=62515
-	mother=52515
 
 	8208.1.1 = {birth="8208.1.1"}
 	8224.1.1 = {add_trait=knight add_trait=skilled_warrior}
@@ -12075,10 +11866,9 @@
 	culture="sand_dornish"
 
 	father=62515
-	mother=52515
 
 	8211.1.1 = {birth="8211.1.1"}
-	8227.1.1 = {add_trait=knight add_trait=master_warrior}
+	8227.1.1 = {add_trait=knight}
 	8229.1.1 = {add_spouse=53015}
 	8266.1.1 = {death="8266.1.1"}
 }
@@ -12117,6 +11907,7 @@
 	8244.1.1 = {birth="8244.1.1"}
 	8304.1.1 = {death="8304.1.1"}
 }
+
 #################
 ###House Dayne###
 #################
@@ -12257,7 +12048,7 @@
 	}
 }
 156016 = {
-	name = "Line of Maron"
+	name = "Line of Trystane"
 	dynasty=16
 	
 	religion="the_seven"
@@ -12269,9 +12060,58 @@
 	7378.1.1 = {
 		birth=7378.1.1
 	}
-	7904.1.1 = {
-		death=7904.1.1
+	7839.1.1 = {
+		death=7839.1.1
 	}
+}
+61116 = {
+	name="Gerold"	# a lord
+	dynasty=16
+
+	religion="the_seven"
+	culture="western_valyrian"
+	
+	father = 156016
+
+	7839.1.1 = {birth="7839.1.1" effect = { culture=stone_dornish } }
+	7855.1.1 = {
+		add_trait=knight
+		add_trait=master_warrior
+		add_trait="dawn"
+	    give_nickname = nick_the_sword_of_the_morning
+	}
+	7870.1.1 = { 
+		death = {
+			death_reason = death_duel
+		}
+		culture=stone_dornish 
+	}
+}
+61016 = {
+	name="Franklyn"	# a lord
+	dynasty=16
+
+	religion="the_seven"
+	culture="western_valyrian"
+	
+	father = 61116
+
+	7862.1.1 = {birth="7862.1.1" effect = { culture=stone_dornish } }
+	7878.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7910.1.1 = { death="7910.1.1" culture=stone_dornish }
+}
+60916 = {
+	name="Edric"	# a lord
+	dynasty=16
+
+	religion="the_seven"
+	culture="western_valyrian"
+	
+	father = 61016
+
+	7885.1.1 = {birth="7885.1.1" effect = { culture=stone_dornish } }
+	7901.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7935.1.1 = { death="7935.1.1" culture=stone_dornish }
 }
 60016 = {
 	name="Arthur"	# a lord
@@ -12280,22 +12120,11 @@
 	religion="the_seven"
 	culture="western_valyrian"
 	
-	father = 156016
+	father = 60916
 
 	7904.1.1 = {birth="7904.1.1" effect = { culture=stone_dornish } }
 	7920.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7922.1.1 = {add_spouse=50016}
 	7977.1.1 = { death="7977.1.1" culture=stone_dornish }
-}
-50016 = {
-	name="Amarei"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7904.1.1 = {birth="7904.1.1"}
-	7979.1.1 = {death="7979.1.1"}
 }
 60116 = {
 	name="Ulrick"	# not a lord
@@ -12310,15 +12139,16 @@
 	culture="western_valyrian"
 
 	father=60016
-	mother=50016
 
 	7937.1.1 = {birth="7937.1.1" effect = { culture=stone_dornish } }
 	7951.1.1 = {add_trait=just add_trait=brave}
 	7953.1.1 = {add_trait=knight add_trait=master_warrior add_trait=duelist add_trait=tough_soldier}
 	7954.1.1 = {add_trait=kind add_trait=diligent}
 	7955.1.1 = {add_spouse=50116}
-	7956.1.1 = {add_trait="dawn"
-	            give_nickname = nick_the_sword_of_the_morning}
+	7956.1.1 = {
+		add_trait="dawn"
+	    give_nickname = nick_the_sword_of_the_morning
+	}
 	7977.1.1 = {death = {death_reason = death_battle} culture=stone_dornish }
 }
 50116 = {
@@ -12339,7 +12169,6 @@
 	culture="western_valyrian"
 
 	father=60016
-	mother=50016
 
 	7941.1.1 = {birth="7941.1.1" effect = { culture=stone_dornish } }
 	7957.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -12353,22 +12182,10 @@
 	culture="western_valyrian"
 
 	father=60016
-	mother=50016
 
 	7942.1.1 = {birth="7942.1.1" effect = { culture=stone_dornish } }
 	7959.1.1 = {add_trait=knight add_trait=poor_warrior}
-	7960.1.1 = {add_spouse=40100016}
 	7988.1.1 = {death="7988.1.1" culture=stone_dornish }
-}
-40100016 = {
-	name="Allyria"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7940.1.1 = {birth="7940.1.1"}
-	7996.1.1 = {death="7996.1.1"}
 }
 60000016 = {
 	name="Gerold"	# a lord
@@ -12380,7 +12197,6 @@
 	culture="western_valyrian"
 
 	father=60416
-	mother=40100016
 
 	7959.1.1 = {birth="7959.1.1" effect = { culture=stone_dornish } }
 	7974.1.1 = {add_spouse=40000016}
@@ -12435,20 +12251,6 @@
 	7975.1.1 = {birth="7975.1.1" effect = { culture=stone_dornish } }
 	8047.1.1 = {death="8047.1.1" culture=stone_dornish }
 }
-60300016 = {
-	name="Arthur"	# not a lord
-	dynasty=16
-
-	religion="the_seven"
-	culture="western_valyrian"
-
-	father=60000016
-	mother=40000016
-
-	7977.1.1 = {birth="7977.1.1" effect = { culture=stone_dornish } }
-	7993.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8022.1.1 = {death= {death_reason =death_battle} culture=stone_dornish }
-}
 60716 = {
 	name="Joffrey"	# marched to the walls of Oldtown
 	dynasty=16
@@ -12475,11 +12277,9 @@
 	7986.1.1 = {add_trait=knight add_trait=skilled_warrior }
 	8025.1.1 = {death="8025.1.1" culture=stone_dornish }
 }
-###
+
 ### Id's below are 17+### \Chrisjm89/ 
-##########################
-###Post Aegon's Landing###
-##########################
+### Post Aegon's Landing
 24017 = {
 	name="Gerold" # Lord. At the start of Aegon's Landing.
 	dynasty=16
@@ -12490,25 +12290,14 @@
 	father=60116
 	mother=50116
 		
-	
 	7970.1.1 = {birth="7970.1.1" effect = { culture=stone_dornish } }
 	7986.1.1 = {add_trait=knight add_trait=poor_warrior add_trait=brave}
 	7995.1.2 = {add_spouse=60200016}
 	8001.2.5 = {death = {death_reason = death_battle}  culture=stone_dornish # Died in Aegon's attempted Conquest of Dorne.
 	}
 }
-#50017 = {
-#	name="Morra"
-#	female=yes
-#
-#	religion="the_seven"
-#	culture="stone_dornish"
-#
-#	7970.1.1 = {birth="7970.1.1"}
-#	8015.1.1 = {death="8015.1.1"}
-#}
 25017 = {
-	name="Arron" # Ser. Young brother of Arron.
+	name="Arron" # Ser. Young brother of Gerris.
 	dynasty=16
 	
 	religion="the_seven"
@@ -12516,7 +12305,6 @@
 	
 	father=24017
 	mother=60200016
-	
 	
 	7995.12.2 = {birth="7995.12.2" effect = { culture=stone_dornish } }
 	7999.4.4 = {add_trait="proud"}
@@ -12545,21 +12333,9 @@
 	father=24017
 	mother=60200016
 	
-	
 	7993.7.7 = {birth="7993.7.7" effect = { culture=stone_dornish } }
 	8010.1.9 = {add_trait=knight add_trait=trained_warrior}
-	8011.2.8 = {add_spouse=50217}
 	8044.1.1 = {death="8044.1.1" culture=stone_dornish }
-}
-50217 = {
-	name="Elyana"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7990.1.1 = {birth="7990.1.1"}
-	8034.1.1 = {death = {death_reason = death_dungeon}}
 }
 22017 = {
 	name="Clarisse" # Lady of Starfall during Maegor's reign
@@ -12570,7 +12346,6 @@
 	culture="western_valyrian"
 	
 	father=23017
-	mother=50217
 	
 	add_trait=fair
 	add_trait=proud
@@ -12594,25 +12369,13 @@
 	
 	religion="the_seven"
 	culture="western_valyrian"
-	
 
 	father=50317
 	mother=22017
 	
 	8049.1.1 = {birth="8049.1.1" effect = { culture=stone_dornish } }
-	8063.3.1 = {add_spouse=50417}
 	8065.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8098.1.1 = {death="8098.1.1" culture=stone_dornish }
-}
-50417 = {
-	name="Allaria"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8037.1.1 = {birth="8037.1.1"}
-	8078.1.1 = {death="8078.1.1"}
 }
 20017 = {
 	name="Tion" # Lord. Sire of Edric and Grandsire of Arron and Ryon.
@@ -12622,10 +12385,8 @@
 	culture="western_valyrian"
 	
 	father=21017
-	mother=50417
 	
 	martial=16
-	
 	
 	8067.1.1 = {birth="8067.1.1" effect = { culture=stone_dornish } }
 	8079.1.1 = {add_trait="just" add_trait="brave" add_trait="temperate"}
@@ -12691,6 +12452,20 @@
 	8109.1.1 = {add_spouse=61620}
 	8152.1.1 = {death="8152.1.1" culture=stone_dornish }
 }
+159016 = {
+	name="Alays"	# not a lord
+	female=yes
+	dynasty=16
+
+	religion="the_seven"
+	culture="western_valyrian"
+
+	father=60516
+	mother=61620
+
+	8111.1.1 = {birth="8111.1.1" effect = { culture=stone_dornish } }
+	8178.1.1 = {death="8178.1.1" culture=stone_dornish }
+}
 154016 = {
 	name="Alaric"	# not a lord
 	dynasty=16
@@ -12705,6 +12480,21 @@
 	8131.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8136.1.1 = {add_spouse=62215}
 	8181.1.1 = {death="8181.1.1" culture=stone_dornish }
+}
+160016 = {
+	name="Corbyn"	# not a lord
+	dynasty=16
+
+	religion="the_seven"
+	culture="western_valyrian"
+
+	father=154016
+	mother=62215
+
+	8137.1.1 = {birth="8137.1.1" effect = { culture=stone_dornish } }
+	8153.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8156.1.1 = {add_spouse=63718}
+	8192.1.1 = {death="8192.1.1" culture=stone_dornish }
 }
 158016 = {
 	name="Jordan"	# not a lord
@@ -12865,6 +12655,89 @@
 	}
 	8177.1.1 = {death="8177.1.1" culture=stone_dornish }
 }
+161016 = {
+	name="Robyna"	# not a lord
+	dynasty=16
+	female=yes
+
+	religion="the_seven"
+	culture="western_valyrian"
+
+	father=60317
+	mother=3001303
+
+	8120.1.1 = {birth="8120.1.1" effect = { culture=stone_dornish } }
+	8123.1.1 = {add_trait=has_greyscale}
+	8124.1.1 = {death = {death_reason = death_trait} culture=stone_dornish}
+}
+162016 = {
+	name="Bryanna"	# not a lord
+	dynasty=16
+	female=yes
+
+	religion="the_seven"
+	culture="western_valyrian"
+
+	father=60317
+	mother=3001303
+
+	add_trait=homosexual
+	add_trait=lustful
+
+	8123.1.1 = {birth="8123.1.1" effect = { culture=stone_dornish } }
+	8195.1.1 = {death="8195.1.1" culture=stone_dornish }
+}
+163016 = {
+	name="Arthur"	# not a lord
+	dynasty=16
+
+	religion="the_seven"
+	culture="western_valyrian"
+
+	father=60317
+	mother=3001303
+
+	8125.1.1 = {birth="8125.1.1" effect = { culture=stone_dornish } }
+	8141.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8142.1.1 = {add_spouse=360002}
+	8157.6.12 = {death = {death_reason = death_battle} culture=stone_dornish }
+}
+164016 = {
+	name="Azalais"	# not a lord
+	dynasty=16
+	female=yes
+
+	religion="the_seven"
+	culture="western_valyrian"
+
+	father=163016
+	mother=360002
+
+	add_trait=weak
+	add_trait=lustful
+
+	8142.1.1 = {birth="8142.1.1" effect = { culture=stone_dornish } }
+	8198.1.1 = {death="8198.1.1" culture=stone_dornish }
+}
+165016 = {
+	name="Alroy"	# not a lord
+	dynasty=16
+
+	religion="the_seven"
+	culture="western_valyrian"
+
+	father=163016
+	mother=360002
+
+	add_trait=underhanded_rogue
+	add_trait=gregarious
+	add_trait=ambitious
+	add_trait=arbitrary
+
+	8144.1.1 = {birth="8144.1.1" effect = { culture=stone_dornish } }
+	8160.1.1 = {add_trait=knight add_trait=poor_warrior}
+	8206.1.1 = {death="8206.1.1" culture=stone_dornish }
+}
 60117 = {
 	name="Valerin"	# not a lord
 	dynasty=16
@@ -12893,6 +12766,34 @@
 	}
 	8173.1.1 = {add_spouse=70189}
 	8189.1.1 = {death="8189.1.1" culture=stone_dornish }
+}
+166016 = {
+	name="Orivel"	# not a lord
+	dynasty=16
+
+	religion="the_seven"
+	culture="western_valyrian"
+
+	father=60317
+	mother=3001303
+
+	add_trait=tough_soldier
+	add_trait=diligent
+	add_trait=ambitious
+
+	8135.1.1 = {birth="8135.1.1" effect = { culture=stone_dornish } }
+	8144.1.1 = {
+		effect={
+			if = {
+				limit = { has_dlc = "Reapers" }
+				add_trait = one_legged
+			}
+			else = {
+				add_trait = crippled
+			}
+		}
+	}
+	8186.1.1 = {death="8186.1.1" culture=stone_dornish add_trait = one_legged}
 }
 51115 = {
 	name="Ashara"
@@ -12977,6 +12878,7 @@
 			force_mult = 1
 		}
 	}
+	8160.1.1 = {add_trait=suspected_kinslayer} #suspected of murdering her son
 	8184.1.1 = {death="8184.1.1"}
 }
 51017 = {
@@ -13117,18 +13019,8 @@
 	mother=25068
 
 	8172.1.1 = {birth="8172.1.1" effect = { culture=stone_dornish } }
-	8188.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=50617}
+	8188.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8196.4.9 = {death = {death_reason = death_battle} culture=stone_dornish }
-}
-50617 = {
-	name="Corenna"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8167.1.1 = {birth="8167.1.1"}
-	8210.1.12 = {add_trait=has_bubonic_plague death = {death_reason = death_trait}} # Great spring sickness.
 }
 151016 = {
 	name="Dyanna" # Married Maekar I
@@ -13184,18 +13076,8 @@
 	father=51717
 	
 	8187.1.1 = {birth="8187.1.1" effect = { culture=stone_dornish } }
-	8203.1.1 = {add_trait=knight add_trait=skilled_warrior add_spouse=50717}
+	8203.1.1 = {add_trait=knight add_trait=skilled_warrior}
 	8231.1.1 = {death="8231.1.1" culture=stone_dornish }
-}
-50717 = {
-	name="Ashara"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8180.1.1 = {birth="8180.1.1"}
-	8211.3.7 = {add_trait=has_bubonic_plague death = {death_reason = death_trait}} # Great spring sickness.
 }
 11017 = {
 	name="Gerold" # Lord.
@@ -13207,7 +13089,6 @@
 	culture="western_valyrian"
 	
 	father=12017
-	mother=50717
 
 	8203.1.1 = {birth="8203.1.1" effect = { culture=stone_dornish } }
 	8215.1.1 = {add_trait="diligent"
@@ -13246,8 +13127,8 @@
 	}
 	8272.1.1 = {death="8272.1.1" culture=stone_dornish }
 }
-###High Hermitage branch###
 
+###High Hermitage branch###
 61517 = {
 	name="Edric"	# not a lord
 	dynasty=16
@@ -13256,22 +13137,10 @@
 	culture="western_valyrian"
 
 	father=61017
-	mother=50617
 
 	8189.1.1 = {birth="8189.1.1" effect = { culture=stone_dornish } }
 	8205.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8205.1.1 = {add_spouse=51517}
-	8210.1.1 = {add_trait=has_bubonic_plague death = {death_reason = death_trait} culture=stone_dornish }
-}
-51517 = {
-	name="Lia"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8185.1.1 = {birth="8185.1.1"}
-	8211.1.1 = {death="8211.1.1"}
+	8210.1.1 = {death = {death_reason = death_accident} culture=stone_dornish }
 }
 61617 = {
 	name="Ronnel"	# not a lord
@@ -13281,7 +13150,6 @@
 	culture="western_valyrian"
 
 	father=61517
-	mother=51517
 
 	8205.1.1 = {birth="8205.1.1" effect = { culture=stone_dornish } }
 	8221.1.1 = {add_trait=knight add_trait=skilled_warrior}
@@ -13326,6 +13194,7 @@
 	8232.1.1 = {birth="8232.1.1" effect = { culture=stone_dornish } }
 	8288.1.1 = {death="8288.1.1" culture=stone_dornish }
 }
+
 #####################
 ###House Blackmont###
 #####################
@@ -13355,33 +13224,71 @@
 	
 	occluded = yes
 	
-	father = 150018
+	father=150018
 	
 	7322.1.1 = {birth="7322.1.1"}
-	7915.1.1 = {death="7915.1.1"}
+	7819.1.1 = {death="7819.1.1"}
 }
-152018 = {
-	name="Olyvar"	# not a lord
+156018 = {
+	name="Dagos"	# a lord
 	dynasty=18
 
 	religion="the_seven"
 	culture="stone_dornish"
 	
-	father = 151018
+	father=151018
 
-	7915.1.1 = {birth="7915.1.1"}
-	7931.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7952.1.1 = {death="7952.1.1"}
+	7819.1.1 = {birth="7819.1.1"}
+	7883.1.1 = {death="7883.1.1"}
 }
-153018 = {
-	name="Lyrella"	# not a lord
+155018 = {
+	name="Jocasta"	# a lord
 	female=yes
 	dynasty=18
 
 	religion="the_seven"
 	culture="stone_dornish"
 	
-	father = 152018
+	father=156018
+
+	7841.1.1 = {birth="7841.1.1"}
+	7907.1.1 = {death="7907.1.1"}
+}
+154018 = {
+	name="Garwin"	# a lord
+	dynasty=18
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	mother=155018
+
+	7880.1.1 = {birth="7880.1.1"}
+	7896.1.1 = {add_trait=trained_warrior}
+	7931.1.1 = {death="7931.1.1"}
+}
+152018 = {
+	name="Olyvar"	# a lord
+	dynasty=18
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father=154018
+
+	7915.1.1 = {birth="7915.1.1"}
+	7931.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7952.1.1 = {death="7952.1.1"}
+}
+153018 = {
+	name="Lyrella"	# a lord
+	female=yes
+	dynasty=18
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father=152018
 
 	7939.1.1 = {birth="7939.1.1"}
 	7955.1.1 = {add_trait=trained_warrior add_matrilineal_spouse=60318}
@@ -13404,23 +13311,12 @@
 	religion="the_seven"
 	culture="stone_dornish"
 	
-	mother = 153018
-	father = 60318
+	mother=153018
+	father=60318
 
 	7958.1.1 = {birth="7958.1.1"}
 	7974.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7976.1.1 = {add_spouse=50018}
 	8019.1.1 = {death="8019.1.1"}
-}
-50018 = {
-	name="Marya"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7958.1.1 = {birth="7958.1.1"}
-	8023.1.1 = {death="8023.1.1"}
 }
 60218 = {
 	name="Margaid"	# a lord
@@ -13431,7 +13327,6 @@
 	culture="stone_dornish"
 
 	father=60018
-	mother=50018
 
 	7983.1.1 = {birth="7983.1.1"}
 	7999.1.1 = {
@@ -13461,18 +13356,7 @@
 
 	8006.1.1 = {birth="8006.1.1"}
 	8022.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8024.1.1 = {add_spouse=50518}
 	8038.1.1 = {death = {death_reason = death_battle}}
-}
-50518 = {
-	name="Nysterica"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8006.1.1 = {birth="8006.1.1"}
-	8045.1.1 = {death="8045.1.1"}
 }
 60818 = {
 	name="Castos"	# a lord
@@ -13482,40 +13366,30 @@
 	culture="stone_dornish"
 
 	father=60518
-	mother=50518
 
 	8037.1.1 = {birth="8037.1.1"}
 	8053.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8055.1.1 = {add_spouse=50818}
 	8098.1.1 = {death="8098.1.1"}
 }
-50818 = {
-	name="Jonquil"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8037.1.1 = {birth="8037.1.1"}
-	8104.1.1 = {death="8104.1.1"}
-}
 60118 = {
-	name="Caitrin"	# a lord
-	female=yes
+	name="Bernard"	# a lord
 	dynasty=18
 
 	religion="the_seven"
 	culture="stone_dornish"
 
 	father=60818
-	mother=50818
+
+	add_trait=lustful
+	add_trait=cruel
 
 	8072.1.1 = {birth="8072.1.1"}
-	8090.1.1 = {add_matrilineal_spouse=50118}
+	8090.1.1 = {add_spouse=50118}
 	8117.1.1 = {death = {death_reason = death_accident}}
 }
 50118 = {
-	name="Perrin"
+	name="Caitrin"
+	female=yes
 
 	religion="the_seven"
 	culture="stone_dornish"
@@ -13530,8 +13404,8 @@
 	religion="the_seven"
 	culture="stone_dornish"
 
-	father=50118
-	mother=60118
+	father=60118
+	mother=50118
 
 	8092.1.1 = {birth="8092.1.1"}
 	8108.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -13557,8 +13431,8 @@
 	religion="the_seven"
 	culture="stone_dornish"
 
-	father=50118
-	mother=60118
+	father=60118
+	mother=50118
 
 	add_trait=fortune_builder
 
@@ -13674,6 +13548,34 @@
 	8141.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=3001903}
 	8177.1.1 = {death="8177.1.1"}
 }
+63818 = {
+	name="Cassiel"	# not a lord
+	dynasty=18
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60718
+	mother=3001903
+
+	8140.1.1 = {birth="8140.1.1"}
+	8156.1.1 = {add_trait=septon}
+	8196.1.1 = {death="8196.1.1"}
+}
+63918 = {
+	name="Tavia"	# not a lord
+	dynasty=18
+	female=yes
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60718
+	mother=3001903
+
+	8142.1.1 = {birth="8142.1.1"}
+	8201.1.1 = {death="8201.1.1"}
+}
 60618 = {
 	name="Conran"	# not a lord
 	dynasty=18
@@ -13688,6 +13590,20 @@
 	8160.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8166.1.1 = {add_spouse=35155}
 	8199.1.1 = {death="8199.1.1"}
+}
+64018 = {
+	name="Inis"	# not a lord
+	dynasty=18
+	female=yes
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60718
+	mother=3001903
+
+	8145.1.1 = {birth="8145.1.1"}
+	8207.1.1 = {death="8207.1.1"}
 }
 60418 = {
 	name="Jennalyn"	# not a lord
@@ -13711,11 +13627,87 @@
 	religion="the_seven"
 	culture="stone_dornish"
 
-	father=50118
-	mother=60118
+	father=60118
+	mother=50118
 
 	8107.1.1 = {birth="8107.1.1"}
 	8130.1.1 = {death = {death_reason = death_childbirth}}
+}
+62518 = {
+	name="Raynald"	# not a lord
+	dynasty=18
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60118
+	mother=50118
+
+	8112.1.1 = {birth="8112.1.1"}
+	8128.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=159016}
+	8157.5.9 = {death = {death_reason = death_battle}}
+}
+62918 = {
+	name="Helen"	# not a lord
+	dynasty=18
+	female=yes
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=62518
+	mother=159016
+
+	8131.1.1 = {birth="8131.1.1"}
+	8181.1.1 = {death="8181.1.1"}
+}
+62618 = {
+	name="Tereza"	# not a lord
+	dynasty=18
+	female=yes
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=62518
+	mother=159016
+
+	8137.1.1 = {birth="8137.1.1"}
+	8190.1.1 = {death="8190.1.1"}
+}
+63718 = {
+	name="Arabella"	# not a lord
+	dynasty=18
+	female=yes
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=62518
+	mother=159016
+
+	8140.1.1 = {birth="8140.1.1"}
+	8198.1.1 = {death="8198.1.1"}
+}
+64118 = {
+	name="Warryn"	# not a lord
+	dynasty=18
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60118
+
+	add_trait=bastard
+	add_trait=intricate_webweaver
+	add_trait=impaler
+	add_trait=cruel
+	add_trait=ambitious
+	give_nickname=nick_sand
+
+	8115.1.1 = {birth="8115.1.1"}
+	8131.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8185.1.1 = {death="8185.1.1"}
 }
 61418 = {
 	name="Andrey"	# a lord
@@ -13790,7 +13782,7 @@
 	8157.6.12 = {death = {death_reason = death_battle killer=92190}}
 }
 61718 = {
-	name="Arrant"	# not a lord
+	name="Arrant"	# a lord
 	dynasty=18
 
 	religion="the_seven"
@@ -13937,6 +13929,7 @@
 	8224.1.1 = {birth="8224.1.1"}
 	8277.1.1 = {death="8277.1.1"}
 }
+
 ###############
 ###House Wyl###
 ###############
@@ -13972,7 +13965,59 @@
 	235.1.1 = {
 		birth=235.1.1
 	}
-	7942.5.1 = {death="7942.5.1"}
+	7837.1.1 = {death="7837.1.1"}
+}
+66419 = {
+	name="Edwyle"	# a lord
+	dynasty=19
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=60001019
+
+	7837.1.1 = {birth="7837.1.1"}
+	7853.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7881.1.1 = {death="7881.1.1"}
+}
+66319 = {
+	name="Edwyle"	# a lord
+	dynasty=19
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=66419
+
+	7860.1.1 = {birth="7860.1.1"}
+	7876.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7922.1.1 = {death="7922.1.1"}
+}
+66219 = {
+	name="Galwell"	# a lord
+	dynasty=19
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=66319
+
+	7899.1.1 = {birth="7899.1.1"}
+	7915.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7948.1.1 = {death="7948.1.1"}
+}
+66119 = {
+	name="Edwyle"	# a lord
+	dynasty=19
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=66219
+
+	7919.1.1 = {birth="7919.1.1"}
+	7936.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7970.1.1 = {death="7970.1.1"}
 }
 60000019 = {
 	name="Wyland"	# a lord
@@ -13981,7 +14026,7 @@
 	religion="the_seven"
 	culture="stone_dornish"
 
-	father=60001019
+	father=66119
 
 	7942.5.1 = {birth="7942.5.1"}
 	7958.9.1 = {add_trait=knight add_trait=trained_warrior add_spouse=50000019}
@@ -14073,7 +14118,6 @@
 
 	7990.1.1 = {birth="7990.1.1"}
 	8006.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8008.1.1 = {add_spouse=55119}
 	8038.2.1 = {
 		effect = {
 			if = {
@@ -14089,16 +14133,6 @@
 	}
 	8053.1.1 = {death="8053.1.1" add_trait = mangled }
 }
-55119 = {
-	name="Marei"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7991.1.1 = {birth="7991.1.1"}
-	8069.1.1 = {death="8069.1.1"}
-}
 65419 = {
 	name="Colin"	# a lord
 	dynasty=19
@@ -14107,22 +14141,10 @@
 	culture="stone_dornish"
 
 	father=65119
-	mother=55119
 
 	8032.1.1 = {birth="8032.1.1"}
 	8048.1.1 = {add_trait=poor_warrior}
-	8050.1.1 = {add_spouse=55419}
 	8075.1.1 = {death="8075.1.1"}
-}
-55419 = {
-	name="Ysilla"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8034.1.1 = {birth="8034.1.1"}
-	8102.1.1 = {death="8102.1.1"}
 }
 65619 = {
 	name="Edmund"	# a lord
@@ -14132,7 +14154,6 @@
 	culture="stone_dornish"
 
 	father=65419
-	mother=55419
 
 	8057.1.1 = {birth="8057.1.1"}
 	8073.1.1 = {add_trait=knight add_trait=trained_warrior}
@@ -14157,7 +14178,6 @@
 	culture="stone_dornish"
 
 	father=65419
-	mother=55419
 
 	8061.1.1 = {birth="8061.1.1"}
 	8077.1.1 = {add_trait=knight add_trait=skilled_warrior}
@@ -14384,6 +14404,20 @@
 	8143.1.1 = {birth="8143.1.1"}
 	8198.1.1 = {death="8198.1.1"}
 }
+66019 = {
+	name="Elianne"	# not a lord
+	female=yes
+	dynasty=19
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=65519
+	mother=62115
+
+	8150.1.1 = {birth="8150.1.1"}
+	8230.1.1 = {death="8230.1.1"}
+}
 6151919 = {
 	name="Rhona"	# not a lord, married Landon Fowler
 	dynasty=19
@@ -14514,7 +14548,6 @@
 	8166.4.10 = {birth="8166.4.10"}
 	8196.9.1 = {death ={death_reason=death_battle}}
 }
-
 652319 = {
 	name="Olyver"	# not a lord
 	dynasty=19
@@ -14596,6 +14629,7 @@
 	8222.1.1 = {birth="8222.1.1"}
 	8261.1.1 = {death="8261.1.1"}
 }
+
 ####################
 ###House Manwoody###
 ####################
@@ -14629,7 +14663,46 @@
 	father = 150020
 	
 	7314.1.1 = {birth="7314.1.1"}
-	7910.1.1 = {death=7910.1.1}
+	7833.1.1 = {death="7833.1.1"}
+}
+156020 = {
+	name="Sebaston"	# a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 151020
+
+	7833.1.1 = {birth="7833.1.1"}
+	7849.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7870.1.1 = {death="7870.1.1"}
+}
+155020 = {
+	name="Erich"	# a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 156020
+
+	7858.1.1 = {birth="7858.1.1"}
+	7874.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7901.1.1 = {death="7901.1.1"}
+}
+154020 = {
+	name="Albin"	# a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+	
+	father = 155020
+
+	7884.1.1 = {birth="7884.1.1"}
+	7900.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7930.1.1 = {death="7930.1.1"}
 }
 152020 = {
 	name="Ashara"	# a lord
@@ -14639,10 +14712,11 @@
 	religion="the_seven"
 	culture="stone_dornish"
 	
-	father = 151020
+	father = 154020
 
 	7910.1.1 = {birth="7910.1.1"}
-	7968.1.1 = {death=7968.1.1}
+	7926.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7968.1.1 = {death="7968.1.1"}
 }
 153020 = {
 	name="Edric"	# a lord
@@ -14654,18 +14728,8 @@
 	mother = 152020
 
 	7934.1.1 = {birth="7934.1.1"}
-	7950.1.1 = {add_trait=knight add_trait=trained_warrior add_spouse=60120}
-	7990.1.1 = {death=7990.1.1}
-}
-60120 = {
-	name="Clarisse"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7934.1.1 = {birth="7934.1.1"}
-	8000.1.1 = {death="8000.1.1"}
+	7950.1.1 = {add_trait=knight add_trait=trained_warrior}
+	7990.1.1 = {death="7990.1.1"}
 }
 60020 = {
 	name="Dagos"	# a lord
@@ -14675,50 +14739,23 @@
 	culture="stone_dornish"
 	
 	father=153020
-	mother=60120
 
 	7952.1.1 = {birth="7952.1.1"}
 	7968.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7970.1.1 = {add_spouse=50020}
 	8002.1.1 = {death = {death_reason = death_battle}}
 }
-50020 = {
-	name="Emberlei"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7952.1.1 = {birth="7952.1.1"}
-	8014.1.1 = {death="8014.1.1"}
-}
-60220 = {
-	name="Melessa"	# not a lord
+4000001 = {
+	name="Barbrey"
 	female=yes
 	dynasty=20
 
 	religion="the_seven"
 	culture="stone_dornish"
+	
+	father=153020
 
-	father=60020
-	mother=50020
-
-	7978.1.1 = {birth="7978.1.1"}
-	8026.1.1 = {death="8026.1.1"}
-}
-60320 = {
-	name="Arianne"	# not a lord
-	female=yes
-	dynasty=20
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=60020
-	mother=50020
-
-	7980.1.1 = {birth="7980.1.1"}
-	8011.1.1 = {death="8011.1.1"}
+	7950.1.1 = {birth="7950.1.1"}
+	8003.1.1 = {death="8003.1.1"}
 }
 60420 = {
 	name="Mors"	# a lord
@@ -14728,27 +14765,15 @@
 	culture="stone_dornish"
 
 	father=60020
-	mother=50020
 
 	7982.1.1 = {birth="7982.1.1"}
 	7998.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8000.1.1 = {add_spouse=50420}
 	8012.1.1 = {
 		death = {
 			death_reason = death_murder
 			killer = 77000
 		}
 	}
-}
-50420 = {
-	name="Liane"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	7982.1.1 = {birth="7982.1.1"}
-	8048.1.1 = {death="8048.1.1"}
 }
 60520 = {
 	name="Ysilla"	# a lord
@@ -14759,7 +14784,6 @@
 	culture="stone_dornish"
 
 	father=60420
-	mother=50420
 
 	8008.1.1 = {birth="8008.1.1"}
 	8061.1.1 = {death="8061.1.1"}
@@ -14775,62 +14799,6 @@
 	8026.1.1 = {add_matrilineal_spouse=60520}
 	8047.1.1 = {death = {death_reason = death_battle}}
 }
-60620 = {
-	name="Myriah"	# not a lord
-	female=yes
-	dynasty=20
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=60420
-	mother=50420
-
-	8009.1.1 = {birth="8009.1.1"}
-	8023.1.1 = {death = {death_reason = death_accident}}
-}
-60720 = {
-	name="Sarella"	# not a lord
-	female=yes
-	dynasty=20
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=60420
-	mother=50420
-
-	8011.1.1 = {birth="8011.1.1"}
-	8055.1.1 = {death="8055.1.1"}
-}
-60820 = {
-	name="Ashara"	# not a lord
-	female=yes
-	dynasty=20
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=60420
-	mother=50420
-
-	8012.1.1 = {birth="8012.1.1"}
-	8026.1.1 = {death = {death_reason = death_accident}}
-}
-60920 = {
-	name="Mariya"	# not a lord
-	female=yes
-	dynasty=20
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=50520
-	mother=60520
-
-	8043.1.1 = {birth="8043.1.1"}
-	8091.1.1 = {death="8091.1.1"}
-}
 61020 = {
 	name="Myles"	# a lord
 	dynasty=20
@@ -14843,18 +14811,7 @@
 
 	8032.1.1 = {birth="8032.1.1"}
 	8048.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8050.1.1 = {add_spouse=51020}
 	8081.1.1 = {death="8081.1.1"}
-}
-51020 = {
-	name="Alysanne"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8032.1.1 = {birth="8032.1.1"}
-	8101.1.1 = {death="8101.1.1"}
 }
 61220 = {
 	name="Dickon"	# a lord
@@ -14864,7 +14821,6 @@
 	culture="stone_dornish"
 
 	father=61020
-	mother=51020
 
 	8057.1.1 = {birth="8057.1.1"}
 	8072.1.1 = {add_spouse=51220}
@@ -14880,20 +14836,6 @@
 
 	8057.1.1 = {birth="8057.1.1"}
 	8126.1.1 = {death="8126.1.1"}
-}
-61320 = {
-	name="Donyse"	# not a lord
-	female=yes
-	dynasty=20
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	father=61020
-	mother=51020
-
-	8064.1.1 = {birth="8064.1.1"}
-	8125.1.1 = {death="8125.1.1"}
 }
 61520 = {
 	name="Nymor"	# a lord
@@ -14962,6 +14904,80 @@
 
 	8103.1.1 = {birth="8103.1.1"}
 	8185.1.1 = {death="8185.1.1"}
+}
+64220 = {
+	name="Cugel"	# not a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=61720
+	mother=63515
+
+	8106.1.1 = {birth="8106.1.1"}
+	8122.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8125.1.1 = {add_spouse=300293}
+	8126.1.1 = {death = {death_reason = death_accident}}
+}
+64320 = {
+	name="Trevor"	# not a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=64220
+	mother=300293
+
+	8125.1.1 = {birth="8125.1.1"}
+	8141.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8161.1.1 = {death = {death_reason = death_battle killer=2016109}} #killed by Dagur Saltcliffe
+}
+64420 = {
+	name="Jarreth"	# not a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=61720
+	mother=63515
+
+	8113.1.1 = {birth="8113.1.1"}
+	8129.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8133.1.1 = {add_spouse=61811}
+	8186.1.1 = {death="8186.1.1"}
+}
+64520 = {
+	name="Branden"	# not a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=64420
+	mother=61811
+
+	8135.1.1 = {birth="8135.1.1"}
+	8151.1.1 = {add_trait=scholarly_theologian add_trait=maester employer=15250}
+	8160.1.1 = {employer=13250}
+	8196.1.1 = {employer=12250}
+	8199.1.1 = {death="8199.1.1"}
+}
+64620 = {
+	name="Edric"	# not a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=64420
+	mother=61811
+
+	8140.1.1 = {birth="8140.1.1"}
+	8156.1.1 = {add_trait=tough_soldier add_trait=knight add_trait=skilled_warrior}
+	8161.1.1 = {death = {death_reason = death_battle killer=2016109}} #killed by Dagur Saltcliffe
 }
 61620 = {
 	name="Marella"	# not a lord
@@ -15200,6 +15216,21 @@
 	}
 	8208.1.1 = {death="8208.1.1"}
 }
+64120 = {
+	name="Cullen"	# not a lord
+	dynasty=20
+
+	religion="the_seven"
+	culture="stone_dornish"
+
+	father=63520
+	mother=46177
+
+	8138.1.1 = {birth="8138.1.1"}
+	8154.1.1 = {add_trait=knight add_trait=trained_warrior}
+	8157.1.1 = {add_spouse=35907}
+	8182.1.1 = {death="8182.1.1"}
+}
 62220 = {
 	name="Cael"	# not a lord
 	dynasty=20
@@ -15284,19 +15315,8 @@
 	mother=32112
 
 	8170.1.1 = {birth="8170.1.1"}
-	8186.1.1 = {add_trait=knight add_trait=master_warrior}
-	8194.1.1 = {add_spouse=52820}
+	8186.1.1 = {add_trait=knight add_trait=trained_warrior}
 	8221.1.1 = {death="8221.1.1"}
-}
-52820 = {
-	name="Gwyneth"
-	female=yes
-
-	religion="the_seven"
-	culture="stone_dornish"
-
-	8176.1.1 = {birth="8176.1.1"}
-	8211.1.1 = {add_trait=has_bubonic_plague death = {death_reason = death_trait}}
 }
 62920 = {
 	name="Willam"	# a lord
@@ -15306,33 +15326,75 @@
 	culture="stone_dornish"
 
 	father=62820
-	mother=52820
 
 	8205.1.1 = {birth="8205.1.1"}
 	8221.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8223.1.1 = {add_spouse=52920}
 	8236.1.1 = {death = {death_reason = death_accident}}
 }
-52920 = {
-	name="Obara"
-	female=yes
+
+##################
+###House Shells###
+##################
+102206043 = {
+	name="Garrison"	# a lord
+	dynasty=806043
 
 	religion="the_seven"
-	culture="stone_dornish"
+	culture="sand_dornish"
 
-	8205.1.1 = {birth="8205.1.1"}
-	8264.1.1 = {death="8264.1.1"}
+	7833.1.1 = {birth="7833.1.1"}
+	7849.1.1 = {add_trait=knight add_trait=poor_warrior}
+	7880.1.1 = {death="7880.1.1"}
 }
-
-###House Shells###
-101806043 = {
-	name="Obara"	# not a lord
+102106043 = {
+	name="Olivya"	# a lord
 	female=yes
 	dynasty=806043
 
 	religion="the_seven"
 	culture="sand_dornish"
 
+	father=102206043
+	
+	7857.1.1 = {birth="7857.1.1"}
+	7913.1.1 = {death="7913.1.1"}
+}
+102006043 = {
+	name="Obella"	# a lord
+	female=yes
+	dynasty=806043
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	mother=102106043
+	
+	7883.1.1 = {birth="7883.1.1"}
+	7950.1.1 = {death="7950.1.1"}
+}
+101906043 = {
+	name="Garibald"	# a lord
+	dynasty=806043
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	mother=102006043
+	
+	7910.1.1 = {birth="7910.1.1"}
+	7926.1.1 = {add_trait=knight add_trait=poor_warrior}
+	7963.1.1 = {death="7963.1.1"}
+}
+101806043 = {
+	name="Obara"	# a lord
+	female=yes
+	dynasty=806043
+
+	religion="the_seven"
+	culture="sand_dornish"
+
+	father=101906043
+	
 	7944.1.1 = {birth="7944.1.1"}
 	7960.1.1 = {add_matrilineal_spouse=401806043}
 	8000.1.1 = {death="8000.1.1"}
@@ -15358,17 +15420,6 @@
 
 	7963.1.1 = {birth="7963.1.1"}
 	7979.1.1 = {add_trait=knight add_trait=trained_warrior}
-	7981.1.1 = {add_spouse=400806043}
-	8023.1.1 = {death="8023.1.1"}
-}
-400806043 = {
-	name="Donyse"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7963.1.1 = {birth="7963.1.1"}
 	8023.1.1 = {death="8023.1.1"}
 }
 102806043 = {
@@ -15379,21 +15430,9 @@
 	culture="sand_dornish"
 
 	father=100806043
-	mother=400806043
 
 	7997.1.1 = {birth="7997.1.1"}
 	8013.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8015.1.1 = {add_spouse=402806043}
-	8034.1.1 = {death="8034.1.1"}
-}
-402806043 = {
-	name="Donyse"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	7997.1.1 = {birth="7997.1.1"}
 	8034.1.1 = {death="8034.1.1"}
 }
 103806043 = {
@@ -15404,36 +15443,10 @@
 	culture="sand_dornish"
 
 	father=102806043
-	mother=402806043
 
 	8019.1.1 = {birth="8019.1.1"}
 	8035.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8037.1.1 = {add_spouse=403806043}
 	8078.1.1 = {death="8078.1.1"}
-}
-403806043 = {
-	name="Allyria"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8019.1.1 = {birth="8019.1.1"}
-	8078.1.1 = {death="8078.1.1"}
-}
-104806043 = {
-	name="Cassella"	# not a lord
-	female=yes
-	dynasty=806043
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=103806043
-	mother=403806043
-
-	8052.1.1 = {birth="8052.1.1"}
-	8106.1.1 = {death="8106.1.1"}
 }
 105806043 = {
 	name="Daeron"	# a lord
@@ -15443,21 +15456,9 @@
 	culture="sand_dornish"
 
 	father=103806043
-	mother=403806043
 
 	8055.1.1 = {birth="8055.1.1"}
 	8071.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8073.1.1 = {add_spouse=405806043}
-	8107.1.1 = {death="8107.1.1"}
-}
-405806043 = {
-	name="Senelle"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8055.1.1 = {birth="8055.1.1"}
 	8107.1.1 = {death="8107.1.1"}
 }
 106806043 = {
@@ -15468,36 +15469,10 @@
 	culture="sand_dornish"
 
 	father=105806043
-	mother=405806043
 
 	8076.1.1 = {birth="8076.1.1"}
 	8092.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8094.1.1 = {add_spouse=406806043}
 	8129.1.1 = {death="8129.1.1"}
-}
-406806043 = {
-	name="Emberlei"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8076.1.1 = {birth="8076.1.1"}
-	8129.1.1 = {death="8129.1.1"}
-}
-107806043 = {
-	name="Nysterica"	# not a lord
-	female=yes
-	dynasty=806043
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=105806043
-	mother=405806043
-
-	8078.1.1 = {birth="8078.1.1"}
-	8117.1.1 = {death="8117.1.1"}
 }
 108806043 = {
 	name="Deziel"	# a lord
@@ -15507,36 +15482,10 @@
 	culture="sand_dornish"
 
 	father=106806043
-	mother=406806043
 
 	8095.1.1 = {birth="8095.1.1"}
 	8111.1.1 = {add_trait=knight add_trait=skilled_warrior}
-	8113.1.1 = {add_spouse=408806043}
 	8136.1.1 = {death="8136.1.1"}
-}
-408806043 = {
-	name="Leyla"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8095.1.1 = {birth="8095.1.1"}
-	8136.1.1 = {death="8136.1.1"}
-}
-109806043 = {
-	name="Yandry"	# not a lord
-	dynasty=806043
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=106806043
-	mother=406806043
-
-	8098.1.1 = {birth="8098.1.1"}
-	8114.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8154.1.1 = {death = {death_reason = death_murder}}
 }
 110806043 = {
 	name="Gascoyne"	# a lord
@@ -15546,50 +15495,10 @@
 	culture="sand_dornish"
 
 	father=108806043
-	mother=408806043
 
 	8116.1.1 = {birth="8116.1.1"}
 	8132.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8134.1.1 = {add_spouse=410806043}
 	8164.1.1 = {death = {death_reason = death_accident}}
-}
-410806043 = {
-	name="Cassella"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8116.1.1 = {birth="8116.1.1"}
-	8164.1.1 = {death="8164.1.1"}
-}
-111806043 = {
-	name="Myria"	# not a lord
-	female=yes
-	dynasty=806043
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=108806043
-	mother=408806043
-
-	8118.1.1 = {birth="8118.1.1"}
-	8157.1.1 = {death="8157.1.1"}
-}
-112806043 = {
-	name="Alysanne"	# not a lord
-	female=yes
-	dynasty=806043
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=110806043
-	mother=410806043
-
-	8136.1.1 = {birth="8136.1.1"}
-	8167.1.1 = {death="8167.1.1"}
 }
 114806043 = {
 	name="Harmen"	# a lord
@@ -15599,36 +15508,10 @@
 	culture="sand_dornish"
 
 	father=110806043
-	mother=410806043
 
 	8139.1.1 = {birth="8139.1.1"}
 	8155.1.1 = {add_trait=knight add_trait=poor_warrior}
-	8157.1.1 = {add_spouse=414806043}
 	8204.1.1 = {death="8204.1.1"}
-}
-414806043 = {
-	name="Sarella"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8139.1.1 = {birth="8139.1.1"}
-	8204.1.1 = {death="8204.1.1"}
-}
-115806043 = {
-	name="Sarella"	# not a lord
-	female=yes
-	dynasty=806043
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	father=114806043
-	mother=414806043
-
-	8166.1.1 = {birth="8166.1.1"}
-	8198.1.1 = {death="8198.1.1"}
 }
 116806043 = {
 	name="Maron"	# a lord
@@ -15638,21 +15521,9 @@
 	culture="sand_dornish"
 
 	father=114806043
-	mother=414806043
 
 	8168.1.1 = {birth="8168.1.1"}
 	8184.1.1 = {add_trait=knight add_trait=trained_warrior}
-	8186.1.1 = {add_spouse=416806043}
-	8212.1.1 = {death="8212.1.1"}
-}
-416806043 = {
-	name="Cerenna"
-	female=yes
-
-	religion="the_seven"
-	culture="sand_dornish"
-
-	8168.1.1 = {birth="8168.1.1"}
 	8212.1.1 = {death="8212.1.1"}
 }
 117806043 = {
@@ -15664,7 +15535,6 @@
 	culture="sand_dornish"
 
 	father=116806043
-	mother=416806043
 
 	8200.1.1 = {birth="8200.1.1"}
 	8268.1.1 = {death="8268.1.1"}
@@ -15677,14 +15547,11 @@
 
 	8200.1.1 = {birth="8200.1.1"}
 	8216.1.1 = {add_trait=poor_warrior}
-	8218.1.1 = {add_spouse=117806043}
+	8218.1.1 = {add_matrilineal_spouse=117806043}
 	8268.1.1 = {death="8268.1.1"}
 }
 
-
-
 # Minor characters from the Dornish Rebellion
-
 3440000 = {
 	name="Rhys"	# Red Rhys
 
@@ -15721,6 +15588,7 @@
 	8155.1.1 = {add_trait=mystic add_trait=intricate_webweaver add_trait=lustful}
 	8181.1.1  = {death=8181.1.1}
 }
+
 ###############################
 ###House Nymeros of Rhoynar####
 ###############################
@@ -15764,8 +15632,6 @@
 	father=6057001
 	mother=4085001
 
-
-
 	7241.1.1 = {birth="7241.1.1"}
 	7260.1.1 = {add_trait=skilled_warrior add_trait=brave add_trait=patient add_trait=kind}
 	7260.1.2 = {add_spouse=4086001}
@@ -15792,8 +15658,6 @@
 	
 	father=6086001
 	mother=4086001
-
-
 
 	7260.10.1 = {birth="7260.10.1"}
 	7276.1.1 = {add_trait=skilled_warrior add_trait=brave add_trait=patient add_trait=kind}

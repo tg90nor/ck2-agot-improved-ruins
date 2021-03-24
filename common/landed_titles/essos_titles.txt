@@ -327,8 +327,8 @@ e_new_valyria = {
 		allow = { 
 			hidden_tooltip = { 
 				NOT = { culture_group = winter_group } 
-				capital_scope = { kingdom = { title = FROM } } #prevent early forming
-			} 			
+			} 		
+			capital_scope = { kingdom = { title = FROM } } #prevent early forming	
 		}
 		
 		d_prince_pentos = {
@@ -2875,6 +2875,8 @@ e_new_valyria = {
 			color={ 24 81 227 }
 			color2={ 255 255 255 }
 			
+			old_andal="Mother's Valley"
+
 			allow = {
 				OR = {				
 					custom_tooltip = {
@@ -3231,8 +3233,8 @@ e_new_valyria = {
 			NOT = { culture = dothraki } 
 			hidden_tooltip = { 
 				NOT = { culture_group = winter_group } 
-				capital_scope = { kingdom = { title = FROM } } #prevent early forming
 			}
+			capital_scope = { kingdom = { title = FROM } } #prevent early forming
 		}
 		
 		d_essaria = {
@@ -4575,6 +4577,8 @@ e_braavos = {
 			color={ 166 69 117 }
 			color2={ 128 0 64 }
 			
+			old_andal = "East Andal Coastlands"
+
 			allow = {
 				OR = {				
 					custom_tooltip = {
@@ -8792,6 +8796,11 @@ b_qhaedar = {
 }
 
 b_staegone = {
+	culture = eastern_valyrian
+	religion = valyrian_rel
+}
+
+b_tagaros = {
 	culture = eastern_valyrian
 	religion = valyrian_rel
 }

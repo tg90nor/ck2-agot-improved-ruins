@@ -7,7 +7,7 @@ if [ $# -lt 2 ]; then
 fi
 
 scriptdir=$(dirname "$(readlink -f $0)")
-export PATH=$PATH:$scriptdir
+export PATH="$PATH:$scriptdir"
 histdir="$scriptdir/../history"
 infile=$(find "$histdir/provinces/" -name "$1 - *.txt")
 

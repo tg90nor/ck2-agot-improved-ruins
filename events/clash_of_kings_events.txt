@@ -17,7 +17,7 @@ long_character_event = {
 	trigger = { has_game_rule = { name = shattered_realms value = off } }
 	
 	option = {
-		name = "EVTOPTAclash_of_kings.500" # I made a promise to the Freys
+		name = "EVTOPTAclash_of_kings.500" # I made a promise to the Freys	
 		spouse = { 
 			tooltip = { show_portrait = yes } 
 			ROOT = {
@@ -31,8 +31,18 @@ long_character_event = {
 			}
 		}
 		d_thecrossing = { holder_scope = { tooltip = { show_portrait = yes } } }
-		prestige = 50	
-		c_3130 = { add_friend = ROOT } #olyvar frey
+		prestige = 50
+		c_3130 = { #Olyvar frey
+			move_character = ROOT
+			give_minor_title = title_bodyguard
+			add_friend = ROOT 
+		}
+		c_8787878 = { #Elmar Frey
+			set_character_flag=promised_arya
+		}
+		custom_tooltip = {
+			text = arya_elmar
+		}
 	}
 	option = {
 		name = "EVTOPTBclash_of_kings.500" # I must preserve Jeyne's honour
@@ -112,7 +122,11 @@ long_character_event = {
 				}	
 			}
 		}
-		c_4199 = { add_friend = ROOT } #Raynald Westerling
+		c_4199 = { #Raynald Westerling
+			move_character = ROOT
+			give_minor_title = title_bodyguard
+			add_friend = ROOT 
+		}
 	}
 	option = {
 		name = "EVTOPTCclash_of_kings.500" # As a King I need strong alliances (a.k.a player choice)
@@ -1827,6 +1841,19 @@ character_event  = {
 					add_friend = ROOT
 				}
 			}
+			c_8787878 = { #Elmar Frey
+				if = { 
+					limit={
+						has_character_flag=promised_arya
+						can_marry_trigger = yes
+					}
+					add_spouse = ROOT
+					if = {
+						limit = {NOT = { age = 14 }}
+						child_fertility_debuff = yes
+					}
+				}
+			}
 		}	
 		if = {
 			limit = { has_character_flag = brandon_stark } #Bran
@@ -3490,6 +3517,16 @@ character_event  = {
 					}
 					e_iron_throne = {
 						holder_scope = {
+							any_artifact = { #transfer crown jewells					
+								limit = {	
+									has_artifact_flag = crown_jewel
+									NOT = { has_artifact_flag = no_usurp_transfer }
+								}
+								transfer_artifact = {				
+									from = PREV			
+									to = PREVPREVPREV
+								}
+							}
 							any_demesne_title = { 
 								limit = { tier = EMPEROR } 
 								usurp_title = { target = PREVPREVPREV type = claim }
@@ -3542,6 +3579,16 @@ character_event  = {
 			holder_scope = {
 				e_iron_throne = {
 					holder_scope = {
+						any_artifact = { #transfer crown jewells					
+							limit = {	
+								has_artifact_flag = crown_jewel
+								NOT = { has_artifact_flag = no_usurp_transfer }
+							}
+							transfer_artifact = {				
+								from = PREV	
+								to = PREVPREVPREV
+							}
+						}
 						any_demesne_title = { 
 							limit = { tier = EMPEROR } 
 							usurp_title = { target = PREVPREVPREV type = claim }
@@ -3612,6 +3659,16 @@ character_event  = {
 		}
 		e_iron_throne = {
 			holder_scope = {
+				any_artifact = { #transfer crown jewells					
+					limit = {	
+						has_artifact_flag = crown_jewel
+						NOT = { has_artifact_flag = no_usurp_transfer }
+					}
+					transfer_artifact = {				
+						from = PREV			
+						to = ROOT
+					}
+				}
 				ROOT = {
 					if = {
 						limit = { ai = no }
@@ -3939,6 +3996,16 @@ character_event  = {
 								portrait = [Root.GetID]
 							}	
 						}
+					}
+				}
+				any_artifact = { #transfer crown jewells					
+					limit = {	
+						has_artifact_flag = crown_jewel
+						NOT = { has_artifact_flag = no_usurp_transfer }
+					}
+					transfer_artifact = {				
+						from = PREV			
+						to = ROOT
 					}
 				}	
 				any_demesne_title = { 
@@ -4396,6 +4463,13 @@ long_character_event = {
 				}
 				remove_nickname = yes
 			}
+			dynasty = 59
+			hidden_tooltip = {
+				random_bloodline = {
+					limit = { has_bloodline_flag = stark }
+					add_bloodline_member = PREV
+				}
+			}	
 		}
 		mother = {
 			opinion = {
@@ -7803,7 +7877,9 @@ narrative_event = {							#Euron choice - help Balon or kill him
 		is_incapable = no
 		has_game_rule = { name = shattered_realms value = off }
 	}
-	
+	immediate = {
+		c_2107 = { remove_trait = refusing_marriage }
+	}
 	option = {
 		name = "EVTOPTAclash_of_kings.90"	#I'll kill him and we shall feast before night begins!
 	
@@ -7849,7 +7925,7 @@ character_event = {						#Balon responds to his brother offer
 			}
 		}
 		spawn_unit = {
-			province = capital
+			province = closest_to_capital
 			leader = FROM
 			owner = ROOT 
 			home = ROOT
@@ -8149,8 +8225,8 @@ letter_event = {
 					dynasty = 67	#Wynch
 					dynasty = 111	#Myre
 					dynasty = 64	#Botley (at this moment its his brother)
-					dynasty = 174419	#Codd
-					dynasty = 174421	#Humble
+					dynasty = 1507	#Codd
+					dynasty = 1506	#Humble
 				}
 			}
 			modifier = {

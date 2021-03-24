@@ -1792,7 +1792,7 @@
 		}
 	}
 }
-# b_bhorash
+# b_bhorashcastle
 31406041 = {
 	name = ""
 	dynasty = 3140
@@ -5230,6 +5230,29 @@
 	add_trait = slothful
 
 	7900.1.1 = {
+		birth = yes
+		effect = {
+			character_event = { id = unoccupied.30 }
+		}
+	}
+
+}# c_old_waste_road
+31406520 = {
+	name = ""
+	dynasty = 3140
+	religion = ruin_rel
+	culture = ruin
+
+	diplomacy = 0
+	martial = 0
+	stewardship = 0
+	intrigue = 0
+	learning = 0
+
+	add_trait = ruin
+	add_trait = slothful
+
+	7886.1.1 = {
 		birth = yes
 		effect = {
 			character_event = { id = unoccupied.30 }

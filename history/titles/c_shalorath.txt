@@ -11,6 +11,13 @@
 6564.1.1 = {
 	holder = 0
 }
+7856.1.1 = { holder=344300528 } # Ordello (nc)
+7870.1.1 = { holder=343300528 } # Moreo (nc)
+7899.1.1 = { holder=342300528 } # Tregar (nc)
+7911.1.1 = { holder=341300528 } # Narbo (nc)
+7944.1.1 = { holder=340300528 } # Qarro (nc)
+
+7954.1.1 = { holder=150300528 } # Illyrio (nc)
 7975.1.1 = { holder=100300528 } # Denyo (nc)
 8024.1.1 = { holder=102300528 } # Jaqen (nc)
 8040.1.1 = { holder=104300528 } # Mero (nc)

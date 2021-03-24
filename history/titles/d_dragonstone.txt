@@ -1,25 +1,25 @@
-7874.1.1={
+7886.1.1={
 	holder = 77001		#Aenar
 	law = succ_primogeniture
 	law = cognatic_succession
 	law = centralization_1
 }
-7890.1.1={
+7900.1.1={
 	holder = 77052		#Gaemon 'the Glorious'
 }
-7910.1.1={
+7930.1.1={
 	holder = 77053		#Aegon (ruled w/ Sister/Wife Elena)
 }
-7925.1.1={
+7935.1.1={
 	holder = 77055		#Maegon
 }
-7930.1.1={
+7950.1.1={
 	holder = 77056		#Aerys
 }
-7945.1.1={
-	holder = 77058		#Aelix
+7955.1.1={
+	holder = 77058		#Aelyx
 }
-7956.1.1={
+7959.1.1={
 	holder = 77059		#Baelon
 }
 7963.1.1={
@@ -34,8 +34,12 @@
 7998.2.1={
 	liege="e_iron_throne"
 }
-8022.1.1={
-	holder = 77004		#Aenys I
+8025.6.1={
+	holder=77005 # Maegor
+	de_jure_liege = k_crownlands
+}
+8041.6.1 = {
+	holder = 60650496		#Aegon Jr.
 	effect = { #becomes traditional heir title
 		c_dragonstone = {
 			e_iron_throne = {
@@ -44,19 +48,15 @@
 		}	
 	}
 }
-8037.9.9 = {
-	holder=77005 # Maegor
-	de_jure_liege = k_crownlands
-}
-8041.6.1 = {
-	holder = 60650496		#Aegon Jr.
-}
 8043.1.1 = {
 	liege = 0
 }
 8043.1.2={
-	holder = 77006		#Jaehaerys I 'the Conciliator'
+	holder = 77005		#Maegor I 'the Cruel'
 	liege="e_iron_throne"
+}
+8048.3.7={
+	holder = 77006	#Jaehaerys I 'the Conciliator'
 }
 8051.1.1={
 	holder=60540496 #Rhaena, given by Jaehaerys

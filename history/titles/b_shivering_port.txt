@@ -5,6 +5,13 @@
 6564.1.1 = {
 	holder = 0
 }
+7830.1.1 = { holder=345300537 } # Belodos (nc)
+7849.1.1 = { holder=344300537 } # Daaarelos (nc)
+7887.1.1 = { holder=343300537 } # Thoronar (nc)
+7909.1.1 = { holder=342300537 } # Relyrio (nc)
+7930.1.1 = { holder=341300537 } # Beqqo (nc)
+7945.1.1 = { holder=340300537 } # Luco (nc)
+
 7970.1.1 = { holder=100300537 } # Brusco (nc)
 8011.1.1 = { holder=102300537 } # Myrmello (nc)
 8027.1.1 = { holder=104300537 } # Allaquo (nc)

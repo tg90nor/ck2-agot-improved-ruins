@@ -9,7 +9,13 @@
 	holder = 0
 	liege = k_lorath
 }
-7995.1.1 = { holder=100069139 } # Noho (nc)
+7872.1.1 = { holder=34469139 } # Thorio (nc)
+7880.1.1 = { holder=34369139 } # Nereo (nc)
+7912.1.1 = { holder=34269139 } # Roggo (nc)
+7935.1.1 = { holder=34169139 } # Yonos (nc)
+7969.1.1 = { holder=34069139 } # Syrio (nc)
+
+7996.1.1 = { holder=100069139 } # Noho (nc)
 8028.1.1 = { holder=100469139 } # Narbo (nc)
 8050.1.1 = { holder=100569139 } # Beqqo (nc)
 8078.1.1 = { holder=100769139 } # Roggo (nc)

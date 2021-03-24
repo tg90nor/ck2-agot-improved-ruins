@@ -7,7 +7,6 @@
 }
 7579.1.1 = {
 	holder = 0
-	liege = "d_braavos"
 }
 7679.1.1 = {
 	holder = 150300004 #Uthero Zalyne
@@ -15,48 +14,33 @@
 7708.1.1 = {
 	holder = 0
 }
-7995.1.1={
-	holder=1100541
-}
-8006.1.1={
-	holder=1100547
-}
-8026.1.1={
-	holder=1000547
-}
-8045.1.1={
-	holder=800515
-}
-8063.1.1={
-	holder=700515
-}
-8103.1.1={
-	holder=700511
-}
-8114.1.1={
-	holder=600512
-}
-8132.1.1={
-	holder=500515
-}
-8156.1.1={
-	holder=1300511 # Ferro Antaryon
-}
-8161.1.1={
-	holder=400515 # Donalo Prestayn
-}
-8194.1.1={
-	holder=300515
-}
-8210.1.1={
-	holder=200512
-}
-8239.1.1={
-	holder=200511
-}
-8255.1.1={
-	holder=100511
-}
-8281.1.1={
-	holder=600000041 # Ferrego
+7867.1.1 = { holder=345300511 } # Anterro Antaryon (nc)
+7871.1.1 = { holder=343300541 } # Ferrego Tendyris (nc)
+7887.1.1 = { holder=344300512 } # Roggo Reyaan (nc)
+7889.1.1 = { holder=344300511 } # Arillos Antaryon (nc)
+7896.1.1 = { holder=343300515 } # Cossoquo Prestayn (nc)
+7900.1.1 = { holder=342300541 } # Lotho Tendyris (nc)
+7906.1.1 = { holder=343300547 } # Varro Fregar (nc)
+7925.1.1 = { holder=342300511 } # Tomarro Antaryon (nc)
+7929.1.1 = { holder=341300515 } # Terrio Prestayn (nc)
+7941.1.1 = { holder=342300512 } # Moroggo Reyaan (nc)
+7944.1.1 = { holder=341300547 } # Orbelo Fregar (nc)
+7969.1.1 = { holder=340300547 } # Varro Fregar (nc)
+
+7995.1.1 = { holder=1100541 } # Roro Tendyris (nc)
+8006.1.1 = { holder=1100547 } # Izembaro Fregar (nc)
+8026.1.1 = { holder=1000547 } # Zafir Fregar (nc)
+8045.1.1 = { holder=800515 } # Badir  Prestayn (nc)
+8063.1.1 = { holder=700515 } # Lotho Prestayn (nc)
+8103.1.1 = { holder=700511 } # Denyo Antaryon (nc)
+8114.1.1 = { holder=600512 } # Bellaquo Reyaan (nc)
+8132.1.1 = { holder=500515 } # Pynto Prestayn (nc)
+8156.1.1 = { holder=1300511 } # Ferro Antaryon (sc)
+8161.1.1 = { holder=400515 } # Donalo Prestayn (sc)
+8194.1.1 = { holder=300515 } # Oro Prestayn (nc)
+8210.1.1 = { holder=200512 } # Denyo Reyaan (nc)
+8239.1.1 = { holder=200511 } # Cossomo Antaryon (nc)
+8255.1.1 = { holder=100511 } # Oro Antaryon (nc)
+8281.1.1 = {
+	holder=600000041 # Ferrego Antaryon (C)
 }

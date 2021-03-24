@@ -1,13 +1,12 @@
-# c_qal
+#House Mallarawan
 600.1.1={
 	liege="d_qal"
 }
-7886.1.1 = {
-	holder = 31406670 # ruin
-	effect = {
-		location = { province_event = { id = unoccupied.27 } }
-	}
-}
+7860.1.1 = { holder=34335002 } # Xaantho (nc)
+7884.1.1 = { holder=34235002 } # Qendello (nc)
+7903.1.1 = { holder=34135002 } # Kallinos (nc)
+7931.1.1 = { holder=34035002 } # Naadaro (nc)
+
 7955.1.1 = { holder=10035002 } # Pyat (nc)
 8004.1.1 = { holder=10435002 } # Nyessos (nc)
 8044.1.1 = { holder=10635002 } # Doniphos (nc)
@@ -21,3 +20,5 @@
 8219.1.1 = { holder=12435002 } # Sallor (nc)
 8250.1.1 = { holder=13035002 } # Vogarro (nc)
 8270.1.1 = { holder=13135002 } # Mathos (nc)
+
+

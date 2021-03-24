@@ -11,6 +11,12 @@
 6564.1.1 = {
 	holder = 0
 }
+7851.1.1 = { holder=344300548 } # Vogo (nc)
+7867.1.1 = { holder=343300548 } # Tybero (nc)
+7899.1.1 = { holder=342300548 } # Belys (nc)
+7919.1.1 = { holder=341300548 } # Marohr (nc)
+7942.1.1 = { holder=340300548 } # Maren (nc)
+
 7977.1.1 = { holder=100300548 } # Groleo (nc)
 8023.1.1 = { holder=102300548 } # Brusco (nc)
 8045.1.1 = { holder=104300548 } # Izembaro (nc)

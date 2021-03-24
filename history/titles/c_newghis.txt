@@ -9,6 +9,13 @@
 	holder = 0
 	liege = "d_new_ghis"
 }
+7860.1.1 = { holder=345360025 } # Grazdan (nc)
+7872.1.1 = { holder=344360025 } # Zharaq (nc)
+7892.1.1 = { holder=343360025 } # Grazdan (nc)
+7915.1.1 = { holder=342360025 } # Kharkaz (nc)
+7940.1.1 = { holder=341360025 } # Gazhaq (nc)
+7969.1.1 = { holder=340360025 } # Maklan (nc) 
+
 7980.1.1 = { holder=150360025 } # Grazdan (nc)
 8023.1.1 = { holder=100360025 } # Grazdan (nc)
 8041.1.1 = { holder=101360025 } # Skahaz (nc)

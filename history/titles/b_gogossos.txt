@@ -1,18 +1,8 @@
 # b_gogossos
-900.1.1 = {
-	law = succ_appointment
-	effect = {
-		set_title_flag = military_command
-		holder_scope = {
-			if = {
-				limit = { primary_title = { title = PREVPREV } }
-				set_government_type = military_command_government_city
-				PREV = { succession = appointment }
-				recalc_succession = yes
-			}
-		}
-	}
-}
+7880.1.1 = { holder=10003350 } # Benerro (nc)
+7914.1.1 = { holder=10013350 } # Qoherys (nc)
+7939.1.1 = { holder=10053350 } # Aenar (nc)
+
 7950.1.1 = {
 	holder = 31407471 # ruin
 }

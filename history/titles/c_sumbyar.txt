@@ -5,7 +5,3 @@
 		location = { province_event = { id = unoccupied.27 } }
 	}
 }
-7886.1.1 = {
-	holder = 0
-	liege = "d_new_ghis"
-}

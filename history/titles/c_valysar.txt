@@ -9,6 +9,12 @@
 	holder = 0
 	liege = "d_valysar"
 }
+7869.1.1 = { holder=344305613 } # Larazys (nc)
+7884.1.1 = { holder=343305613 } # Horio (nc)
+7903.1.1 = { holder=342305613 } # Caezar (nc)
+7933.1.1 = { holder=341305613 } # Zorapho (nc)
+7958.1.1 = { holder=340305613 } # Yasporio (nc)
+
 7975.1.1 = { holder=100305613 } # Colloquo (nc)
 8007.1.1 = { holder=101305613 } # Moqorro (nc)
 8043.1.1 = { holder=104305613 } # Qarro (nc)

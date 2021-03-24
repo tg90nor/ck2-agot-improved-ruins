@@ -23,9 +23,8 @@ character_event = {
 			}
 		}
 		else = {
-			### Nightswatch castles
-			# - Castles of unknown age
-			if = {
+			###Nightswatch castles	
+			if = { #Castles of unknown age
 				limit = { year = 8050 }
 				#Westwatch
 				create_character = {
@@ -79,32 +78,6 @@ character_event = {
 					set_defacto_liege = THIS
 					recalc_succession = yes
 				}
-				#Stonedoor
-				create_character = {
-					name = ""
-					religion="ruin_rel"
-					culture="ruin"	
-					dynasty=none
-					attributes = {
-						martial = 0
-						diplomacy = 0
-						intrigue = 0
-						stewardship = 0
-						learning = 0
-					}
-					trait = ruin
-				}
-				new_character = {
-					b_stonedoor = { 
-						gain_title = PREV 
-						location = { set_province_flag = ca_colony_NW }
-						add_building = ca_sub_barony_ruin 
-						set_title_flag = sub_barony_ruin
-					}
-					add_trait = ruin
-					set_defacto_liege = THIS
-					recalc_succession = yes
-				}
 				#Hoarfrost
 				create_character = {
 					name = ""
@@ -148,32 +121,6 @@ character_event = {
 				}
 				new_character = {
 					b_ironmark  = { 
-						gain_title = PREV 
-						location = { set_province_flag = ca_colony_NW }
-						add_building = ca_sub_barony_ruin 
-						set_title_flag = sub_barony_ruin
-					}
-					add_trait = ruin
-					set_defacto_liege = THIS
-					recalc_succession = yes
-				}
-				#Oakenshield
-				create_character = {
-					name = ""
-					religion="ruin_rel"
-					culture="ruin"	
-					dynasty=none
-					attributes = {
-						martial = 0
-						diplomacy = 0
-						intrigue = 0
-						stewardship = 0
-						learning = 0
-					}
-					trait = ruin
-				}
-				new_character = {
-					b_oakenshield  = { 
 						gain_title = PREV 
 						location = { set_province_flag = ca_colony_NW }
 						add_building = ca_sub_barony_ruin 
@@ -287,7 +234,78 @@ character_event = {
 					set_defacto_liege = THIS
 					recalc_succession = yes
 				}
-				#Greenguard
+			}
+			
+			#Oakenshield
+			if = {
+				limit = { 
+					year = 8050 
+					NOT = { start_date = 8300.8.17 }
+				}
+				create_character = {
+					name = ""
+					religion="ruin_rel"
+					culture="ruin"	
+					dynasty=none
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = ruin
+				}
+				new_character = {
+					b_oakenshield  = { 
+						gain_title = PREV 
+						location = { set_province_flag = ca_colony_NW }
+						add_building = ca_sub_barony_ruin 
+						set_title_flag = sub_barony_ruin
+					}
+					add_trait = ruin
+					set_defacto_liege = THIS
+					recalc_succession = yes
+				}
+			}
+			#Stonedoor
+			if = {
+				limit = { 
+					year = 8050 
+					NOT = { start_date = 8300.8.17 }
+				}
+				create_character = {
+					name = ""
+					religion="ruin_rel"
+					culture="ruin"	
+					dynasty=none
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = ruin
+				}
+				new_character = {
+					b_stonedoor = { 
+						gain_title = PREV 
+						location = { set_province_flag = ca_colony_NW }
+						add_building = ca_sub_barony_ruin 
+						set_title_flag = sub_barony_ruin
+					}
+					add_trait = ruin
+					set_defacto_liege = THIS
+					recalc_succession = yes
+				}
+			}
+			#Greenguard
+			if = {
+				limit = { 
+					year = 8050 
+					NOT = { start_date = 8300.8.17 }
+				}
 				create_character = {
 					name = ""
 					religion="ruin_rel"
@@ -314,7 +332,6 @@ character_event = {
 					recalc_succession = yes
 				}
 			}
-			
 			#Greyguard
 			if = {
 				limit = { year = 8100 }
@@ -343,11 +360,12 @@ character_event = {
 					set_defacto_liege = THIS
 					recalc_succession = yes
 				}
-			}	
-			if = { #The Nightfort
+			}	 
+			#The Nightfort
+			if = {
 				limit = { 
 					year = 8080 
-					NOT = { year = 8300 }
+					NOT = { start_date = 8300.2.10 }
 				}
 				create_character = {
 					name = ""
@@ -378,6 +396,7 @@ character_event = {
 			if = { #Deep Lake
 				limit = { 
 					year = 8200
+					NOT = { start_date = 8300.4.29 }
 				}
 				create_character = {
 					name = ""
@@ -408,6 +427,7 @@ character_event = {
 			if = { #Queensgate
 				limit = { 
 					year = 8200
+					NOT = { start_date = 8300.8.17 }
 				}
 				create_character = {
 					name = ""
@@ -436,7 +456,10 @@ character_event = {
 				}
 			}
 			if = {
-				limit = { year = 8100 }
+				limit = { 
+					year = 8100
+					NOT = { start_date = 8300.4.29 }
+				}
 				#Long Barrow
 				create_character = {
 					name = ""

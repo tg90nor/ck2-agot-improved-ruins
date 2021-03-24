@@ -5,18 +5,29 @@
 4000.1.1 = {
 	holder = 0
 }
-7987.1.1 = { holder=150300024 } # Myrmello (nc)
-8028.1.1 = { holder=100300533 } # Groleo (nc)
-8041.1.1 = { holder=100300543 } # Mallaquo (nc)
-8058.1.1 = { holder=101300544 } # Jaqen (nc)
-8079.1.1 = { holder=103300543 } # Roggo (nc)
-8098.1.1 = { holder=105300542 } # Syrio (nc)
-8108.1.1 = { holder=108300533 } ##### Racallio Ryndoon
-8134.1.1 = { holder=109300024 } # Ordello (nc)
-8146.1.1 = { holder=113300542 } # Beqqo (nc)
-8165.1.1 = { holder=122300024 } # Oro (nc)
-8203.1.1 = { holder=121300544 } # Ordello (nc)
-8234.1.1 = { holder=128300024 } # Tycho (nc)
+7860.1.1 = { holder=345300543 } # Qarro Adarys (nc)
+7869.1.1 = { holder=344300024 } # Syrio Zokan (nc)
+7898.1.1 = { holder=343300024 } # Izembaro Zokan (nc)
+7919.1.1 = { holder=343300542 } # Ferrego Uhoris (nc)
+7920.1.1 = { holder=342300544 } # Collio Tumitis (nc)
+7930.1.1 = { holder=342300543 } # Orryn Adarys (nc)
+7933.1.1 = { holder=342300542 } # Oro Uhoris (nc)
+7942.1.1 = { holder=341300533 } # Tregar Ryndoon (nc)
+7952.1.1 = { holder=341300544 } # Ordello Tumitis (nc)
+7955.1.1 = { holder=250300024 } # Lotho Zokan (nc)
+
+7985.1.1 = { holder=150300024 } # Myrmello Zokan (nc)
+8028.1.1 = { holder=100300533 } # Groleo Ryndoon (nc)
+8041.1.1 = { holder=100300543 } # Mallaquo Adarys (nc)
+8058.1.1 = { holder=101300544 } # Jaqen Tumitis (nc)
+8079.1.1 = { holder=103300543 } # Roggo Adarys (nc)
+8098.1.1 = { holder=105300542 } # Syrio Uhoris (nc)
+8108.1.1 = { holder=108300533 } # Qarro Ryndoon (nc)
+8134.1.1 = { holder=109300024 } # Ordello Zokan (nc)
+8146.1.1 = { holder=113300542 } # Beqqo Uhoris (nc)
+8165.1.1 = { holder=122300024 } # Oro Zokan (nc)
+8203.1.1 = { holder=121300544 } # Ordello Tumitis (nc)
+8234.1.1 = { holder=128300024 } # Tycho Zokan (nc)
 # 8259.1.1={ #cannot hold this title as it makes him a republic. Title added in his history entry
 	# holder=600000059 # Alequo Adarys
 # }
@@ -29,5 +40,5 @@
 8259.12.31 = { 
 	liege="c_tyrosh"
 } 
-8270.1.1 = { holder=130300024 } # Gyloro (nc)
-8278.1.1 = { holder=131300024 } # Syrio (nc)
+8270.1.1 = { holder=130300024 } # Gyloro Zokan (nc)
+8278.1.1 = { holder=131300024 } # Syrio Zokan (nc)

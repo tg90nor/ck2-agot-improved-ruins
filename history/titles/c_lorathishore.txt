@@ -11,6 +11,12 @@
 6564.1.1 = {
 	holder = 0
 }
+7865.1.1 = { holder=344300549 } # Rano (nc)
+7898.1.1 = { holder=343300549 } # Haros (nc)
+7908.1.1 = { holder=342300549 } # Arar (nc)
+7935.1.1 = { holder=341300549 } # Jorys (nc)
+7967.1.1 = { holder=340300549 } # Thorenhor (nc)
+
 7985.1.1 = { holder=100300549 } # Ollo (nc)
 8036.1.1 = { holder=101300549 } # Ezzelyno (nc)
 8069.1.1 = { holder=106300549 } # Ezzelyno (nc)

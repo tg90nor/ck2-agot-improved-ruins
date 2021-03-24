@@ -409,6 +409,8 @@
 # make_province_ruin_effect
 # province_andal_culture_effect
 
+# remove_all_job_titles
+
 ###TRAIT ADDING EFFECTS###
 #Add new ones in alphabetical order.
 
@@ -4912,6 +4914,7 @@ add_cat_effect = {
 		}
 		hidden_tooltip = { 
 			character_event = { id = 77802 days = 3000 random = 2000 } # Cat dies
+			character_event = { id = 77850 days = 100 } #New owner event
 			character_event = { id = 77861 days = 30 random = 100 } # Cat & dog todo days
 			#Get name
 			e_rebels = {
@@ -4931,6 +4934,48 @@ add_cat_effect = {
 							type = NAME_CAT_MESSAGE
 							portrait = PREVPREV
 							culture = cat
+						}
+					}	
+					death = yes
+				}
+			} 			
+		} 
+	}
+}
+
+add_dog_effect = {
+	if = {
+		limit =  { NOT = { has_character_modifier = pet_hunting_dog } }
+		add_character_modifier = {
+			name = pet_hunting_dog
+			duration = -1
+		}
+		hidden_tooltip = { 
+			character_event = { id = WoL.5290 days = 2555 random = 1000 } # Dog dies
+			character_event = { id = 77861 days = 30 random = 100 } # Cat & dog todo days
+			random_list = {
+				90 = { set_character_flag = good_dog }  # Decide dog's personality...
+				10 = { set_character_flag = bad_dog }
+			}
+			character_event = { id = WoL.5204 days = 150 }
+			#Get name
+			e_rebels = {
+				create_random_steward = {
+					random_traits = yes
+					dynasty = none
+					female = random
+					culture = dog_culture
+					religion = ROOT
+				}
+				new_character = {
+					ROOT = { save_persistent_event_target = { name = hunting_dog_name scope = PREV } }
+					if = {
+						limit = { PREVPREV = { ai = no } }
+						prompt_name = { #player can also rename
+							player = PREVPREV
+							type = NAME_DOG_MESSAGE
+							portrait = PREVPREV
+							culture = dog_culture
 						}
 					}	
 					death = yes
@@ -13666,7 +13711,7 @@ random_list = {
 		} 
 		modifier = { 
 			factor = 0.75
-			is_strong_trigger = strong
+			is_strong_trigger = yes
 		} 
 		modifier = { 
 			factor = 1.45
@@ -20191,6 +20236,9 @@ reformation_god_names_changes_effect = { #Reforming religion with certain Doctri
 						}
 					}
 				}
+				preferred_limit = {
+					is_main_spouse = ROOT
+				}
 				random_spouse = { save_event_target_as = scoped_god_spouse }
 				add_god_name = string_reformer_spouse_god
 			}
@@ -20207,6 +20255,9 @@ reformation_god_names_changes_effect = { #Reforming religion with certain Doctri
 							has_religion_feature = religion_patriarchal
 						}
 					}
+				}
+				preferred_limit = {
+					is_main_spouse = ROOT
 				}
 				random_spouse = { save_event_target_as = scoped_god_spouse }
 				add_evil_god_name = string_reformer_spouse_god
@@ -24051,6 +24102,12 @@ acknowledge_newborn_FROM_effect = {
 			}
 			dynasty = ROOT				
 			add_trait = bastard
+			#remove from bloodlines
+			ROOT = {
+				any_owned_bloodline = {
+					remove_bloodline_member = PREVPREV
+				}
+			}	
 			if = {
 				limit = { mother_even_if_dead = { always = yes } }
 				bastard_nickname_mother_effect = yes	
@@ -24101,16 +24158,23 @@ denounce_newborn_FROM_effect = {
 			set_real_father = ROOT
 			bastard_nickname_mother_effect = yes
 			set_immune_to_pruning = yes
+			#remove from bloodlines
+			ROOT = {
+				any_owned_bloodline = {
+					remove_bloodline_member = PREVPREV
+				}
+			}	
 			mother = {
 				if = {
 					limit = { is_ruler = yes is_alive = yes }
-					ROOT = { move_character = PREV }
+					reverse_banish = PREV
 				}
 				if = {
 					limit = { is_ruler = no is_alive = yes }
-					liege = { ROOT = { move_character = PREV } }
+					liege = { reverse_banish = PREVPREV }
 				}
 			}
+			
 			if = {
 				limit = { mother = { is_consort = no } }		
 				ROOT = {
@@ -24123,143 +24187,350 @@ denounce_newborn_FROM_effect = {
 	}
 }
 bastard_nickname_mother_effect = {
-	mother_even_if_dead = {
-		location = {
-			if = { 	
-				limit = {
+	mother_even_if_dead = {	
+		if = { 	
+			limit = {
+				location = {
 					OR = {
 						region = world_north
 						duchy = { title = d_the_wall }
-					}	
-				}
-				PREVPREV = { give_nickname = nick_snow }
-			}	
-			if = { 	
-				limit = { region = world_riverlands }
-				PREVPREV = { give_nickname = nick_rivers }
+					}
+				}	
 			}
-			if = { 	
-				limit = { region = world_vale }
-				PREVPREV = { give_nickname = nick_stone }
-			}
-			if = { 	
-				limit = { region = world_westerlands }
-				PREVPREV = { give_nickname = nick_hill }
-			}
-			if = { 	
-				limit = { region = world_reach }
-				PREVPREV = { give_nickname = nick_flowers }
-			}
-			if = { 	
-				limit = { region = world_stormlands }
-				PREVPREV = { give_nickname = nick_storm }
-			}
-			if = { 	
-				limit = { region = world_crownlands }
-				PREVPREV = { give_nickname = nick_waters }
-			}
-			if = { 	
-				limit = { region = world_dorne }
-				PREVPREV = { give_nickname = nick_sand }
-			}
-			if = { 	
-				limit = { region = world_iron_isles }
-				PREVPREV = { give_nickname = nick_pyke }
-			}
+			PREV = { give_nickname = nick_snow }
 		}	
+		else_if = { 	
+			limit = { location = { region = world_riverlands } }
+			PREV = { give_nickname = nick_rivers }
+		}
+		else_if = { 	
+			limit = { location = { region = world_vale } }
+			PREV = { give_nickname = nick_stone }
+		}
+		else_if = { 	
+			limit = { location = { region = world_westerlands } }
+			PREV = { give_nickname = nick_hill }
+		}
+		else_if = { 	
+			limit = { location = { region = world_reach } }
+			PREV = { give_nickname = nick_flowers }
+		}
+		else_if = { 	
+			limit = { location = { region = world_stormlands } }
+			PREV = { give_nickname = nick_storm }
+		}
+		else_if = { 	
+			limit = { location = { region = world_crownlands } }
+			PREV = { give_nickname = nick_waters }
+		}
+		else_if = { 	
+			limit = { location = { region = world_dorne } }
+			PREV = { give_nickname = nick_sand }
+		}
+		else_if = { 	
+			limit = { location = { region = world_iron_isles } }
+			PREV = { give_nickname = nick_pyke }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture_group = first_men 
+					culture = northman_andal
+				}	
+			}
+			PREV = { give_nickname = nick_snow }
+		}
+		else_if = { 	
+			limit = { culture = riverlander }
+			PREV = { give_nickname = nick_rivers }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = valeman 
+					culture = sisterman
+				}	
+			}
+			PREV = { give_nickname = nick_stone }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = westerman 
+					culture = old_andal
+				}	
+			}
+			PREV = { give_nickname = nick_hill }
+		}
+		else_if = { 	
+			limit = { culture = reachman }
+			PREV = { give_nickname = nick_flowers }
+		}
+		else_if = { 	
+			limit = { culture = stormlander }
+			PREV = { give_nickname = nick_storm }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = crownlander 
+					culture = western_valyrian
+				}	
+			}
+			PREV = { give_nickname = nick_waters }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = dornish_andal 
+					culture_group = dornish
+				}	
+				NOT = { culture = rhoynar }
+			}
+			PREV = { give_nickname = nick_sand }
+		}
+		else_if = { 	
+			limit = { culture_group = iron_isles_culture }
+			PREV = { give_nickname = nick_pyke }
+		}
+		else_if = { 	
+			limit = { 
+				culture = high_valyrian
+				religion = the_seven
+			}
+			PREV = { give_nickname = nick_fyre }
+		}
 	}
 }
 bastard_nickname_father_effect = {
 	father_even_if_dead = {
-		location = {
-			if = { 	
-				limit = {
+		if = { 	
+			limit = {
+				location = {
 					OR = {
 						region = world_north
 						duchy = { title = d_the_wall }
-					}	
-				}
-				PREVPREV = { give_nickname = nick_snow }
-			}	
-			if = { 	
-				limit = { region = world_riverlands }
-				PREVPREV = { give_nickname = nick_rivers }
+					}
+				}	
 			}
-			if = { 	
-				limit = { region = world_vale }
-				PREVPREV = { give_nickname = nick_stone }
+			PREV = { give_nickname = nick_snow }
+		}	
+		else_if = { 	
+			limit = { location = { region = world_riverlands } }
+			PREV = { give_nickname = nick_rivers }
+		}
+		else_if = { 	
+			limit = { location = { region = world_vale } }
+			PREV = { give_nickname = nick_stone }
+		}
+		else_if = { 	
+			limit = { location = { region = world_westerlands } }
+			PREV = { give_nickname = nick_hill }
+		}
+		else_if = { 	
+			limit = { location = { region = world_reach } }
+			PREV = { give_nickname = nick_flowers }
+		}
+		else_if = { 	
+			limit = { location = { region = world_stormlands } }
+			PREV = { give_nickname = nick_storm }
+		}
+		else_if = { 	
+			limit = { location = { region = world_crownlands } }
+			PREV = { give_nickname = nick_waters }
+		}
+		else_if = { 	
+			limit = { location = { region = world_dorne } }
+			PREV = { give_nickname = nick_sand }
+		}
+		else_if = { 	
+			limit = { location = { region = world_iron_isles } }
+			PREV = { give_nickname = nick_pyke }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture_group = first_men 
+					culture = northman_andal
+				}	
 			}
-			if = { 	
-				limit = { region = world_westerlands }
-				PREVPREV = { give_nickname = nick_hill }
+			PREV = { give_nickname = nick_snow }
+		}
+		else_if = { 	
+			limit = { culture = riverlander }
+			PREV = { give_nickname = nick_rivers }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = valeman 
+					culture = sisterman
+				}	
 			}
-			if = { 	
-				limit = { region = world_reach }
-				PREVPREV = { give_nickname = nick_flowers }
+			PREV = { give_nickname = nick_stone }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = westerman 
+					culture = old_andal
+				}	
 			}
-			if = { 	
-				limit = { region = world_stormlands }
-				PREVPREV = { give_nickname = nick_storm }
+			PREV = { give_nickname = nick_hill }
+		}
+		else_if = { 	
+			limit = { culture = reachman }
+			PREV = { give_nickname = nick_flowers }
+		}
+		else_if = { 	
+			limit = { culture = stormlander }
+			PREV = { give_nickname = nick_storm }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = crownlander 
+					culture = western_valyrian
+				}	
 			}
-			if = { 	
-				limit = { region = world_crownlands }
-				PREVPREV = { give_nickname = nick_waters }
+			PREV = { give_nickname = nick_waters }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = dornish_andal 
+					culture_group = dornish
+				}	
+				NOT = { culture = rhoynar }
 			}
-			if = { 	
-				limit = { region = world_dorne }
-				PREVPREV = { give_nickname = nick_sand }
+			PREV = { give_nickname = nick_sand }
+		}
+		else_if = { 	
+			limit = { culture_group = iron_isles_culture }
+			PREV = { give_nickname = nick_pyke }
+		}
+		else_if = { 	
+			limit = { 
+				culture = high_valyrian
+				religion = the_seven
 			}
-			if = { 	
-				limit = { region = world_iron_isles }
-				PREVPREV = { give_nickname = nick_pyke }
-			}
+			PREV = { give_nickname = nick_fyre }
 		}	
 	}
 }
 bastard_nickname_ROOT_effect = {
 	ROOT = {
-		location = {
-			if = { 	
-				limit = {
+		if = { 	
+			limit = {
+				location = {
 					OR = {
 						region = world_north
 						duchy = { title = d_the_wall }
-					}	
-				}
-				PREVPREV = { give_nickname = nick_snow }
-			}	
-			if = { 	
-				limit = { region = world_riverlands }
-				PREVPREV = { give_nickname = nick_rivers }
+					}
+				}	
 			}
-			if = { 	
-				limit = { region = world_vale }
-				PREVPREV = { give_nickname = nick_stone }
+			PREV = { give_nickname = nick_snow }
+		}	
+		else_if = { 	
+			limit = { location = { region = world_riverlands } }
+			PREV = { give_nickname = nick_rivers }
+		}
+		else_if = { 	
+			limit = { location = { region = world_vale } }
+			PREV = { give_nickname = nick_stone }
+		}
+		else_if = { 	
+			limit = { location = { region = world_westerlands } }
+			PREV = { give_nickname = nick_hill }
+		}
+		else_if = { 	
+			limit = { location = { region = world_reach } }
+			PREV = { give_nickname = nick_flowers }
+		}
+		else_if = { 	
+			limit = { location = { region = world_stormlands } }
+			PREV = { give_nickname = nick_storm }
+		}
+		else_if = { 	
+			limit = { location = { region = world_crownlands } }
+			PREV = { give_nickname = nick_waters }
+		}
+		else_if = { 	
+			limit = { location = { region = world_dorne } }
+			PREV = { give_nickname = nick_sand }
+		}
+		else_if = { 	
+			limit = { location = { region = world_iron_isles } }
+			PREV = { give_nickname = nick_pyke }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture_group = first_men 
+					culture = northman_andal
+				}	
 			}
-			if = { 	
-				limit = { region = world_westerlands }
-				PREVPREV = { give_nickname = nick_hill }
+			PREV = { give_nickname = nick_snow }
+		}
+		else_if = { 	
+			limit = { culture = riverlander }
+			PREV = { give_nickname = nick_rivers }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = valeman 
+					culture = sisterman
+				}	
 			}
-			if = { 	
-				limit = { region = world_reach }
-				PREVPREV = { give_nickname = nick_flowers }
+			PREV = { give_nickname = nick_stone }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = westerman 
+					culture = old_andal
+				}	
 			}
-			if = { 	
-				limit = { region = world_stormlands }
-				PREVPREV = { give_nickname = nick_storm }
+			PREV = { give_nickname = nick_hill }
+		}
+		else_if = { 	
+			limit = { culture = reachman }
+			PREV = { give_nickname = nick_flowers }
+		}
+		else_if = { 	
+			limit = { culture = stormlander }
+			PREV = { give_nickname = nick_storm }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = crownlander 
+					culture = western_valyrian
+				}	
 			}
-			if = { 	
-				limit = { region = world_crownlands }
-				PREVPREV = { give_nickname = nick_waters }
+			PREV = { give_nickname = nick_waters }
+		}
+		else_if = { 	
+			limit = { 
+				OR = {
+					culture = dornish_andal 
+					culture_group = dornish
+				}	
+				NOT = { culture = rhoynar }
 			}
-			if = { 	
-				limit = { region = world_dorne }
-				PREVPREV = { give_nickname = nick_sand }
+			PREV = { give_nickname = nick_sand }
+		}
+		else_if = { 	
+			limit = { culture_group = iron_isles_culture }
+			PREV = { give_nickname = nick_pyke }
+		}
+		else_if = { 	
+			limit = { 
+				culture = high_valyrian
+				religion = the_seven
 			}
-			if = { 	
-				limit = { region = world_iron_isles }
-				PREVPREV = { give_nickname = nick_pyke }
-			}
+			PREV = { give_nickname = nick_fyre }
 		}	
 	}
 }
@@ -25734,6 +26005,15 @@ gain_regency_effect = {
 			limit = { has_character_flag = triarch }
 			give_minor_title = title_triarch 
 		}	
+		liege = {
+			random_courtier_or_vassal = {
+				limit = {
+					has_minor_title = title_appointed_regent
+					NOT = { character = PREVPREV }
+				}
+				remove_title = title_appointed_regent
+			}
+		}
 	}
 }
 find_ship_name_effect = { #use in immediate
@@ -27451,7 +27731,7 @@ calculate_trial_strength_effect = {
 					trait = kinslayer
 					trait = bastard 
 					trait = deserter 
-					trait = turncloak 
+					#trait = turncloak 
 				}
 			}
 			
@@ -29635,15 +29915,27 @@ check_new_sword_heirloom_effect = {
 	if = {
 		limit = { 
 			artifact_type = ice 
-			PREV = { NOT = { dynasty = 59 } }
 		}
-		random_character = {
-			limit = { 
-				dynasty = 59 #Stark 
-				dynasty_head = { character = PREV }
-			} 
-			save_event_target_as = heirloom_holder
+		if = {
+			limit = { PREV = { NOT = { dynasty = 59 } } }
+			random_character = {
+				limit = { 
+					dynasty = 59
+					dynasty_head = { character = PREV }
+				} 
+				save_event_target_as = heirloom_holder
+			}	
 		}	
+		if = {
+			limit = { PREV = { NOT = { dynasty = 1559 } } } #stark-targ
+			random_character = {
+				limit = { 
+					dynasty = 1559
+					dynasty_head = { character = PREV }
+				} 
+				save_event_target_as = heirloom_holder_2
+			}	
+		}
 	}
 	else_if = {
 		limit = { 
@@ -29685,19 +29977,41 @@ check_new_sword_heirloom_effect = {
 				save_event_target_as = heirloom_holder_2
 			}	
 		}	
+		if = {
+			limit = { PREV = { NOT = { dynasty = 1559 } } } #stark-targ
+			random_character = {
+				limit = { 
+					dynasty = 1559
+					dynasty_head = { character = PREV }
+				} 
+				save_event_target_as = heirloom_holder_3
+			}	
+		}
 	}
 	else_if = {
 		limit = { 
 			artifact_type = darksister 
-			PREV = { NOT = { dynasty = 496 } }
 		}
-		random_character = {
-			limit = { 
-				dynasty = 496
-				dynasty_head = { character = PREV }
-			} 
-			save_event_target_as = heirloom_holder
+		if = {
+			limit = { PREV = { NOT = { dynasty = 496 } } }
+			random_character = {
+				limit = { 
+					dynasty = 496
+					dynasty_head = { character = PREV }
+				} 
+				save_event_target_as = heirloom_holder
+			}	
 		}	
+		if = {
+			limit = { PREV = { NOT = { dynasty = 1559 } } } #stark-targ
+			random_character = {
+				limit = { 
+					dynasty = 1559
+					dynasty_head = { character = PREV }
+				} 
+				save_event_target_as = heirloom_holder_2
+			}	
+		}
 	}
 	else_if = {
 		limit = { 
@@ -29738,7 +30052,17 @@ check_new_sword_heirloom_effect = {
 				} 
 				save_event_target_as = heirloom_holder_2
 			}	
-		}			
+		}	
+		if = {
+			limit = { PREV = { NOT = { dynasty = 1559 } } } #stark-targ
+			random_character = {
+				limit = { 
+					dynasty = 1559
+					dynasty_head = { character = PREV }
+				} 
+				save_event_target_as = heirloom_holder_3
+			}	
+		}
 	}
 	else_if = {
 		limit = { 
@@ -29917,6 +30241,12 @@ check_new_sword_heirloom_effect = {
 		set_artifact_flag = heirloom_@event_target:heirloom_holder_2
 		transfer_artifact = { from = PREV to = event_target:heirloom_holder_2 }
 		transfer_artifact = { from = event_target:heirloom_holder_2 to = PREV }
+	}
+	if = {
+		limit = { event_target:heirloom_holder_3 = { always = yes } }
+		set_artifact_flag = heirloom_@event_target:heirloom_holder_2
+		transfer_artifact = { from = PREV to = event_target:heirloom_holder_3 }
+		transfer_artifact = { from = event_target:heirloom_holder_3 to = PREV }
 	}
 }
 get_random_sword_name_effect = {
@@ -32226,5 +32556,45 @@ start_interregnum_effect = { #must set interregnum_heir event target first. ROOT
 				character_event = { id = interregnum.1 days = 1 }
 			}	
 		}	
+	}
+}
+remove_all_job_titles = {
+	remove_title = job_chancellor	
+	remove_title = job_treasurer
+	remove_title = job_marshal	
+	remove_title = job_spymaster
+	remove_title = job_castellan
+	remove_title = job_spiritual
+	remove_title = title_high_admiral
+	remove_title = title_high_admiral_B
+	remove_title = title_councilmember_king 
+	remove_title = title_councilmember_emperor 
+}
+remove_all_commanders = {
+	any_vassal = {
+		limit = {
+			has_minor_title = title_commander
+		}
+		remove_title = title_commander
+	}
+	any_courtier = {
+		limit = {
+			has_minor_title = title_commander
+		}
+		remove_title = title_commander
+	}
+}
+add_fashionable_groomed_effect = {
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Holy Fury" 
+				has_dlc = "Way of Life"
+			}
+		}
+		add_trait = groomed
+	}	
+	else = {
+		add_trait = fashionable
 	}
 }

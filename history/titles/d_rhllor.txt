@@ -1,6 +1,9 @@
 600.1.1={
 	liege="k_volantis"
 }
+7886.1.1 = { holder=88000715 } # Rybero (nc)
+7920.1.1 = { holder=88000714 } # Aryos (nc)
+7961.1.1 = { holder=88000713 } # Gasporio (nc)
 
 7995.1.1 = { holder=88000700 } # Methyso (nc)
 8037.1.1 = { holder=88000701 } # Lotho (nc)

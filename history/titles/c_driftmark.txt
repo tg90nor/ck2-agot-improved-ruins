@@ -10,21 +10,23 @@
 7800.1.1 = {
 	holder = 0
 	law = succ_primogeniture
-}
-7874.1.1 = {
 	liege = "d_dragonstone"
 }
-7968.1.1={
-    holder = 601052 # Aegor Velaryon (nc)
-}
+7854.1.1 = { holder=343052 } # Jacaerys (nc)
+7891.1.1 = { holder=342052 } # Vaemond (nc)
+7912.1.1 = { holder=341052 } # Daemion (nc)
+7941.1.1 = { holder=340052 } # Rhogar (nc)
+
+7968.1.1 = { holder = 601052 } # Jacaerys (nc)
+
 7990.1.1={
-	holder = 38052 #Daemon Velaryon (C)
+	holder = 38052 # Daemon Velaryon (C)
 }
 7998.5.9={
-	holder = 34052
+	holder = 34052 # Aethan Velaryon (C)
 }
 8035.1.1={
-	holder = 33052
+	holder = 33052 # Daemon Velaryon (C)
 }
 8086.1.1={
 	holder = 26052 # Corlys Velaryon (C)
@@ -39,9 +41,9 @@
 8132.3.6 = {
 	holder = 24052 # Alyn Velaryon (C)
 }
-8176.1.1={
-    holder = 23052
-}
+8175.1.1={
+	holder = 23052
+}	
 8197.1.1={
 	holder = 22052
 }
@@ -49,11 +51,11 @@
 	holder = 21052
 }
 8258.1.1={
-	holder = 20052
+	holder = 20052 # Lucerys Velaryon (C)
 }
 8285.1.1={
-	holder = 52 	#Monford Velaryon (C)
+	holder = 52 # Monford Velaryon (C)
 }
 8299.7.1 = {
-	holder = 4052   #Monterys Velaryon (C)
+	holder = 4052 # Monterys Velaryon (C)
 }

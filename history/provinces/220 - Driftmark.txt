@@ -60,7 +60,7 @@ religion = old_gods
 
 	b_spicetown = ct_asoiaf_crown_basevalue_4
 }
-8129.11.7={ remove_settlement = b_spicetown }# Battle of the Gullet, sacked and destroyed
+8130.1.1={ remove_settlement = b_spicetown }# Battle of the Gullet, sacked and destroyed
 8299.1.1 = {
 	religion = rhllor
 }

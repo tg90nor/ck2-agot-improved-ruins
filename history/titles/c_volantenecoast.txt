@@ -9,18 +9,23 @@
 	holder = 0
 	liege = "d_volantis"
 }
-7983.1.1 = { holder=100174372 }
-8045.1.1 = { holder=102174372 }
-8049.1.1 = { holder=105174372 }
-8076.1.1 = { holder=107174372 }
-8079.1.1 = { holder=110174372 }
-8094.1.1 = { holder=111174372 }
-8121.1.1 = { holder=112174372 }
-8159.1.1 = { holder=123174372 }
-8167.1.1 = { holder=125174372 }
-8170.1.1 = { holder=127174372 }
-8198.1.1 = { holder=133174372 }
-8231.1.1 = { holder=135174372 }
-8260.1.1 = { holder=137174372 }
-8276.1.1 = { holder=138174372 }
-8278.1.1 = { holder=142174372 }
+7866.1.1 = { holder=344174373 } # Horonno (nc)
+7878.1.1 = { holder=343174373 } # Jaekar (nc)
+7899.1.1 = { holder=342174373 } # Bolquello (nc)
+7922.1.1 = { holder=341174373 } # Doniphos (nc)
+7948.1.1 = { holder=340174373 } # Belicho (nc)
+
+7964.1.1 = { holder=100174373 } # Trianna (C) 
+8010.1.1 = { holder=101174373 } # Haerys (nc)
+8040.1.1 = { holder=102174373 } # Belicho (nc)
+8068.1.1 = { holder=108174373 } # Doniphos (nc)
+8073.1.1 = { holder=111174373 } # Colloquo (nc)
+8114.1.1 = { holder=115174373 } # Vaeron (nc)
+8138.1.1 = { holder=116174373 } # Qavo (nc)
+8160.1.1 = { holder=118174373 } # Vaekar (nc)
+8191.1.1 = { holder=123174373 } # Orys (nc)
+8195.1.1 = { holder=126174373 } # Gorys (nc)
+8235.1.1 = { holder=130174373 } # Alios (nc)
+8245.1.1 = { holder=136174373 } # Aenar (nc)
+8268.1.1 = { holder=138174373 } # Vaekar (nc)
+8280.1.1 = { holder=140174373 } # Nyessos (C)

@@ -1,4 +1,13 @@
 # c_gogossos
+7000.1.1={
+	law = slavery_2
+	law = centralization_2
+	liege = d_gogossos
+}
+7880.1.1 = { holder=10003350 } # Benerro (nc)
+7914.1.1 = { holder=10013350 } # Qoherys (nc)
+7939.1.1 = { holder=10053350 } # Aenar (nc)
+
 7950.1.1 = {
 	holder = 31407470 # ruin
 	effect = {

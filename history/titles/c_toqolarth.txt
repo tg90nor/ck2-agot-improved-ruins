@@ -1,5 +1,8 @@
 # c_toqolarth
-7900.1.1 = {
+7866.1.1 = { holder=343350044 } # Nallor (nc)
+7885.1.1 = { holder=342350044 } # Eron (nc)
+7913.1.1 = { holder=341350044 } # Xaro (nc)
+7930.1.1 = {
 	holder = 31406530 # ruin
 	effect = {
 		location = { province_event = { id = unoccupied.27 } }

@@ -9,6 +9,12 @@
 	holder = 0
 	liege = "d_volontherys"
 }
+7849.1.1 = { holder=344305605 } # Syrodo (nc)
+7869.1.1 = { holder=343305605 } # Vyronos (nc)
+7899.1.1 = { holder=342305605 } # Essorio (nc)
+7919.1.1 = { holder=341305605 } # Maryllo (nc)
+7949.1.1 = { holder=340305605 } # Maraphos (nc)
+
 7970.1.1 = { holder=100305605 } # Ordello (nc)
 8011.1.1 = { holder=101305605 } # Bolquello (nc)
 8025.1.1 = { holder=107305605 } # Bolquello (nc)

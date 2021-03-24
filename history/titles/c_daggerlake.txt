@@ -1,0 +1,31 @@
+#House Dynion
+600.1.1={
+	law = true_cognatic_succession
+}
+7300.1.1 = {
+	liege = k_volantis
+}
+7866.1.1 = { holder=345305620 } # Parrido (nc)
+7880.1.1 = { holder=344305620 } # Zollo (nc)
+7905.1.1 = { holder=343305620 } # Darios (nc)
+7930.1.1 = { holder=342305620 } # Sarios (nc)
+7951.1.1 = { holder=341305620 } # Salloros (nc)
+7962.1.1 = { holder=340305620 } # Cybero (nc)
+
+7984.1.1 = { holder=100305620 } # Allaquo (nc)
+7996.12.16 = {
+	liege=0
+	law = succ_open_elective
+}
+8018.1.1 = { holder=102305620 } # Methyso (nc)
+8045.1.1 = { holder=104305620 } # Taena (nc)
+8073.1.1 = { holder=105305620 } # Moqorro (nc)
+8105.1.1 = { holder=107305620 } # Serenei (nc)
+8142.1.1 = { holder=108305620 } # Rolloquo (nc)
+8157.1.1 = { holder=111305620 } # Moqorro (nc)
+8184.1.1 = { holder=113305620 } # Benerro (nc)
+8192.1.1 = { holder=116305620 } # Rolloquo (nc)
+8231.1.1 = { holder=118305620 } # Belicho (nc)
+8245.1.1 = { holder=119305620 } # Vysarro (nc)
+8279.1.1 = { holder=124305620 } # Qarro (nc)
+8295.1.1 = { holder=127305620 } # Korra (C)

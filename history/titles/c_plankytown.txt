@@ -1,0 +1,13 @@
+7300.1.1={
+	liege="d_brokenarm"
+	effect = { # No point making entire history for an unplayable title, just change the culture and religion of generated one
+		holder_scope = {
+			culture = rhoynar
+			religion = rhoynar_pagan
+			any_realm_character = {
+				culture = rhoynar
+				religion = rhoynar_pagan
+			}
+		}
+	}
+}

@@ -1,7 +1,8 @@
 # c_old_waste_road
-7950.1.1 = {
+7886.1.1 = {
 	holder = 31406520 # ruin
 	effect = {
 		location = { province_event = { id = unoccupied.27 } }
 	}
 }
+

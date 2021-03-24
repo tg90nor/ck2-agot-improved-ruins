@@ -11,6 +11,11 @@
 6564.1.1 = {
 	holder = 0
 }
+7866.1.1 = { holder=344300560 } # Garryros (nc)
+7898.1.1 = { holder=343300560 } # Ballen (nc)
+7919.1.1 = { holder=341300560 } # Qycho (nc)
+7937.1.1 = { holder=340300560 } # Garryros (nc)
+
 7955.1.1 = { holder=100300560 } # Tormo (nc)
 8003.1.1 = { holder=101300560 } # Ternesio (nc)
 8021.1.1 = { holder=107300560 } # Byan (nc)
